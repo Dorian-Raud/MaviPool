@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.mavipool.fr/sitemap.xml
+
+# Disallow admin pages (si vous en avez)
+# Disallow: /admin/

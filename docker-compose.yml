@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  mavipool-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mavipool-website
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - mavipool-network
+
+networks:
+  mavipool-network:
+    driver: bridge
