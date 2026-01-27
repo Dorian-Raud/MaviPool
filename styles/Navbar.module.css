@@ -33,7 +33,7 @@
 .logo img {
     width: auto;
     /* La largeur s'adapte automatiquement */
-    max-height: 90px;
+    max-height: 80px;
     /* Limite maximale pour l'image */
     object-fit: contain;
     /* L'image est contenu sans déformation */

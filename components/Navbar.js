@@ -13,7 +13,7 @@ export default function Navbar() {
         <nav className={styles.navbar}>
             <div className={`container ${styles.navContainer}`}>
                 <Link href="/" className={styles.logo}>
-                    <img src="/images/id-vis-removebg-preview.png" alt="MaviPool Logo" />
+                    <img src="images/logo-final-forme.png" alt="MaviPool Logo" />
                 </Link>
 
                 <button

@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Service.module.css';
-import { Sos } from 'lucide-react';
 
 export default function Depannage() {
     return (
@@ -11,7 +10,7 @@ export default function Depannage() {
                 <meta name="description" content="Dépannage piscine rapide dans les Alpes-Maritimes. Panne pompe, fuite, eau verte, problème électrique. Intervention 7j/7 en saison." />
             </Head>
 
-            <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("/images/depannage.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("images/surface-piscine.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container">
                     <h1>Dépannage Piscine</h1>
                     <p>Intervention rapide et efficace pour tous vos problèmes techniques</p>
@@ -38,8 +37,8 @@ export default function Depannage() {
                                 </a>
                             </div>
                         </div>
-                        <div className={styles.introImage}>
-                            <img src="/images/rattrapage_eau_verte.png" alt="Rattrapage eau verte piscine avant après" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }} />
+                        <div className={styles.introImageDepannage}>
+                            <img src="images/traficante-dans-le-bendo.png" alt="vehicule-de-depannage" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }} />
                         </div>
                     </div>
                 </div>
@@ -51,7 +50,7 @@ export default function Depannage() {
 
                     <div className="grid grid-2">
                         <div className="card">
-                            <h3>💧 Problèmes d'Eau</h3>
+                            <h3>Problèmes d'Eau</h3>
                             <ul className={styles.serviceList}>
                                 <li>Rattrapage eau verte</li>
                                 <li>Eau trouble ou laiteuse</li>
@@ -61,7 +60,7 @@ export default function Depannage() {
                         </div>
 
                         <div className="card">
-                            <h3>⚙️ Filtration & Pompes</h3>
+                            <h3>Filtration & Pompes</h3>
                             <ul className={styles.serviceList}>
                                 <li>Pompe bruyante ou arrêtée</li>
                                 <li>Filtre colmaté ou cassé</li>
@@ -71,7 +70,7 @@ export default function Depannage() {
                         </div>
 
                         <div className="card">
-                            <h3>⚡ Électricité & Chauffage</h3>
+                            <h3>Électricité & Chauffage</h3>
                             <ul className={styles.serviceList}>
                                 <li>Panne coffret électrique</li>
                                 <li>Pompe à chaleur en défaut</li>
@@ -81,7 +80,7 @@ export default function Depannage() {
                         </div>
 
                         <div className="card">
-                            <h3>🔧 Équipements Automatiques</h3>
+                            <h3>Équipements Automatiques</h3>
                             <ul className={styles.serviceList}>
                                 <li>Panne volet roulant</li>
                                 <li>Robot nettoyeur en panne</li>
@@ -114,7 +113,7 @@ export default function Depannage() {
                         </div>
                         <div className="card text-center">
                             <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--color-secondary)', marginBottom: '1rem' }}>4</div>
-                            <h3>Réparation</h3>
+                            <h3>Intervention</h3>
                             <p>Intervention immédiate ou commande rapide des pièces.</p>
                         </div>
                     </div>

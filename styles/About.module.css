@@ -76,88 +76,28 @@
     font-size: 8rem;
 }
 
-/* Values Section */
-.valuesSection {
-    background: linear-gradient(135deg, var(--color-gray-100) 0%, var(--color-white) 100%);
-}
-
-.valuesGrid {
-    margin-top: var(--spacing-2xl);
-}
-
-.valueCard {
+/* Features */
+.feature {
     text-align: center;
-    padding: var(--spacing-xl);
-    background: var(--color-white);
-    border-radius: var(--radius-xl);
-    transition: all var(--transition-base);
-    border: 2px solid var(--color-gray-100);
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
 }
 
-.valueCard:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-xl);
-    border-color: var(--color-secondary);
+.featureIcon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-.valueIcon {
-    font-size: 3.5rem;
-    margin-bottom: var(--spacing-md);
+.feature h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
 }
 
-.valueCard h3 {
-    font-size: 1.3rem;
-    margin-bottom: var(--spacing-md);
-    color: var(--color-primary);
-}
-
-.valueCard p {
-    color: var(--color-gray-600);
-    line-height: 1.6;
-}
-
-/* Team Section */
-.teamIntro {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto var(--spacing-2xl);
-}
-
-.teamIntro p {
-    font-size: 1.1rem;
-    color: var(--color-gray-600);
-    line-height: 1.8;
-    margin-bottom: var(--spacing-md);
-}
-
-.expertiseGrid {
-    margin-top: var(--spacing-2xl);
-}
-
-.expertiseCard {
-    text-align: center;
-    padding: var(--spacing-xl);
-    transition: all var(--transition-base);
-}
-
-.expertiseCard:hover {
-    transform: translateY(-5px);
-}
-
-.expertiseIcon {
-    font-size: 3.5rem;
-    margin-bottom: var(--spacing-md);
-}
-
-.expertiseCard h3 {
-    font-size: 1.3rem;
-    margin-bottom: var(--spacing-md);
-    color: var(--color-primary);
-}
-
-.expertiseCard p {
-    color: var(--color-gray-600);
-    line-height: 1.6;
+.feature p {
+    font-size: 0.9rem;
+    opacity: 0.9;
 }
 
 /* Zone Section */

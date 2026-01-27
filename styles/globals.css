@@ -205,7 +205,7 @@ a:hover {
 /* Container */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
 }
@@ -239,6 +239,7 @@ a:hover {
   box-shadow: var(--shadow-lg);
   transition: all var(--transition-base);
   border: 1px solid var(--color-gray-100);
+  text-align: center;
 }
 
 .card:hover {
