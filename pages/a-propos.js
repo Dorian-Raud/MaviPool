@@ -19,7 +19,7 @@ export default function About() {
                         <div className={styles.aboutContent}>
                             <h2>Notre Histoire</h2>
                             <p>
-                                Fondée par des passionnés de la piscine, MaviPool est née d'une volonté simple :
+                                Fondée par un passionné de la piscine, MaviPool est née d'une volonté simple :
                                 offrir un service d'excellence dans le domaine de la piscine sur la Côte d'Azur.
                             </p>
                             <p>
@@ -38,7 +38,7 @@ export default function About() {
                             </p>
                         </div>
                         <div className={styles.aboutImage}>
-                            <img src="images/patron.png" alt="Président de MaviPool" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }} />
+                            <img src="images/ceto-le-patron.jpeg" alt="Président de MaviPool" />
                         </div>
                     </div>
                 </div>

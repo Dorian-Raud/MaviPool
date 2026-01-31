@@ -35,7 +35,7 @@ export default function Entretien() {
                             </p>
                         </div>
                         <div className={styles.introImage}>
-                            <img src="images/surface-piscine.png" alt="Entretien piscine" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }} />
+                            <img src="images/surface-piscine.png" alt="Entretien piscine" />
                         </div>
                     </div>
                 </div>

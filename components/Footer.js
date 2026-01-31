@@ -46,8 +46,10 @@ export default function Footer() {
                         <h4 className={styles.sectionTitle}>Entreprise</h4>
                         <ul className={styles.footerLinks}>
                             <li><Link href="/a-propos">À propos</Link></li>
-                            <li><Link href="#contact">Contact</Link></li>
-                            <li><Link href="#devis">Devis gratuit</Link></li>
+                            <div className={styles.contactInfo}>
+                                <p><Phone size={20} color="#c58148" /> <a href="tel:+33674813721">06 74 81 37 21</a></p>
+                                <p><Mail size={20} color="#c58148" /> <a href="mailto:mavipool@outlook.fr">mavipool@outlook.fr</a></p>
+                            </div>
                         </ul>
                     </div>
 
@@ -58,10 +60,6 @@ export default function Footer() {
                             De Théoule-sur-Mer à Menton<br />
                             Cannes, Antibes, Nice, Monaco
                         </p>
-                        <div className={styles.contactInfo}>
-                            <p><Phone size={20} color="#c58148" /> <a href="tel:+33674813721">06 74 81 37 21</a></p>
-                            <p><Mail size={20} color="#c58148" /> <a href="mailto:mavipool@outlook.fr">mavipool@outlook.fr</a></p>
-                        </div>
                     </div>
                 </div>
 

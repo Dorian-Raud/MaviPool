@@ -40,7 +40,7 @@ export default function Depannage() {
                             </div>
                         </div>
                         <div className={styles.introImageDepannage}>
-                            <img src="images/traficante-dans-le-bendo.png" alt="vehicule-de-depannage" style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }} />
+                            <img src="images/traficante-dans-le-bendo.png" alt="vehicule-de-depannage" />
                         </div>
                     </div>
                 </div>
