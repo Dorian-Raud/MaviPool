@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/About.module.css';
 import { GraduationCap, Zap, Gem, Handshake, Phone, Mail, MapPin } from 'lucide-react';
+import CallButton from '../components/CallButton';
+import MailButton from '../components/EmailButton';
 
 export default function About() {
     return (
@@ -43,32 +45,32 @@ export default function About() {
             </section>
 
             <section className="section bg-primary text-white">
-                                <div className="container">
-                                    <h2 className="text-center mb-xl">Pourquoi Choisir MaviPool ?</h2>
-                                    <div className="grid grid-4">
-                                        <div className={styles.feature}>
-                                            <div className={styles.featureIcon}><GraduationCap size={60} color="#c58148"/></div>
-                                            <h3>Expertise</h3>
-                                            <p>Plus de 15 ans d'expérience dans le domaine de la piscine.</p>
-                                        </div>
-                                        <div className={styles.feature}>
-                                            <div className={styles.featureIcon}><Zap size={60} color="#c58148"/></div>
-                                            <h3>Réactivité</h3>
-                                            <p>Intervention rapide en cas de panne ou d'urgence.</p>
-                                        </div>
-                                        <div className={styles.feature}>
-                                            <div className={styles.featureIcon}><Gem size={60} color="#c58148"/></div>
-                                            <h3>Qualité</h3>
-                                            <p>Utilisation des meilleurs matériaux et équipements du marché.</p>
-                                        </div>
-                                        <div className={styles.feature}>
-                                            <div className={styles.featureIcon}><Handshake size={60} color="#c58148"/></div>
-                                            <h3>Confiance</h3>
-                                            <p>Devis transparents et respect des délais annoncés.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
+                <div className="container">
+                    <h2 className="text-center mb-xl">Pourquoi Choisir MaviPool ?</h2>
+                    <div className="grid grid-4">
+                        <div className={styles.feature}>
+                            <div className={styles.featureIcon}><GraduationCap size={60} color="#c58148" /></div>
+                            <h3>Expertise</h3>
+                            <p>Plus de 15 ans d'expérience dans le domaine de la piscine.</p>
+                        </div>
+                        <div className={styles.feature}>
+                            <div className={styles.featureIcon}><Zap size={60} color="#c58148" /></div>
+                            <h3>Réactivité</h3>
+                            <p>Intervention rapide en cas de panne ou d'urgence.</p>
+                        </div>
+                        <div className={styles.feature}>
+                            <div className={styles.featureIcon}><Gem size={60} color="#c58148" /></div>
+                            <h3>Qualité</h3>
+                            <p>Utilisation des meilleurs matériaux et équipements du marché.</p>
+                        </div>
+                        <div className={styles.feature}>
+                            <div className={styles.featureIcon}><Handshake size={60} color="#c58148" /></div>
+                            <h3>Confiance</h3>
+                            <p>Devis transparents et respect des délais annoncés.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section className={`section ${styles.ctaSection}`}>
                 <div className="container">
@@ -76,12 +78,8 @@ export default function About() {
                         <h2>Envie de Travailler avec Nous ?</h2>
                         <p>Contactez-nous pour discuter de votre projet</p>
                         <div className={styles.ctaButtons}>
-                            <a href="tel:+33123456789" className="btn btn-accent">
-                                📞 01 23 45 67 89
-                            </a>
-                            <Link href="/#contact" className="btn btn-outline" style={{ color: 'white', borderColor: 'white' }}>
-                                Demander un Devis
-                            </Link>
+                            <CallButton />
+                            <MailButton />
                         </div>
                     </div>
                 </div>
