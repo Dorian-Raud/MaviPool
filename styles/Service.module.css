@@ -109,13 +109,11 @@
 .pricingCard {
     position: relative;
     text-align: center;
-    padding: var(--spacing-2xl) var(--spacing-xl);
+    padding: var(--spacing-xl) var(--spacing-lg);
     transition: all var(--transition-base);
-}
-
-.pricingCard.featured {
-    border: 3px solid var(--color-secondary);
-    transform: scale(1.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pricingCard:hover {
@@ -129,23 +127,20 @@
 .badge {
     position: absolute;
     top: -15px;
-    left: 50%;
+    left: 90%;
     transform: translateX(-50%);
     background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-accent) 100%);
     color: var(--color-white);
-    padding: 0.5rem 1.5rem;
-    border-radius: 2rem;
+    padding: 0.8rem;
+    border-radius: 100px;
     font-weight: 600;
     font-size: 0.9rem;
-}
-
-.pricingHeader {
-    margin-bottom: var(--spacing-xl);
+    font-style: italic;
 }
 
 .pricingHeader h3 {
-    font-size: 1.8rem;
-    margin-bottom: var(--spacing-md);
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
 }
 
 .pricingPrice {
@@ -153,7 +148,7 @@
 }
 
 .price {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
     color: var(--color-primary);
 }
@@ -161,14 +156,13 @@
 .pricingFeatures {
     list-style: none;
     padding: 0;
-    margin: var(--spacing-xl) 0;
     text-align: left;
 }
 
 .pricingFeatures li {
     padding: var(--spacing-sm) 0;
     color: var(--color-gray-700);
-    font-size: 1.05rem;
+    font-size: 0.95rem;
 }
 
 /* Benefits Grid */
@@ -205,6 +199,18 @@
 .benefitCard p {
     color: var(--color-gray-600);
     line-height: 1.6;
+}
+
+.PrecisionCard {
+    font-size: small;
+    text-align: center;
+    border-top: 2px solid var(--color-secondary);
+    padding-top: 1rem;
+    border-bottom: 2px solid var(--color-secondary);
+    margin-bottom: 1rem;
+    color: #17355e;
+    font-style: italic;
+    line-height: 0;
 }
 
 /* Process Section */

@@ -45,9 +45,9 @@ export default function Entretien() {
                 <div className="container">
                     <h2 className="text-center mb-xl">Nos Prestations d'Entretien</h2>
 
-                    <div className="grid grid-2">
-                        <div className="card">
-                            <h3>Traitement de l'Eau</h3>
+                    <div className="grid grid-4">
+                        <div className="card-entretien">
+                            <h3>Traitement de l'eau</h3>
                             <ul className={styles.serviceList}>
                                 <li>Analyse complète de l'eau (pH, chlore, alcalinité)</li>
                                 <li>Équilibrage chimique optimal</li>
@@ -56,8 +56,8 @@ export default function Entretien() {
                             </ul>
                         </div>
 
-                        <div className="card">
-                            <h3>Nettoyage du Bassin</h3>
+                        <div className="card-entretien">
+                            <h3>Nettoyage piscine</h3>
                             <ul className={styles.serviceList}>
                                 <li>Aspiration du fond et des parois</li>
                                 <li>Nettoyage de la ligne d'eau</li>
@@ -66,8 +66,8 @@ export default function Entretien() {
                             </ul>
                         </div>
 
-                        <div className="card">
-                            <h3>Maintenance des Équipements</h3>
+                        <div className="card-entretien">
+                            <h3>Maintenance équipements</h3>
                             <ul className={styles.serviceList}>
                                 <li>Vérification du système de filtration</li>
                                 <li>Nettoyage des filtres et skimmers</li>
@@ -76,8 +76,8 @@ export default function Entretien() {
                             </ul>
                         </div>
 
-                        <div className="card">
-                            <h3>Diagnostic Préventif</h3>
+                        <div className="card-entretien">
+                            <h3>Diagnostic préventif</h3>
                             <ul className={styles.serviceList}>
                                 <li>Détection précoce des problèmes</li>
                                 <li>Conseils d'optimisation</li>
@@ -96,17 +96,20 @@ export default function Entretien() {
                     <div className={`grid grid-3 ${styles.pricingGrid}`}>
                         <div className={`card ${styles.pricingCard}`}>
                             <div className={styles.pricingHeader}>
-                                <h3>Essentiel</h3>
-                                <div className={styles.pricingPrice}>
-                                    <span className={styles.price}>Sur devis</span>
-                                </div>
+                                <h3>Technique</h3>
                             </div>
                             <ul className={styles.pricingFeatures}>
-                                <li>✓ Visite mensuelle</li>
-                                <li>✓ Traitement de l'eau</li>
-                                <li>✓ Nettoyage basique</li>
-                                <li>✓ Contrôle filtration</li>
+                                <li>✓ Mise en route et Hivernage</li>
+                                <li>✓ Filtration (Lavage et rinçage du filtre) </li>
+                                <li>✓ Contrôle des organes hydrauliques (pompes, filtres, vannes, etc.)</li>
+                                <li>✓ Chimie de l'eau (Analyse complète et ajustement)</li>
+                                <li>✓ Suivi </li>
                             </ul>
+                            <div className={styles.PrecisionCard}>
+                                <p>Fréquence : 1 passage par mois </p>
+                                <p>(Produits de traitement non inclus)</p>
+                            </div>
+
                             <Link href="/#contact" className="btn btn-outline" style={{ width: '100%' }}>
                                 Demander un Devis
                             </Link>
@@ -116,17 +119,20 @@ export default function Entretien() {
                             <div className={styles.badge}>Populaire</div>
                             <div className={styles.pricingHeader}>
                                 <h3>Premium</h3>
-                                <div className={styles.pricingPrice}>
-                                    <span className={styles.price}>Sur devis</span>
-                                </div>
                             </div>
                             <ul className={styles.pricingFeatures}>
-                                <li>✓ Visite bi-mensuelle</li>
-                                <li>✓ Traitement complet</li>
-                                <li>✓ Nettoyage approfondi</li>
-                                <li>✓ Maintenance équipements</li>
-                                <li>✓ Rapport détaillé</li>
+                                <li>✓ Passage de l’épuisette</li>
+                                <li>✓ Brossage des parois et lignes d’eau</li>
+                                <li>✓ Aspiration manuelle (ou gestion du robot)</li>
+                                <li>✓ Nettoyage des paniers de skimmers</li>
+                                <li>✓ Nettoyage  du pré-filtre de pompe</li>
+                                <li>✓ Vérification et ajustement du niveau d’eau</li>
                             </ul>
+                            <div className={styles.PrecisionCard}>
+                                <p>Fréquence (sur la base de 31 passages/an)</p>
+                                <p>(Produits de traitement non inclus)</p>
+                            </div>
+
                             <Link href="/#contact" className="btn btn-primary" style={{ width: '100%' }}>
                                 Demander un Devis
                             </Link>
@@ -134,10 +140,7 @@ export default function Entretien() {
 
                         <div className={`card ${styles.pricingCard}`}>
                             <div className={styles.pricingHeader}>
-                                <h3>Sur Mesure</h3>
-                                <div className={styles.pricingPrice}>
-                                    <span className={styles.price}>Personnalisé</span>
-                                </div>
+                                <h3>Personnalisée</h3>
                             </div>
                             <ul className={styles.pricingFeatures}>
                                 <li>✓ Fréquence adaptée</li>
@@ -146,8 +149,13 @@ export default function Entretien() {
                                 <li>✓ Disponibilité prioritaire</li>
                                 <li>✓ Conseils d'expert</li>
                             </ul>
-                            <Link href="/#contact" className="btn btn-accent" style={{ width: '100%' }}>
-                                Nous Contacter
+                            <div className={styles.PrecisionCard}>
+                                <p>Fréquence (à définir ensemble)</p>
+                                <p>(Produits de traitement non inclus)</p>
+                            </div>
+
+                            <Link href="/#contact" className="btn btn-primary" style={{ width: '100%' }}>
+                                Demander un Devis
                             </Link>
                         </div>
                     </div>
