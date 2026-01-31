@@ -2,7 +2,7 @@
 import { Mail } from 'lucide-react';
 
 const MailButton = ({
-    mail = "mailto:mavipool@outlook.fr",
+    mail = "mavipool@outlook.fr",
     mailLink = "mavipool@outlook.fr",
     className = "btn btn-accent",
     iconColor = "#0A2463",
