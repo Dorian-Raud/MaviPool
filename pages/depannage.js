@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Service.module.css';
+import CallButton from '../components/CallButton';
+import MailButton from '../components/EmailButton';
 
 export default function Depannage() {
     return (
@@ -126,12 +128,8 @@ export default function Depannage() {
                         <h2>Besoin d'un Dépannage Urgent ?</h2>
                         <p>Nous sommes disponibles 7j/7 en saison estivale</p>
                         <div className={styles.ctaButtons}>
-                            <a href="tel:+33123456789" className="btn btn-accent">
-                                📞 01 23 45 67 89
-                            </a>
-                            <Link href="/" className="btn btn-outline" style={{ color: 'white', borderColor: 'white' }}>
-                                Retour à l'accueil
-                            </Link>
+                            <CallButton />
+                            <MailButton />
                         </div>
                     </div>
                 </div>

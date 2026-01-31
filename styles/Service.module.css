@@ -83,6 +83,7 @@
     position: relative;
     color: var(--color-gray-700);
     line-height: 1.6;
+    text-align: left;
 }
 
 .serviceList li::before {

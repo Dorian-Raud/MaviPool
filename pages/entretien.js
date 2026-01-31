@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Service.module.css';
+import CallButton from '../components/CallButton';
+import MailButton from '../components/EmailButton';
 
 export default function Entretien() {
     return (
@@ -10,7 +12,7 @@ export default function Entretien() {
                 <meta name="description" content="Service d'entretien professionnel de piscine dans les Alpes-Maritimes. Maintenance régulière, traitement de l'eau, nettoyage. Devis gratuit." />
             </Head>
 
-            <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("/images/entretien.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("images/surface-piscine.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container">
                     <h1>Entretien de Piscine</h1>
                     <p>Profitez d'une piscine toujours propre et saine</p>
@@ -45,7 +47,7 @@ export default function Entretien() {
 
                     <div className="grid grid-2">
                         <div className="card">
-                            <h3>🧪 Traitement de l'Eau</h3>
+                            <h3>Traitement de l'Eau</h3>
                             <ul className={styles.serviceList}>
                                 <li>Analyse complète de l'eau (pH, chlore, alcalinité)</li>
                                 <li>Équilibrage chimique optimal</li>
@@ -55,7 +57,7 @@ export default function Entretien() {
                         </div>
 
                         <div className="card">
-                            <h3>🧹 Nettoyage du Bassin</h3>
+                            <h3>Nettoyage du Bassin</h3>
                             <ul className={styles.serviceList}>
                                 <li>Aspiration du fond et des parois</li>
                                 <li>Nettoyage de la ligne d'eau</li>
@@ -65,7 +67,7 @@ export default function Entretien() {
                         </div>
 
                         <div className="card">
-                            <h3>⚙️ Maintenance des Équipements</h3>
+                            <h3>Maintenance des Équipements</h3>
                             <ul className={styles.serviceList}>
                                 <li>Vérification du système de filtration</li>
                                 <li>Nettoyage des filtres et skimmers</li>
@@ -75,7 +77,7 @@ export default function Entretien() {
                         </div>
 
                         <div className="card">
-                            <h3>🔍 Diagnostic Préventif</h3>
+                            <h3>Diagnostic Préventif</h3>
                             <ul className={styles.serviceList}>
                                 <li>Détection précoce des problèmes</li>
                                 <li>Conseils d'optimisation</li>
@@ -158,12 +160,8 @@ export default function Entretien() {
                         <h2>Confiez l'Entretien de Votre Piscine à des Experts</h2>
                         <p>Contactez-nous pour un devis gratuit et personnalisé</p>
                         <div className={styles.ctaButtons}>
-                            <a href="tel:+33123456789" className="btn btn-accent">
-                                📞 01 23 45 67 89
-                            </a>
-                            <Link href="/" className="btn btn-outline" style={{ color: 'white', borderColor: 'white' }}>
-                                Retour à l'accueil
-                            </Link>
+                            <CallButton />
+                            <MailButton />
                         </div>
                     </div>
                 </div>

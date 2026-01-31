@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Service.module.css';
+import CallButton from '../components/CallButton';
+import MailButton from '../components/EmailButton';
 
 export default function Renovation() {
     return (
@@ -10,7 +12,7 @@ export default function Renovation() {
                 <meta name="description" content="Expert en rénovation de piscine dans les Alpes-Maritimes. Changement de liner, étanchéité, modernisation, mise aux normes. Devis gratuit." />
             </Head>
 
-            <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("/images/renovation.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("images/surface-piscine.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container">
                     <h1>Rénovation de Piscine</h1>
                     <p>Donnez une seconde jeunesse à votre bassin</p>
@@ -157,12 +159,8 @@ export default function Renovation() {
                         <h2>Un Projet de Rénovation ?</h2>
                         <p>Nos experts se déplacent pour étudier votre projet et vous conseiller</p>
                         <div className={styles.ctaButtons}>
-                            <a href="tel:+33123456789" className="btn btn-accent">
-                                📞 01 23 45 67 89
-                            </a>
-                            <Link href="/#contact" className="btn btn-outline" style={{ color: 'white', borderColor: 'white' }}>
-                                Demander un Devis Gratuit
-                            </Link>
+                            <CallButton />
+                            <MailButton />
                         </div>
                     </div>
                 </div>

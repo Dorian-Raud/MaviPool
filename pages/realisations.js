@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Realisations.module.css';
+import CallButton from '../components/CallButton';
+import MailButton from '../components/EmailButton';
 
 export default function Realisations() {
     const projects = [
@@ -185,12 +187,8 @@ export default function Realisations() {
                         <h2>Votre Projet Nous Intéresse</h2>
                         <p>Contactez-nous pour discuter de votre projet de piscine</p>
                         <div className={styles.ctaButtons}>
-                            <a href="tel:+33123456789" className="btn btn-accent">
-                                📞 01 23 45 67 89
-                            </a>
-                            <Link href="/#contact" className="btn btn-outline" style={{ color: 'white', borderColor: 'white' }}>
-                                Demander un Devis
-                            </Link>
+                            <CallButton />
+                            <MailButton />
                         </div>
                     </div>
                 </div>

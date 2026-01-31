@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
+import CallButton from '../components/CallButton';
+import MailButton from '../components/EmailButton';
 import { GraduationCap, Zap, Gem, Handshake, Phone, Mail, MapPin } from 'lucide-react';
 
 
@@ -82,12 +84,12 @@ export default function Home() {
                                 <h2>Zone d'Intervention</h2>
                                 <p>Nous intervenons dans tout le département des Alpes-Maritimes (06), pour vous offrir un service de proximité et réactif.</p>
                                 <ul className={styles.cityList}>
-                                    <li><MapPin size={20} color="#0A2463"/> Nice</li>
-                                    <li><MapPin size={20} color="#0A2463"/> Cannes & Mandelieu</li>
-                                    <li><MapPin size={20} color="#0A2463"/> Antibes & Juan-les-Pins</li>
-                                    <li><MapPin size={20} color="#0A2463"/> Monaco & Menton</li>
-                                    <li><MapPin size={20} color="#0A2463"/> Grasse</li>
-                                    <li><MapPin size={20} color="#0A2463"/> Arrière-pays</li>
+                                    <li><MapPin size={20} color="#0A2463" /> Nice</li>
+                                    <li><MapPin size={20} color="#0A2463" /> Cannes & Mandelieu</li>
+                                    <li><MapPin size={20} color="#0A2463" /> Antibes & Juan-les-Pins</li>
+                                    <li><MapPin size={20} color="#0A2463" /> Monaco & Menton</li>
+                                    <li><MapPin size={20} color="#0A2463" /> Grasse</li>
+                                    <li><MapPin size={20} color="#0A2463" /> Arrière-pays</li>
                                 </ul>
                                 <Link href="/#contact" className="btn btn-primary mt-md">
                                     Vérifier mon éligibilité
@@ -107,22 +109,22 @@ export default function Home() {
                         <h2 className="text-center mb-xl">Pourquoi Choisir MaviPool ?</h2>
                         <div className="grid grid-4">
                             <div className={styles.feature}>
-                                <div className={styles.featureIcon}><GraduationCap size={60} color="#c58148"/></div>
+                                <div className={styles.featureIcon}><GraduationCap size={60} color="#c58148" /></div>
                                 <h3>Expertise</h3>
                                 <p>Plus de 15 ans d'expérience dans le domaine de la piscine.</p>
                             </div>
                             <div className={styles.feature}>
-                                <div className={styles.featureIcon}><Zap size={60} color="#c58148"/></div>
+                                <div className={styles.featureIcon}><Zap size={60} color="#c58148" /></div>
                                 <h3>Réactivité</h3>
                                 <p>Intervention rapide en cas de panne ou d'urgence.</p>
                             </div>
                             <div className={styles.feature}>
-                                <div className={styles.featureIcon}><Gem size={60} color="#c58148"/></div>
+                                <div className={styles.featureIcon}><Gem size={60} color="#c58148" /></div>
                                 <h3>Qualité</h3>
                                 <p>Utilisation des meilleurs matériaux et équipements du marché.</p>
                             </div>
                             <div className={styles.feature}>
-                                <div className={styles.featureIcon}><Handshake size={60} color="#c58148"/></div>
+                                <div className={styles.featureIcon}><Handshake size={60} color="#c58148" /></div>
                                 <h3>Confiance</h3>
                                 <p>Devis transparents et respect des délais annoncés.</p>
                             </div>
@@ -136,12 +138,8 @@ export default function Home() {
                         <h2>Prêt à plonger ?</h2>
                         <p className="mb-lg">Contactez-nous dès aujourd'hui pour votre projet piscine.</p>
                         <div className={styles.ctaGroup}>
-                            <a href="tel:+33674813721" className="btn btn-accent">
-                                <Phone size={30} color="#0A2463"/> 06 74 81 37 21
-                            </a>
-                            <a href="mailto:mavipool@outlook.fr" className="btn btn-outline">
-                                <Mail size={30} color="#0A2463"/> mavipool@outlook.fr
-                            </a>
+                            <CallButton />
+                            <MailButton />
                         </div>
                     </div>
                 </section>
