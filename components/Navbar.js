@@ -58,7 +58,7 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li className={styles.ctaItem}>
-                        <Link href="#contact" className="btn btn-accent" onClick={() => setIsMenuOpen(false)}>
+                        <Link href="/#contact" className="btn btn-accent" onClick={() => setIsMenuOpen(false)}>
                             Devis Gratuit
                         </Link>
                     </li>

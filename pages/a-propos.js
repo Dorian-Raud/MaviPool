@@ -51,7 +51,7 @@ export default function About() {
                         <div className={styles.feature}>
                             <div className={styles.featureIcon}><GraduationCap size={60} color="#c58148" /></div>
                             <h3>Expertise</h3>
-                            <p>Plus de 15 ans d'expérience dans le domaine de la piscine.</p>
+                            <p>Plus de 10 ans d'expérience dans le domaine de la piscine.</p>
                         </div>
                         <div className={styles.feature}>
                             <div className={styles.featureIcon}><Zap size={60} color="#c58148" /></div>
