@@ -109,7 +109,7 @@ export default function Renovation() {
 
                         <div className="card">
                             <div style={{ height: '250px', overflow: 'hidden', borderRadius: '8px 8px 0 0' }}>
-                                <img src="/images/renovation-local-avant-apres.png" alt="Rénovation local technique piscine avant après" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                <img src="/images/filtres neufs.jpeg" alt="Rénovation local technique piscine avant après" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div style={{ padding: '1.5rem' }}>
                                 <h3>Modernisation Local Technique</h3>
@@ -125,29 +125,6 @@ export default function Renovation() {
                                 <h3>Rattrapage Eau Verte</h3>
                                 <p>Traitement choc et remise en route d'une piscine à l'abandon.</p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="section bg-light">
-                <div className="container">
-                    <h2 className="text-center mb-xl">Pourquoi Rénover Votre Piscine ?</h2>
-                    <div className="grid grid-3">
-                        <div className="card text-center">
-                            <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✨</div>
-                            <h3>Esthétique</h3>
-                            <p>Redonnez de l'éclat à votre piscine avec des matériaux modernes et élégants.</p>
-                        </div>
-                        <div className="card text-center">
-                            <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>💰</div>
-                            <h3>Économies</h3>
-                            <p>Réduisez vos factures d'eau et d'électricité grâce à des équipements performants.</p>
-                        </div>
-                        <div className="card text-center">
-                            <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>🛡️</div>
-                            <h3>Sérénité</h3>
-                            <p>Profitez d'une installation sûre, aux normes et garantie pour de nombreuses années.</p>
                         </div>
                     </div>
                 </div>

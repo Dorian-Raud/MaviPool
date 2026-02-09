@@ -54,6 +54,15 @@ export default function Footer() {
                     </div>
 
                     <div className={styles.footerSection}>
+                        <h4 className={styles.sectionTitle}>Horaires</h4>
+                        <ul className={styles.footerLinks}>
+                            <li><p>Du lundi au vendredi : 8h - 17h</p></li>
+                            <li><p>Samedi : 8h - 13h</p></li>
+                            <li><p>Dimanche : Fermé</p></li>
+                        </ul>
+                    </div>
+
+                    <div className={styles.footerSection}>
                         <h4 className={styles.sectionTitle}>Zone d'intervention</h4>
                         <p className={styles.zoneText}>
                             <MapPin size={20} color="#c58148" />Alpes-Maritimes<br />
