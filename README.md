@@ -151,20 +151,6 @@ Le site est **entièrement optimisé pour le référencement** :
 - Entretien piscine Côte d'Azur
 - Dépannage piscine 06
 
-### Composant SEO Réutilisable
-
-```javascript
-import SEO from '@/components/SEO';
-
-<SEO 
-  title="Votre Titre"
-  description="Votre description"
-  url="https://www.mavipool.fr/page"
-/>
-```
-
-📖 **Voir le [Guide SEO](GUIDE_SEO.md) pour toutes les optimisations et recommandations**
-
 ## 🐳 Docker
 
 Le projet est prêt pour Docker avec :
@@ -180,12 +166,6 @@ docker-compose up -d
 
 📖 **Voir le [Guide Docker](GUIDE_DOCKER.md) pour le déploiement**
 
-## 📞 Contact
-
-- **Téléphone** : 01 23 45 67 89
-- **Email** : contact@mavipool.fr
-- **Zone d'intervention** : Alpes-Maritimes (06)
-
 ## 📄 License
 
-© 2024 MaviPool. Tous droits réservés.
+© 2026 MaviPool. Tous droits réservés.
