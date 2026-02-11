@@ -56,9 +56,12 @@ export default function Footer() {
                     <div className={styles.footerSection}>
                         <h4 className={styles.sectionTitle}>Horaires</h4>
                         <ul className={styles.footerLinks}>
-                            <li><p>Du lundi au vendredi : 8h - 17h</p></li>
-                            <li><p>Samedi : 8h - 13h</p></li>
-                            <li><p>Dimanche : Fermé</p></li>
+                            <li>Lundi :    8h - 17h</li>
+                            <li>Mardi :    8h - 17h</li>
+                            <li>Mercredi : 8h - 17h</li>
+                            <li>Jeudi :    8h - 17h</li>
+                            <li>Vendredi : 8h - 17h</li>
+                            <li>Samedi :   8h - 13h</li>
                         </ul>
                     </div>
 

@@ -55,7 +55,7 @@
 }
 
 .footerLinks li {
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 0.8rem;
 }
 
 .footerLinks a {

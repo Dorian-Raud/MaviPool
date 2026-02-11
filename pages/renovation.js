@@ -19,9 +19,7 @@ export default function Renovation() {
                 </div>
             </div>
 
-            <section className="section">
-                <div className="container">
-                    <div className={styles.serviceIntro}>
+            <section className={`section ${styles.serviceRenovation}`}>
                         <div className={styles.introText}>
                             <h2>Modernisez Votre Espace Baignade</h2>
                             <p>
@@ -34,11 +32,6 @@ export default function Renovation() {
                                 service pour transformer votre piscine selon vos envies et les dernières tendances.
                             </p>
                         </div>
-                        <div className={styles.introImage}>
-                            <img src="/images/renovation.png" alt="Rénovation piscine" />
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <section className={`section ${styles.servicesSection}`}>
@@ -87,7 +80,7 @@ export default function Renovation() {
                     </p>
 
                     <div className="grid grid-2">
-                        <div className="card">
+                        <div className="card-renovation">
                             <div style={{ height: '250px', overflow: 'hidden', borderRadius: '8px 8px 0 0' }}>
                                 <img src="/images/changement_liner.png" alt="Remplacement liner piscine avant après" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>
@@ -97,7 +90,7 @@ export default function Renovation() {
                             </div>
                         </div>
 
-                        <div className="card">
+                        <div className="card-renovation">
                             <div style={{ height: '250px', overflow: 'hidden', borderRadius: '8px 8px 0 0' }}>
                                 <img src="/images/renovation_margelles.png" alt="Rénovation margelles piscine avant après" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>
@@ -107,7 +100,7 @@ export default function Renovation() {
                             </div>
                         </div>
 
-                        <div className="card">
+                        <div className="card-renovation">
                             <div style={{ height: '250px', overflow: 'hidden', borderRadius: '8px 8px 0 0' }}>
                                 <img src="/images/filtres neufs.jpeg" alt="Rénovation local technique piscine avant après" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>
@@ -117,7 +110,7 @@ export default function Renovation() {
                             </div>
                         </div>
 
-                        <div className="card">
+                        <div className="card-renovation">
                             <div style={{ height: '250px', overflow: 'hidden', borderRadius: '8px 8px 0 0' }}>
                                 <img src="/images/rattrapage_eau_verte.png" alt="Rattrapage eau verte piscine avant après" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>

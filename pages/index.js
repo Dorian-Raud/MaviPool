@@ -12,7 +12,7 @@ export default function Home() {
             <Head>
                 <title>MaviPool - Expert Piscine Alpes-Maritimes | Installation, Rénovation, Entretien</title>
                 <meta name="description" content="MaviPool, votre expert pisciniste dans les Alpes-Maritimes (06). Installation, rénovation, entretien et dépannage de piscines. De Théoule-sur-Mer à Menton." />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/final-logo.ico" />
             </Head>
 
             <main>
@@ -35,7 +35,7 @@ export default function Home() {
                 {/* Services Section */}
                 <section className="section bg-light">
                     <div className="container">
-                        <h2 className="text-center mb-xl">Nos Services d'Excellence</h2>
+                        <h2 className="text-center mb-xl">Nos Services</h2>
                         <div className="grid grid-3">
                             {/* Service 1 */}
                             <div className="card service-card">
@@ -96,7 +96,7 @@ export default function Home() {
                                 </Link>
                             </div>
                             <div className={styles.mapContainer}>
-                                <div className={styles.mapPlaceholder} style={{ backgroundImage: 'url("/images/zone-intervention.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                                <div className={styles.mapPlaceholder} style={{ backgroundImage: 'url("/images/alpes-maritimes53.gif")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                                 </div>
                             </div>
                         </div>
