@@ -20,13 +20,10 @@ export default function Home() {
                 <section className={styles.hero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.6), rgba(10, 36, 99, 0.4)), url("/images/hero.png")' }}>
                     <div className={styles.heroContent}>
                         <h1>Votre Expert Piscine dans les Alpes-Maritimes</h1>
-                        <p>Installation, rénovation et entretien de prestige pour votre bassin.</p>
+                        <p>Une expertise solide pour des moments vraiment sereins</p>
                         <div className={styles.heroButtons}>
                             <Link href="/#contact" className="btn btn-primary">
                                 Demander un Devis Gratuit
-                            </Link>
-                            <Link href="/realisations" className="btn btn-outline">
-                                Nos Réalisations
                             </Link>
                         </div>
                     </div>
@@ -82,22 +79,18 @@ export default function Home() {
                         <div className="grid grid-2">
                             <div className={styles.zoneContent}>
                                 <h2>Zone d'Intervention</h2>
-                                <p>Nous intervenons dans tout le département des Alpes-Maritimes (06), pour vous offrir un service de proximité et réactif.</p>
+                                <p>Depuis notre atelier situé à Nice, nous intervenons dans tout le département des Alpes-Maritimes (06) pour vous offrir un service de proximité et réactif</p>
                                 <ul className={styles.cityList}>
                                     <li><MapPin size={20} color="#0A2463" /> Nice</li>
                                     <li><MapPin size={20} color="#0A2463" /> Cannes & Mandelieu</li>
                                     <li><MapPin size={20} color="#0A2463" /> Antibes & Juan-les-Pins</li>
                                     <li><MapPin size={20} color="#0A2463" /> Monaco & Menton</li>
                                     <li><MapPin size={20} color="#0A2463" /> Grasse</li>
-                                    <li><MapPin size={20} color="#0A2463" /> Arrière-pays</li>
+                                    <li><MapPin size={20} color="#0A2463" /> ...Et dans toutes les Alpes-Maritimes</li>
                                 </ul>
                                 <Link href="/#contact" className="btn btn-primary mt-md">
-                                    Vérifier mon éligibilité
+                                    Demander une intervention
                                 </Link>
-                            </div>
-                            <div className={styles.mapContainer}>
-                                <div className={styles.mapPlaceholder} style={{ backgroundImage: 'url("/images/alpes-maritimes53.gif")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -106,27 +99,27 @@ export default function Home() {
                 {/* Why Choose Us */}
                 <section className="section bg-primary text-white">
                     <div className="container">
-                        <h2 className="text-center mb-xl">Pourquoi Choisir MaviPool ?</h2>
+                        <h2 className="text-center mb-xl">Pourquoi Choisir Mavi Pool ?</h2>
                         <div className="grid grid-4">
                             <div className={styles.feature}>
                                 <div className={styles.featureIcon}><GraduationCap size={60} color="#c58148" /></div>
                                 <h3>Expertise</h3>
-                                <p>Plus de 15 ans d'expérience dans le domaine de la piscine.</p>
+                                <p>Plus de 10 ans d'expérience dans le secteur de la piscine</p>
                             </div>
                             <div className={styles.feature}>
                                 <div className={styles.featureIcon}><Zap size={60} color="#c58148" /></div>
                                 <h3>Réactivité</h3>
-                                <p>Intervention rapide en cas de panne ou d'urgence.</p>
+                                <p>Intervention rapide et diagnostic fiable</p>
                             </div>
                             <div className={styles.feature}>
                                 <div className={styles.featureIcon}><Gem size={60} color="#c58148" /></div>
                                 <h3>Qualité</h3>
-                                <p>Utilisation des meilleurs matériaux et équipements du marché.</p>
+                                <p>Utilisation des meilleurs matériaux et équipements du marché</p>
                             </div>
                             <div className={styles.feature}>
                                 <div className={styles.featureIcon}><Handshake size={60} color="#c58148" /></div>
                                 <h3>Confiance</h3>
-                                <p>Devis transparents et respect des délais annoncés.</p>
+                                <p>Devis transparents et respect des délais annoncés</p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +129,7 @@ export default function Home() {
                 <section id="contact" className="section">
                     <div className="container text-center">
                         <h2>Prêt à plonger ?</h2>
-                        <p className="mb-lg">Contactez-nous dès aujourd'hui pour votre projet piscine.</p>
+                        <p className="mb-lg">Un appel, un message... et votre projet piscine prend forme</p>
                         <div className={styles.ctaGroup}>
                             <CallButton />
                             <MailButton />

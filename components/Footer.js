@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className={styles.footerContent}>
                     <div className={styles.footerSection}>
                         <h3 className={styles.footerTitle}>
-                            <span className={styles.logoText}>Mavi</span>
+                            <span className={styles.logoText}>Mavi </span>
                             <span className={styles.logoAccent}>Pool</span>
                         </h3>
                         <p className={styles.footerDescription}>
