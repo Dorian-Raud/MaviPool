@@ -74,24 +74,22 @@ export default function Home() {
                 </section>
 
                 {/* Zone d'intervention */}
-                <section className="section">
+                <section className="sectionIntervention">
                     <div className="container">
-                        <div className="grid grid-2">
-                            <div className={styles.zoneContent}>
-                                <h2>Zone d'Intervention</h2>
-                                <p>Depuis notre atelier situé à Nice, nous intervenons dans tout le département des Alpes-Maritimes (06) pour vous offrir un service de proximité et réactif</p>
-                                <ul className={styles.cityList}>
-                                    <li><MapPin size={20} color="#0A2463" /> Nice</li>
-                                    <li><MapPin size={20} color="#0A2463" /> Cannes & Mandelieu</li>
-                                    <li><MapPin size={20} color="#0A2463" /> Antibes & Juan-les-Pins</li>
-                                    <li><MapPin size={20} color="#0A2463" /> Monaco & Menton</li>
-                                    <li><MapPin size={20} color="#0A2463" /> Grasse</li>
-                                    <li><MapPin size={20} color="#0A2463" /> ...Et dans toutes les Alpes-Maritimes</li>
-                                </ul>
-                                <Link href="/#contact" className="btn btn-primary mt-md">
-                                    Demander une intervention
-                                </Link>
+                        <div className="interventionWrapper">
+                            <h2>Zone d'Intervention</h2>
+                            <p>Depuis notre atelier situé à Nice, nous intervenons dans tout le département des Alpes-Maritimes (06) pour vous offrir un service de proximité et réactif.</p>
+                            <div className="cityGrid">
+                                <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Nice</span></div>
+                                <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Cannes & Mandelieu</span></div>
+                                <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Antibes & Juan-les-Pins</span></div>
+                                <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Monaco & Menton</span></div>
+                                <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Grasse</span></div>
+                                <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>...Et dans toutes les Alpes-Maritimes</span></div>
                             </div>
+                            <Link href="/#contact" className="btn btn-primary">
+                                Demander une intervention
+                            </Link>
                         </div>
                     </div>
                 </section>

@@ -101,7 +101,7 @@ export default function Entretien() {
                             <ul className={styles.pricingFeatures}>
                                 <li>✓ Mise en route et Hivernage</li>
                                 <li>✓ Filtration (Lavage et rinçage du filtre) </li>
-                                <li>✓ Contrôle des organes hydrauliques (pompes, filtres, vannes, etc.)</li>
+                                <li>✓ Contrôle des organes hydrauliques (pompes, filtres, vannes, etc.) et électriques</li>
                                 <li>✓ Chimie de l'eau (Analyse complète et ajustement)</li>
                                 <li>✓ Suivi </li>
                             </ul>
@@ -119,6 +119,7 @@ export default function Entretien() {
                             <div className={styles.badge}>Populaire</div>
                             <div className={styles.pricingHeader}>
                                 <h3>Premium</h3>
+                                <p>(Comprend le contrat technique)</p>
                             </div>
                             <ul className={styles.pricingFeatures}>
                                 <li>✓ Passage de l’épuisette</li>
@@ -146,8 +147,8 @@ export default function Entretien() {
                                 <li>✓ Fréquence adaptée</li>
                                 <li>✓ Services à la carte</li>
                                 <li>✓ Suivi personnalisé</li>
-                                <li>✓ Disponibilité prioritaire</li>
-                                <li>✓ Conseils d'expert</li>
+                                <li>✓ Audit complet</li>
+                                <li>✓ Conseils d'optimisation</li>
                             </ul>
                             <div className={styles.PrecisionCard}>
                                 <p>Fréquence (à définir ensemble)</p>

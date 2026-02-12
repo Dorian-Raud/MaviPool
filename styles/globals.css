@@ -284,7 +284,7 @@ a:hover {
 /* Grilles */
 .grid {
   display: grid;
-  gap: var(--spacing-xl);
+  grid-gap: 1rem;
 }
 
 .grid-2 {
@@ -423,5 +423,87 @@ a:hover {
   .btn {
     padding: 0.75rem 1.5rem;
     font-size: 0.9rem;
+  }
+}
+
+/* Zone d'Intervention Stylis�e */
+.sectionIntervention {
+  width: 100%;
+  text-align: center;
+  padding: 8rem 0;
+  position: relative;
+}
+
+.interventionWrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--color-white);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.interventionWrapper h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.interventionWrapper p {
+  font-size: 1.1rem;
+  color: var(--color-gray-600);
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.cityGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.cityItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1rem 1.5rem;
+  background: var(--color-gray-100);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.cityItem svg {
+  position: absolute;
+  left: 1.5rem;
+}
+
+.cityItem:hover {
+  background: var(--color-white);
+  /* Ou une couleur trs lgre */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* Ombre douce au survol */
+  transform: translateY(-2px);
+}
+
+.cityItem span {
+  font-weight: 600;
+  color: var(--color-gray-800);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .sectionIntervention {
+    padding: 4rem 0;
+  }
+
+  .interventionWrapper {
+    padding: 2rem;
+  }
+
+  .cityGrid {
+    grid-template-columns: 1fr;
   }
 }
