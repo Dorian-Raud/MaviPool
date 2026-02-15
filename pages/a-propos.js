@@ -9,8 +9,8 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>À Propos de MaviPool - Pisciniste Alpes-Maritimes</title>
-                <meta name="description" content="Découvrez MaviPool, votre expert pisciniste dans les Alpes-Maritimes. Notre histoire, nos valeurs et notre équipe à votre service." />
+                <title>À Propos de Mavi Pool - Pisciniste Alpes-Maritimes</title>
+                <meta name="description" content="Découvrez Mavi Pool, votre expert pisciniste dans les Alpes-Maritimes. Notre histoire, nos valeurs et notre équipe à votre service." />
             </Head>
 
             <section className="section">
@@ -33,12 +33,12 @@ export default function About() {
                                 Pour vous guider vers les meilleures décisions, au juste prix.
                             </p>
                             <p>
-                                Aujourd'hui, MaviPool est reconnu comme un acteur majeur de la piscine dans le 06,
+                                Aujourd'hui, MaviPool est reconnu comme un acteur majeur de la piscine dans les Alpes-Maritimes,
                                 intervenant auprès d'une clientèle exigeante de particuliers et de professionnels.
                             </p>
                         </div>
                         <div className={styles.aboutImage}>
-                            <img src="images/ceto-le-patron.jpeg" alt="Président de MaviPool" />
+                            <img src="images/ceto-le-patron.jpeg" alt="Président de Mavi Pool" />
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ export default function About() {
 
             <section className="section bg-primary text-white">
                 <div className="container">
-                    <h2 className="text-center mb-xl">Pourquoi Choisir MaviPool ?</h2>
+                    <h2 className="text-center mb-xl">Pourquoi Choisir Mavi Pool ?</h2>
                     <div className="grid grid-4">
                         <div className={styles.feature}>
                             <div className={styles.featureIcon}><GraduationCap size={60} color="#c58148" /></div>
