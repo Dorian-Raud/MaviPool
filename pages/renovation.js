@@ -15,7 +15,7 @@ export default function Renovation() {
             <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("images/surface-piscine.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container">
                     <h1>Rénovation de Piscine</h1>
-                    <p>Donnez une seconde jeunesse à votre bassin</p>
+                    <p>Donnez un nouveau coup d'éclat à votre piscine</p>
                 </div>
             </div>
 
@@ -39,26 +39,27 @@ export default function Renovation() {
                     <h2 className="text-center mb-xl">Nos Solutions de Rénovation</h2>
 
                     <div className="grid grid-2">
-                        <div className="card">
-                            <h3>Revêtement & Étanchéité</h3>
-                            <ul className={styles.serviceList}>
-                                <li>Remplacement de liner et membrane armée</li>
-                                <li>Rénovation de carrelage et mosaïque</li>
-                                <li>Réfection des joints</li>
-                                <li>Recherche et réparation de fuites</li>
-                            </ul>
-                        </div>
 
                         <div className="card">
                             <h3>Modernisation des Équipements</h3>
                             <ul className={styles.serviceList}>
+                                <li>Optimisation de votre local technique</li>
                                 <li>Installation de pompe à chaleur</li>
-                                <li>Passage au traitement au sel</li>
-                                <li>Installation de volet roulant</li>
-                                <li>Éclairage LED dernière génération</li>
+                                <li>Installation de couverture de sécurité piscine (NF P 90-308)</li>
+                                <li>Traitement de l'eau automatique (electrolyse au sel, pompes doseuses chlore pH ...)</li>
+                                <li>Eclairage LED</li>
                             </ul>
                         </div>
 
+                        <div className="card">
+                            <h3>Revêtement & Étanchéité</h3>
+                            <ul className={styles.serviceList}>
+                                <li>Réparation du revêtement de la piscine (coque, polyester, liner et PVC armé ...)</li>
+                                <li>Remplacement de la mosaïque ou du carrelage</li>
+                                <li>Réfection des joints</li>
+                                <li>Recherche et réparation de fuites</li>
+                            </ul>
+                        </div>
                         <div className="card">
                             <h3>Modification du Bassin</h3>
                             <ul className={styles.serviceList}>

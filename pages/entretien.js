@@ -49,8 +49,8 @@ export default function Entretien() {
                         <div className="card-entretien">
                             <h3>Traitement de l'eau</h3>
                             <ul className={styles.serviceList}>
-                                <li>Analyse complète de l'eau (pH, chlore, alcalinité)</li>
-                                <li>Équilibrage chimique optimal</li>
+                                <li>Analyse complète de l'eau (PH, TAC, TH, Chlores, Stabilisants)</li>
+                                <li>Équilibrage sur la balance de Taylor</li>
                                 <li>Traitement anti-algues et désinfection</li>
                                 <li>Contrôle de la qualité de l'eau</li>
                             </ul>
@@ -59,30 +59,30 @@ export default function Entretien() {
                         <div className="card-entretien">
                             <h3>Nettoyage piscine</h3>
                             <ul className={styles.serviceList}>
-                                <li>Aspiration du fond et des parois</li>
-                                <li>Nettoyage de la ligne d'eau</li>
-                                <li>Élimination des débris et feuilles</li>
-                                <li>Brossage des surfaces</li>
-                            </ul>
-                        </div>
-
-                        <div className="card-entretien">
-                            <h3>Maintenance équipements</h3>
-                            <ul className={styles.serviceList}>
-                                <li>Vérification du système de filtration</li>
-                                <li>Nettoyage des filtres et skimmers</li>
-                                <li>Contrôle des pompes et moteurs</li>
-                                <li>Inspection des équipements électriques</li>
+                                <li>Nettoyage des paniers de pompe/skimmer/débordement</li>
+                                <li>Passage de l'épuisette et brossage des surfaces</li>
+                                <li>Aspiration par balai hydraulique</li>
+                                <li>Contrôle et ajustement du niveau d'eau</li>
                             </ul>
                         </div>
 
                         <div className="card-entretien">
                             <h3>Diagnostic préventif</h3>
                             <ul className={styles.serviceList}>
-                                <li>Détection précoce des problèmes</li>
+                                <li>Audit de votre pisicne et de votre local technique</li>
                                 <li>Conseils d'optimisation</li>
                                 <li>Recommandations personnalisées</li>
                                 <li>Rapport d'intervention détaillé</li>
+                            </ul>
+                        </div>
+
+                        <div className="card-entretien">
+                            <h3>Maintenance équipements</h3>
+                            <ul className={styles.serviceList}>
+                                <li>Vérification du système de filtration et de la tuyauterie</li>
+                                <li>Nettoyage des filtres et skimmers</li>
+                                <li>Inspection et réglage du coffret (pompe, horloge)</li>
+                                <li>Inspection et réglages des traitements automatiques</li>
                             </ul>
                         </div>
                     </div>

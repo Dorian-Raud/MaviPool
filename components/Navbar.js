@@ -28,8 +28,8 @@ export default function Navbar() {
 
                 <ul className={`${styles.navLinks} ${isMenuOpen ? styles.active : ''}`}>
                     <li>
-                        <Link href="/entretien" onClick={() => setIsMenuOpen(false)}>
-                            Entretien
+                        <Link href="/realisations" onClick={() => setIsMenuOpen(false)}>
+                            Installation
                         </Link>
                     </li>
                     <li>
@@ -43,8 +43,8 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/realisations" onClick={() => setIsMenuOpen(false)}>
-                            Réalisations
+                        <Link href="/entretien" onClick={() => setIsMenuOpen(false)}>
+                            Entretien
                         </Link>
                     </li>
                     <li>
