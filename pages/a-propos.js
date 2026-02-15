@@ -19,7 +19,7 @@ export default function About() {
                         <div className={styles.aboutContent}>
                             <h2>Notre Histoire</h2>
                             <p>
-                                Fondée par un passionné de la piscine, MaviPool est née d'une volonté simple :
+                                Fondée par un passionné de la piscine, Mavi Pool est née d'une volonté simple :
                                 offrir un service d'excellence dans le domaine de la piscine sur la Côte d'Azur.
                             </p>
                             <p>
