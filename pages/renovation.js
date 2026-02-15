@@ -20,18 +20,18 @@ export default function Renovation() {
             </div>
 
             <section className={`section ${styles.serviceRenovation}`}>
-                        <div className={styles.introText}>
-                            <h2>Modernisez Votre Espace Baignade</h2>
-                            <p>
-                                Votre piscine a besoin d'un coup de jeune ? Le revêtement est abîmé ou vous souhaitez
-                                simplement moderniser votre installation ? MaviPool vous accompagne dans tous vos
-                                projets de rénovation.
-                            </p>
-                            <p>
-                                De la simple réparation au relooking complet, nous mettons notre expertise à votre
-                                service pour transformer votre piscine selon vos envies et les dernières tendances.
-                            </p>
-                        </div>
+                <div className={styles.introText}>
+                    <h2>Modernisez Votre Espace Baignade</h2>
+                    <p>
+                        Votre piscine a besoin d'un coup de jeune ? Le revêtement est abîmé ou vous souhaitez
+                        simplement moderniser votre installation ? MaviPool vous accompagne dans tous vos
+                        projets de rénovation.
+                    </p>
+                    <p>
+                        De la simple réparation au relooking complet, nous mettons notre expertise à votre
+                        service pour transformer votre piscine selon vos envies et les dernières tendances.
+                    </p>
+                </div>
             </section>
 
             <section className={`section ${styles.servicesSection}`}>
@@ -86,7 +86,7 @@ export default function Renovation() {
                             </div>
                             <div style={{ padding: '1.5rem' }}>
                                 <h3>Changement de Liner</h3>
-                                <p>Remplacement d'un vieux liner bleu par un liner sable moderne pour une eau turquoise.</p>
+                                <p>Remplacement d'un liner d'une piscine laissée à l'abandon par un liner sable 75/100ème pour une piscine en harmonie avec le jardin</p>
                             </div>
                         </div>
 
@@ -96,7 +96,7 @@ export default function Renovation() {
                             </div>
                             <div style={{ padding: '1.5rem' }}>
                                 <h3>Rénovation Margelles</h3>
-                                <p>Remplacement de margelles en béton fissurées par du travertin en pierre naturelle.</p>
+                                <p>Remplacement de margelles par du travertin</p>
                             </div>
                         </div>
 
@@ -106,7 +106,7 @@ export default function Renovation() {
                             </div>
                             <div style={{ padding: '1.5rem' }}>
                                 <h3>Modernisation Local Technique</h3>
-                                <p>Remplacement complet de la filtration et des pompes pour une installation propre et efficace.</p>
+                                <p>Remplacement complet de la filtration et des pompes pour une installation propre, efficace et autonome, les lavages de filtres se font automatiquement avec la vanne BESGO</p>
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@ export default function Renovation() {
                             </div>
                             <div style={{ padding: '1.5rem' }}>
                                 <h3>Rattrapage Eau Verte</h3>
-                                <p>Traitement choc et remise en route d'une piscine à l'abandon.</p>
+                                <p>Traitement choc et remise en route d'une piscine à l'abandon</p>
                             </div>
                         </div>
                     </div>

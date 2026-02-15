@@ -37,7 +37,7 @@ export default function Home() {
                             {/* Service 1 */}
                             <div className="card service-card">
                                 <div className={styles.serviceImage}>
-                                    <img src="/images/installation.png" alt="Installation de piscine" />
+                                    <img src="images/contraste 1(1)-2.jpg" alt="Installation de piscine" />
                                 </div>
                                 <div className={styles.serviceContent}>
                                     <h3>Installation</h3>
@@ -49,7 +49,7 @@ export default function Home() {
                             {/* Service 2 */}
                             <div className="card service-card">
                                 <div className={styles.serviceImage}>
-                                    <img src="/images/renovation.png" alt="Rénovation de piscine" />
+                                    <img src="images/avant-après.png" alt="Rénovation de piscine" />
                                 </div>
                                 <div className={styles.serviceContent}>
                                     <h3>Rénovation</h3>
@@ -61,7 +61,7 @@ export default function Home() {
                             {/* Service 3 */}
                             <div className="card service-card">
                                 <div className={styles.serviceImage}>
-                                    <img src="/images/entretien.png" alt="Entretien de piscine" />
+                                    <img src="images/entretien-piscine.png" alt="Entretien de piscine" />
                                 </div>
                                 <div className={styles.serviceContent}>
                                     <h3>Entretien</h3>
