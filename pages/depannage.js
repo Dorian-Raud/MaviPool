@@ -33,6 +33,10 @@ export default function Depannage() {
                                 Nos techniciens qualifiés disposent de tout le matériel nécessaire pour diagnostiquer
                                 et réparer la plupart des pannes dès la première visite.
                             </p>
+
+                            <p>
+                                Nous intervenons rapidement dans tout le département des Alpes-Maritimes : Nice, Saint-Laurent-du-Var, Cagnes-sur-Mer, Villeneuve-Loubet, Antibes, Cannes, Mougins, Valbonne, Grasse, Vence, Saint-Paul-de-Vence, La colle-sur-Loup, Roquefort-les-Pins, Le Rouret, Opio, Biot, Mandelieu, Théoule-sur-Mer ... 
+                            </p>
                             <div className="mt-md">
                                 <a href="tel:+33123456789" className="btn btn-accent">
                                     Appel d'Urgence : 06 74 81 37 21

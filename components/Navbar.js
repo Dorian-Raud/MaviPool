@@ -28,7 +28,7 @@ export default function Navbar() {
 
                 <ul className={`${styles.navLinks} ${isMenuOpen ? styles.active : ''}`}>
                     <li>
-                        <Link href="/realisations" onClick={() => setIsMenuOpen(false)}>
+                        <Link href="/installation" onClick={() => setIsMenuOpen(false)}>
                             Installation
                         </Link>
                     </li>

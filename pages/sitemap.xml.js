@@ -10,7 +10,7 @@ export async function getServerSideProps({ res }) {
         { url: '/entretien', changefreq: 'monthly', priority: 0.8 },
         { url: '/renovation', changefreq: 'monthly', priority: 0.8 },
         { url: '/depannage', changefreq: 'monthly', priority: 0.8 },
-        { url: '/realisations', changefreq: 'weekly', priority: 0.9 },
+        { url: '/installation', changefreq: 'weekly', priority: 0.9 },
         { url: '/a-propos', changefreq: 'monthly', priority: 0.7 },
     ];
 
