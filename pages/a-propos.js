@@ -33,7 +33,7 @@ export default function About() {
                                 Pour vous guider vers les meilleures décisions, au juste prix.
                             </p>
                             <p>
-                                Aujourd'hui, MaviPool est reconnu comme un acteur majeur de la piscine dans les Alpes-Maritimes,
+                                Aujourd'hui, Mavi Pool est reconnu comme un acteur majeur de la piscine dans les Alpes-Maritimes,
                                 intervenant auprès d'une clientèle exigeante de particuliers et de professionnels.
                             </p>
                         </div>
