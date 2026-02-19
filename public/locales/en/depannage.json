@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "title": "Pool Repairs - MaviPool Alpes-Maritimes | Fast Intervention",
+        "description": "Fast pool repairs in the Alpes-Maritimes. Pump failure, leak, green water, electrical problem. 7-day service during season."
+    },
+    "hero": {
+        "title": "Pool Repairs",
+        "subtitle": "Fast and efficient intervention for all your technical issues"
+    },
+    "intro": {
+        "title": "A Breakdown? We Respond Quickly",
+        "p1": "Cloudy water, a broken pump, or a suspicious leak? Don't let a technical problem ruin your swimming season. MaviPool responds quickly throughout the Alpes-Maritimes department.",
+        "p2": "Our qualified technicians have all the necessary equipment to diagnose and repair most breakdowns on the first visit.",
+        "p3": "We respond quickly throughout the Alpes-Maritimes department: Nice, Saint-Laurent-du-Var, Cagnes-sur-Mer, Villeneuve-Loubet, Antibes, Cannes, Mougins, Valbonne, Grasse, Vence, Saint-Paul-de-Vence, La colle-sur-Loup, Roquefort-les-Pins, Le Rouret, Opio, Biot, Mandelieu, Théoule-sur-Mer ...",
+        "emergencyCall": "Emergency Call: 06 74 81 37 21"
+    },
+    "domains": {
+        "title": "Our Areas of Intervention",
+        "water": {
+            "title": "Water Problems",
+            "items": [
+                "Green water recovery",
+                "Cloudy or milky water",
+                "pH or chlorine issues",
+                "Shock treatment"
+            ]
+        },
+        "filtration": {
+            "title": "Filtration & Pumps",
+            "items": [
+                "Noisy or stopped pump",
+                "Clogged or broken filter",
+                "Leak in equipment room",
+                "Priming problems"
+            ]
+        },
+        "electrical": {
+            "title": "Electrical & Heating",
+            "items": [
+                "Electrical panel failure",
+                "Heat pump malfunction",
+                "Faulty lighting",
+                "Salt chlorinator problems"
+            ]
+        },
+        "automatic": {
+            "title": "Automatic Equipment",
+            "items": [
+                "Pool cover malfunction",
+                "Robot cleaner breakdown",
+                "pH/Redox controller failure",
+                "Smart home issues"
+            ]
+        }
+    },
+    "process": {
+        "title": "Our Intervention Process",
+        "steps": [
+            {
+                "title": "Contact",
+                "description": "Call us to describe your problem so we can make an initial diagnosis"
+            },
+            {
+                "title": "Diagnosis",
+                "description": "On-site visit and precise identification of the issue"
+            },
+            {
+                "title": "Quote",
+                "description": "Immediate itemized proposal for the repair"
+            },
+            {
+                "title": "Repair",
+                "description": "Immediate repair or fast parts ordering"
+            }
+        ]
+    },
+    "cta": {
+        "title": "Need an Urgent Repair?",
+        "subtitle": "We are available 7 days a week during summer season"
+    }
+}

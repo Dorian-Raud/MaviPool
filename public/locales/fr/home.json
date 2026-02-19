@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "title": "MaviPool - Expert Piscine Alpes-Maritimes | Installation, Rénovation, Entretien",
+        "description": "MaviPool, votre expert pisciniste dans les Alpes-Maritimes (06). Installation, rénovation, entretien et dépannage de piscines. De Théoule-sur-Mer à Menton."
+    },
+    "hero": {
+        "title": "Votre Expert Piscine dans les Alpes-Maritimes",
+        "subtitle": "Une expertise solide pour des moments vraiment sereins",
+        "cta": "Demander un Devis Gratuit"
+    },
+    "services": {
+        "title": "Nos Services",
+        "installation": {
+            "title": "Installation",
+            "description": "Construction de piscines sur-mesure, coques ou béton, adaptées à votre terrain et vos envies.",
+            "link": "En savoir plus →"
+        },
+        "renovation": {
+            "title": "Rénovation",
+            "description": "Modernisation de votre bassin, changement de liner, étanchéité et mise aux normes.",
+            "link": "En savoir plus →"
+        },
+        "entretien": {
+            "title": "Entretien",
+            "description": "Contrats d'entretien annuels ou saisonniers pour une eau cristalline toute l'année.",
+            "link": "En savoir plus →"
+        }
+    },
+    "zone": {
+        "title": "Zone d'Intervention",
+        "description": "Depuis notre atelier situé à Nice, nous intervenons dans tout le département des Alpes-Maritimes (06) pour vous offrir un service de proximité et réactif.",
+        "allArea": "...Et dans toutes les Alpes-Maritimes",
+        "cta": "Demander une intervention"
+    },
+    "whyUs": {
+        "title": "Pourquoi Choisir Mavi Pool ?",
+        "expertise": {
+            "title": "Expertise",
+            "description": "Plus de 10 ans d'expérience dans le secteur de la piscine"
+        },
+        "reactivity": {
+            "title": "Réactivité",
+            "description": "Intervention rapide et diagnostic fiable"
+        },
+        "quality": {
+            "title": "Qualité",
+            "description": "Utilisation des meilleurs matériaux et équipements du marché"
+        },
+        "trust": {
+            "title": "Confiance",
+            "description": "Devis transparents et respect des délais annoncés"
+        }
+    },
+    "cta": {
+        "title": "Prêt à plonger ?",
+        "subtitle": "Un appel, un message... et votre projet piscine prend forme"
+    }
+}

@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import { useTranslation } from '../lib/useTranslation';
 import styles from '../styles/Footer.module.css';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
+    const { t } = useTranslation('common');
 
     return (
         <footer className={styles.footer}>
@@ -15,8 +17,7 @@ export default function Footer() {
                             <span className={styles.logoAccent}>Pool</span>
                         </h3>
                         <p className={styles.footerDescription}>
-                            Expert en installation, rénovation et entretien de piscines dans les Alpes-Maritimes.
-                            De Théoule-sur-Mer à Menton.
+                            {t('footer.description')}
                         </p>
                         <div className={styles.socialLinks}>
                             <a href="#" aria-label="Facebook" className={styles.socialLink}>
@@ -33,19 +34,19 @@ export default function Footer() {
                     </div>
 
                     <div className={styles.footerSection}>
-                        <h4 className={styles.sectionTitle}>Services</h4>
+                        <h4 className={styles.sectionTitle}>{t('footer.services')}</h4>
                         <ul className={styles.footerLinks}>
-                            <li><Link href="/entretien">Entretien de piscine</Link></li>
-                            <li><Link href="/renovation">Rénovation</Link></li>
-                            <li><Link href="/depannage">Dépannage</Link></li>
-                            <li><Link href="/realisations">Nos réalisations</Link></li>
+                            <li><Link href="/entretien">{t('footer.poolMaintenance')}</Link></li>
+                            <li><Link href="/renovation">{t('footer.renovation')}</Link></li>
+                            <li><Link href="/depannage">{t('footer.troubleshooting')}</Link></li>
+                            <li><Link href="/realisations">{t('footer.achievements')}</Link></li>
                         </ul>
                     </div>
 
                     <div className={styles.footerSection}>
-                        <h4 className={styles.sectionTitle}>Entreprise</h4>
+                        <h4 className={styles.sectionTitle}>{t('footer.company')}</h4>
                         <ul className={styles.footerLinks}>
-                            <li><Link href="/a-propos">À propos</Link></li>
+                            <li><Link href="/a-propos">{t('footer.about')}</Link></li>
                             <div className={styles.contactInfo}>
                                 <p><Phone size={20} color="#c58148" /> <a href="tel:+33674813721">06 74 81 37 21</a></p>
                                 <p><Mail size={20} color="#c58148" /> <a href="mailto:mavipool@outlook.fr">mavipool@outlook.fr</a></p>
@@ -54,32 +55,32 @@ export default function Footer() {
                     </div>
 
                     <div className={styles.footerSection}>
-                        <h4 className={styles.sectionTitle}>Horaires</h4>
+                        <h4 className={styles.sectionTitle}>{t('footer.hours')}</h4>
                         <ul className={styles.footerLinks}>
-                            <li>Lundi :    8h - 17h</li>
-                            <li>Mardi :    8h - 17h</li>
-                            <li>Mercredi : 8h - 17h</li>
-                            <li>Jeudi :    8h - 17h</li>
-                            <li>Vendredi : 8h - 17h</li>
-                            <li>Samedi :   8h - 13h</li>
+                            <li>{t('footer.monday')}</li>
+                            <li>{t('footer.tuesday')}</li>
+                            <li>{t('footer.wednesday')}</li>
+                            <li>{t('footer.thursday')}</li>
+                            <li>{t('footer.friday')}</li>
+                            <li>{t('footer.saturday')}</li>
                         </ul>
                     </div>
 
                     <div className={styles.footerSection}>
-                        <h4 className={styles.sectionTitle}>Zone d'intervention</h4>
+                        <h4 className={styles.sectionTitle}>{t('footer.zone')}</h4>
                         <p className={styles.zoneText}>
-                            <MapPin size={20} color="#c58148" />Alpes-Maritimes<br />
-                            De Théoule-sur-Mer à Menton<br />
-                            Cannes, Antibes, Nice, Monaco
+                            <MapPin size={20} color="#c58148" />{t('footer.zoneText1')}<br />
+                            {t('footer.zoneText2')}<br />
+                            {t('footer.zoneText3')}
                         </p>
                     </div>
                 </div>
 
                 <div className={styles.footerBottom}>
-                    <p>&copy; {currentYear} MaviPool. Tous droits réservés.</p>
+                    <p>&copy; {currentYear} MaviPool. {t('footer.rights')}</p>
                     <div className={styles.legalLinks}>
-                        <Link href="#mentions">Mentions légales</Link>
-                        <Link href="#confidentialite">Confidentialité</Link>
+                        <Link href="#mentions">{t('footer.legal')}</Link>
+                        <Link href="#confidentialite">{t('footer.privacy')}</Link>
                     </div>
                 </div>
             </div>

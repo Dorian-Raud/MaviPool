@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "title": "MaviPool - Pool Expert in Alpes-Maritimes | Installation, Renovation, Maintenance",
+        "description": "MaviPool, your pool expert in the Alpes-Maritimes (06). Pool installation, renovation, maintenance and repairs. From Théoule-sur-Mer to Menton."
+    },
+    "hero": {
+        "title": "Your Pool Expert in the French Riviera",
+        "subtitle": "Solid expertise for truly peaceful moments",
+        "cta": "Request a Free Quote"
+    },
+    "services": {
+        "title": "Our Services",
+        "installation": {
+            "title": "Installation",
+            "description": "Custom pool construction, shell or concrete, tailored to your land and desires.",
+            "link": "Learn more →"
+        },
+        "renovation": {
+            "title": "Renovation",
+            "description": "Pool modernization, liner replacement, waterproofing and compliance upgrades.",
+            "link": "Learn more →"
+        },
+        "entretien": {
+            "title": "Maintenance",
+            "description": "Annual or seasonal maintenance contracts for crystal-clear water all year round.",
+            "link": "Learn more →"
+        }
+    },
+    "zone": {
+        "title": "Service Area",
+        "description": "From our workshop located in Nice, we operate throughout the Alpes-Maritimes (06) department to offer you a local and responsive service.",
+        "allArea": "...And throughout the Alpes-Maritimes",
+        "cta": "Request an intervention"
+    },
+    "whyUs": {
+        "title": "Why Choose Mavi Pool?",
+        "expertise": {
+            "title": "Expertise",
+            "description": "Over 10 years of experience in the pool industry"
+        },
+        "reactivity": {
+            "title": "Responsiveness",
+            "description": "Fast intervention and reliable diagnostics"
+        },
+        "quality": {
+            "title": "Quality",
+            "description": "Using the best materials and equipment on the market"
+        },
+        "trust": {
+            "title": "Trust",
+            "description": "Transparent quotes and on-time delivery"
+        }
+    },
+    "cta": {
+        "title": "Ready to dive in?",
+        "subtitle": "A call, a message... and your pool project takes shape"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "title": "About Mavi Pool - Pool Expert Alpes-Maritimes",
+        "description": "Discover Mavi Pool, your pool expert in the Alpes-Maritimes. Our story, our values, and our team at your service."
+    },
+    "history": {
+        "title": "Our Story",
+        "p1": "Founded by a pool enthusiast, Mavi Pool was born from a simple desire: to offer an excellent service in the pool industry on the French Riviera.",
+        "p2": "Over 10 years of experience! Store manager, Sales representative, Technician, Manager, then behind the scenes with manufacturers… I learned to understand customer needs, team constraints, and the secrets of the products that make a reliable and durable pool. This experience, I pass it on to create a climate of trust. To work with honesty, quality and transparency. To guide you towards the best decisions, at the right price.",
+        "p3": "Today, Mavi Pool is recognized as a major player in the pool industry in the Alpes-Maritimes, serving a demanding clientele of individuals and professionals."
+    },
+    "whyUs": {
+        "title": "Why Choose Mavi Pool?",
+        "expertise": {
+            "title": "Expertise",
+            "description": "Over 10 years of experience in the pool industry."
+        },
+        "reactivity": {
+            "title": "Responsiveness",
+            "description": "Fast intervention in case of breakdown or emergency."
+        },
+        "quality": {
+            "title": "Quality",
+            "description": "Using the best materials and equipment on the market."
+        },
+        "trust": {
+            "title": "Trust",
+            "description": "Transparent quotes and on-time delivery."
+        }
+    },
+    "cta": {
+        "title": "Want to Work with Us?",
+        "subtitle": "Contact us to discuss your project"
+    }
+}

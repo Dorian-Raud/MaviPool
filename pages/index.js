@@ -3,15 +3,18 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
+import { useTranslation } from '../lib/useTranslation';
 import { GraduationCap, Zap, Gem, Handshake, Phone, Mail, MapPin } from 'lucide-react';
 
 
 export default function Home() {
+    const { t } = useTranslation('home');
+
     return (
         <>
             <Head>
-                <title>MaviPool - Expert Piscine Alpes-Maritimes | Installation, Rénovation, Entretien</title>
-                <meta name="description" content="MaviPool, votre expert pisciniste dans les Alpes-Maritimes (06). Installation, rénovation, entretien et dépannage de piscines. De Théoule-sur-Mer à Menton." />
+                <title>{t('meta.title')}</title>
+                <meta name="description" content={t('meta.description')} />
                 <link rel="icon" href="/final-logo.ico" />
             </Head>
 
@@ -19,11 +22,11 @@ export default function Home() {
                 {/* Hero Section */}
                 <section className={styles.hero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.6), rgba(10, 36, 99, 0.4)), url("/images/hero.png")' }}>
                     <div className={styles.heroContent}>
-                        <h1>Votre Expert Piscine dans les Alpes-Maritimes</h1>
-                        <p>Une expertise solide pour des moments vraiment sereins</p>
+                        <h1>{t('hero.title')}</h1>
+                        <p>{t('hero.subtitle')}</p>
                         <div className={styles.heroButtons}>
                             <Link href="/#contact" className="btn btn-primary">
-                                Demander un Devis Gratuit
+                                {t('hero.cta')}
                             </Link>
                         </div>
                     </div>
@@ -32,41 +35,41 @@ export default function Home() {
                 {/* Services Section */}
                 <section className="section bg-light">
                     <div className="container">
-                        <h2 className="text-center mb-xl">Nos Services</h2>
+                        <h2 className="text-center mb-xl">{t('services.title')}</h2>
                         <div className="grid grid-3">
                             {/* Service 1 */}
                             <div className="card service-card">
                                 <div className={styles.serviceImage}>
-                                    <img src="images/contraste 1(1)-2.jpg" alt="Installation de piscine" />
+                                    <img src="/images/contraste 1(1)-2.jpg" alt="Installation de piscine" />
                                 </div>
                                 <div className={styles.serviceContent}>
-                                    <h3>Installation</h3>
-                                    <p>Construction de piscines sur-mesure, coques ou béton, adaptées à votre terrain et vos envies.</p>
-                                    <Link href="/#contact" className="text-secondary font-bold">En savoir plus →</Link>
+                                    <h3>{t('services.installation.title')}</h3>
+                                    <p>{t('services.installation.description')}</p>
+                                    <Link href="/#contact" className="text-secondary font-bold">{t('services.installation.link')}</Link>
                                 </div>
                             </div>
 
                             {/* Service 2 */}
                             <div className="card service-card">
                                 <div className={styles.serviceImage}>
-                                    <img src="images/avant-après.png" alt="Rénovation de piscine" />
+                                    <img src="/images/avant-après.png" alt="Rénovation de piscine" />
                                 </div>
                                 <div className={styles.serviceContent}>
-                                    <h3>Rénovation</h3>
-                                    <p>Modernisation de votre bassin, changement de liner, étanchéité et mise aux normes.</p>
-                                    <Link href="/renovation" className="text-secondary font-bold">En savoir plus →</Link>
+                                    <h3>{t('services.renovation.title')}</h3>
+                                    <p>{t('services.renovation.description')}</p>
+                                    <Link href="/renovation" className="text-secondary font-bold">{t('services.renovation.link')}</Link>
                                 </div>
                             </div>
 
                             {/* Service 3 */}
                             <div className="card service-card">
                                 <div className={styles.serviceImage}>
-                                    <img src="images/entretien-piscine.png" alt="Entretien de piscine" />
+                                    <img src="/images/entretien-piscine.png" alt="Entretien de piscine" />
                                 </div>
                                 <div className={styles.serviceContent}>
-                                    <h3>Entretien</h3>
-                                    <p>Contrats d'entretien annuels ou saisonniers pour une eau cristalline toute l'année.</p>
-                                    <Link href="/entretien" className="text-secondary font-bold">En savoir plus →</Link>
+                                    <h3>{t('services.entretien.title')}</h3>
+                                    <p>{t('services.entretien.description')}</p>
+                                    <Link href="/entretien" className="text-secondary font-bold">{t('services.entretien.link')}</Link>
                                 </div>
                             </div>
                         </div>
@@ -77,18 +80,18 @@ export default function Home() {
                 <section className="sectionIntervention">
                     <div className="container">
                         <div className="interventionWrapper">
-                            <h2>Zone d'Intervention</h2>
-                            <p>Depuis notre atelier situé à Nice, nous intervenons dans tout le département des Alpes-Maritimes (06) pour vous offrir un service de proximité et réactif.</p>
+                            <h2>{t('zone.title')}</h2>
+                            <p>{t('zone.description')}</p>
                             <div className="cityGrid">
                                 <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Nice</span></div>
                                 <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Cannes & Mandelieu</span></div>
                                 <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Antibes & Juan-les-Pins</span></div>
                                 <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Monaco & Menton</span></div>
                                 <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>Grasse</span></div>
-                                <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>...Et dans toutes les Alpes-Maritimes</span></div>
+                                <div className="cityItem"><MapPin size={24} color="#c58048" /> <span>{t('zone.allArea')}</span></div>
                             </div>
                             <Link href="/#contact" className="btn btn-primary">
-                                Demander une intervention
+                                {t('zone.cta')}
                             </Link>
                         </div>
                     </div>
@@ -97,27 +100,27 @@ export default function Home() {
                 {/* Why Choose Us */}
                 <section className="section bg-primary text-white">
                     <div className="container">
-                        <h2 className="text-center mb-xl">Pourquoi Choisir Mavi Pool ?</h2>
+                        <h2 className="text-center mb-xl">{t('whyUs.title')}</h2>
                         <div className="grid grid-4">
                             <div className={styles.feature}>
                                 <div className={styles.featureIcon}><GraduationCap size={60} color="#c58148" /></div>
-                                <h3>Expertise</h3>
-                                <p>Plus de 10 ans d'expérience dans le secteur de la piscine</p>
+                                <h3>{t('whyUs.expertise.title')}</h3>
+                                <p>{t('whyUs.expertise.description')}</p>
                             </div>
                             <div className={styles.feature}>
                                 <div className={styles.featureIcon}><Zap size={60} color="#c58148" /></div>
-                                <h3>Réactivité</h3>
-                                <p>Intervention rapide et diagnostic fiable</p>
+                                <h3>{t('whyUs.reactivity.title')}</h3>
+                                <p>{t('whyUs.reactivity.description')}</p>
                             </div>
                             <div className={styles.feature}>
                                 <div className={styles.featureIcon}><Gem size={60} color="#c58148" /></div>
-                                <h3>Qualité</h3>
-                                <p>Utilisation des meilleurs matériaux et équipements du marché</p>
+                                <h3>{t('whyUs.quality.title')}</h3>
+                                <p>{t('whyUs.quality.description')}</p>
                             </div>
                             <div className={styles.feature}>
                                 <div className={styles.featureIcon}><Handshake size={60} color="#c58148" /></div>
-                                <h3>Confiance</h3>
-                                <p>Devis transparents et respect des délais annoncés</p>
+                                <h3>{t('whyUs.trust.title')}</h3>
+                                <p>{t('whyUs.trust.description')}</p>
                             </div>
                         </div>
                     </div>
@@ -126,8 +129,8 @@ export default function Home() {
                 {/* CTA Section */}
                 <section id="contact" className="section">
                     <div className="container text-center">
-                        <h2>Prêt à plonger ?</h2>
-                        <p className="mb-lg">Un appel, un message... et votre projet piscine prend forme</p>
+                        <h2>{t('cta.title')}</h2>
+                        <p className="mb-lg">{t('cta.subtitle')}</p>
                         <div className={styles.ctaGroup}>
                             <CallButton />
                             <MailButton />

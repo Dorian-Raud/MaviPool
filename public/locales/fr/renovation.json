@@ -1,0 +1,72 @@
+{
+    "meta": {
+        "title": "Rénovation de Piscine - MaviPool Alpes-Maritimes",
+        "description": "Expert en rénovation de piscine dans les Alpes-Maritimes. Changement de liner, étanchéité, modernisation, mise aux normes. Devis gratuit."
+    },
+    "hero": {
+        "title": "Rénovation de Piscine",
+        "subtitle": "Donnez un nouveau coup d'éclat à votre piscine"
+    },
+    "intro": {
+        "title": "Modernisez Votre Espace Baignade",
+        "p1": "Votre piscine a besoin d'un coup de jeune ? Le revêtement est abîmé ou vous souhaitez simplement moderniser votre installation ? MaviPool vous accompagne dans tous vos projets de rénovation.",
+        "p2": "De la simple réparation au relooking complet, nous mettons notre expertise à votre service pour transformer votre piscine selon vos envies et les dernières tendances."
+    },
+    "solutions": {
+        "title": "Nos Solutions de Rénovation",
+        "equipment": {
+            "title": "Modernisation des Équipements",
+            "items": [
+                "Optimisation de votre local technique",
+                "Installation de pompe à chaleur",
+                "Installation de couverture de sécurité piscine (NF P 90-308)",
+                "Traitement de l'eau automatique (electrolyse au sel, pompes doseuses chlore pH ...)",
+                "Eclairage LED"
+            ]
+        },
+        "coating": {
+            "title": "Revêtement & Étanchéité",
+            "items": [
+                "Réparation du revêtement de la piscine (coque, polyester, liner et PVC armé ...)",
+                "Remplacement de la mosaïque ou du carrelage",
+                "Réfection des joints",
+                "Recherche et réparation de fuites"
+            ]
+        },
+        "basin": {
+            "title": "Modification du Bassin",
+            "items": [
+                "Création d'escaliers ou plage immergée",
+                "Réduction de la profondeur",
+                "Changement des margelles",
+                "Création de débordement"
+            ]
+        }
+    },
+    "gallery": {
+        "title": "Nos Réalisations Avant / Après",
+        "subtitle": "Une image vaut mille mots. Découvrez comment nous transformons les piscines de nos clients.",
+        "items": [
+            {
+                "title": "Changement de Liner",
+                "description": "Remplacement d'un liner d'une piscine laissée à l'abandon par un liner sable 75/100ème pour une piscine en harmonie avec le jardin"
+            },
+            {
+                "title": "Rénovation Margelles",
+                "description": "Remplacement de margelles par du travertin"
+            },
+            {
+                "title": "Modernisation Local Technique",
+                "description": "Remplacement complet de la filtration et des pompes pour une installation propre, efficace et autonome, les lavages de filtres se font automatiquement avec la vanne BESGO"
+            },
+            {
+                "title": "Rattrapage Eau Verte",
+                "description": "Traitement choc et remise en route d'une piscine à l'abandon"
+            }
+        ]
+    },
+    "cta": {
+        "title": "Un Projet de Rénovation ?",
+        "subtitle": "Nos experts se déplacent pour étudier votre projet et vous conseiller"
+    }
+}

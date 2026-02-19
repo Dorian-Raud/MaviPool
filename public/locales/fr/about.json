@@ -1,0 +1,35 @@
+{
+    "meta": {
+        "title": "À Propos de Mavi Pool - Pisciniste Alpes-Maritimes",
+        "description": "Découvrez Mavi Pool, votre expert pisciniste dans les Alpes-Maritimes. Notre histoire, nos valeurs et notre équipe à votre service."
+    },
+    "history": {
+        "title": "Notre Histoire",
+        "p1": "Fondée par un passionné de la piscine, Mavi Pool est née d'une volonté simple : offrir un service d'excellence dans le domaine de la piscine sur la Côte d'Azur.",
+        "p2": "+ de 10 ans d'expéricence maintenant ! Magasinier, Commercial, Technicien, Responsable, puis dans les coulisses des fabricants… J'ai appris à comprendre les besoins des clients, les contraintes des équipes et les secrets des produits qui composent une piscine fiable et durable. Cette expérience, je la transmets pour créer un climat de confiance. Pour travailler avec honnêteté, qualité et transparence. Pour vous guider vers les meilleures décisions, au juste prix.",
+        "p3": "Aujourd'hui, Mavi Pool est reconnu comme un acteur majeur de la piscine dans les Alpes-Maritimes, intervenant auprès d'une clientèle exigeante de particuliers et de professionnels."
+    },
+    "whyUs": {
+        "title": "Pourquoi Choisir Mavi Pool ?",
+        "expertise": {
+            "title": "Expertise",
+            "description": "Plus de 10 ans d'expérience dans le domaine de la piscine."
+        },
+        "reactivity": {
+            "title": "Réactivité",
+            "description": "Intervention rapide en cas de panne ou d'urgence."
+        },
+        "quality": {
+            "title": "Qualité",
+            "description": "Utilisation des meilleurs matériaux et équipements du marché."
+        },
+        "trust": {
+            "title": "Confiance",
+            "description": "Devis transparents et respect des délais annoncés."
+        }
+    },
+    "cta": {
+        "title": "Envie de Travailler avec Nous ?",
+        "subtitle": "Contactez-nous pour discuter de votre projet"
+    }
+}

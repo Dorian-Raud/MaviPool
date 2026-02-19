@@ -1,0 +1,55 @@
+{
+    "meta": {
+        "title": "Our Pool Products - Mavi Pool Alpes-Maritimes",
+        "description": "Discover our selection of pool products: covers, heat pumps, salt chlorinators, robots... Installed by Mavi Pool in the French Riviera."
+    },
+    "hero": {
+        "title": "Our Equipment",
+        "subtitle": "A selection of high-performance products for your comfort"
+    },
+    "intro": {
+        "title": "Quality • Performance • Durability",
+        "description": "At Mavi Pool, we only install what we approve. We have selected the best brands and the most reliable equipment on the market to guarantee the longevity of your installation and your peace of mind."
+    },
+    "products": [
+        {
+            "category": "Protection & Safety",
+            "title": "Automatic Pool Cover",
+            "description": "Secure your pool with elegance. Our pool covers, submerged or above-ground, offer optimal protection, maintain water temperature and reduce evaporation."
+        },
+        {
+            "category": "Heating",
+            "title": "Heat Pump",
+            "description": "Extend your swimming season with heat pumps. Silent and connected, they adapt their power for ideal thermal comfort all year round."
+        },
+        {
+            "category": "Water Treatment",
+            "title": "Salt Chlorinator",
+            "description": "No more harsh chemicals. Salt electrolysis disinfects your water automatically for a gentle swim, without chlorine smell or irritation."
+        },
+        {
+            "category": "Filtration",
+            "title": "Filtration Pump",
+            "description": "The heart of your pool. We install energy-efficient, high-performance pumps (variable speed) for crystal-clear water without excessive noise."
+        },
+        {
+            "category": "Filtration",
+            "title": "Triton Filter",
+            "description": "The heart of your pool. We install high-performance filters for crystal-clear water."
+        },
+        {
+            "category": "Lighting",
+            "title": "LED Lighting",
+            "description": "Light up your evenings. Powerful and energy-efficient LED projectors (white or RGB) to create unique atmospheres and showcase your pool."
+        },
+        {
+            "category": "Electrical",
+            "title": "Smart Electrical Panel",
+            "description": "Control your pool at your fingertips. Smart panels to manage filtration, lighting and heating directly from your smartphone."
+        }
+    ],
+    "cta": {
+        "title": "An Equipment Project?",
+        "subtitle": "Need advice or a quote for installing one of these products?"
+    }
+}

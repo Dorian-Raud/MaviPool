@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "title": "Dépannage Piscine - MaviPool Alpes-Maritimes | Intervention Rapide",
+        "description": "Dépannage piscine rapide dans les Alpes-Maritimes. Panne pompe, fuite, eau verte, problème électrique. Intervention 7j/7 en saison."
+    },
+    "hero": {
+        "title": "Dépannage Piscine",
+        "subtitle": "Intervention rapide et efficace pour tous vos problèmes techniques"
+    },
+    "intro": {
+        "title": "Une Panne ? Nous Intervenons Rapidement",
+        "p1": "Une eau qui tourne, une pompe en panne ou une fuite suspecte ? Ne laissez pas un problème technique gâcher votre saison de baignade. MaviPool intervient rapidement dans tout le département des Alpes-Maritimes.",
+        "p2": "Nos techniciens qualifiés disposent de tout le matériel nécessaire pour diagnostiquer et réparer la plupart des pannes dès la première visite.",
+        "p3": "Nous intervenons rapidement dans tout le département des Alpes-Maritimes : Nice, Saint-Laurent-du-Var, Cagnes-sur-Mer, Villeneuve-Loubet, Antibes, Cannes, Mougins, Valbonne, Grasse, Vence, Saint-Paul-de-Vence, La colle-sur-Loup, Roquefort-les-Pins, Le Rouret, Opio, Biot, Mandelieu, Théoule-sur-Mer ...",
+        "emergencyCall": "Appel d'Urgence : 06 74 81 37 21"
+    },
+    "domains": {
+        "title": "Nos Domaines d'Intervention",
+        "water": {
+            "title": "Problèmes d'Eau",
+            "items": [
+                "Rattrapage eau verte",
+                "Eau trouble ou laiteuse",
+                "Problème de pH ou chlore",
+                "Traitement choc"
+            ]
+        },
+        "filtration": {
+            "title": "Filtration & Pompes",
+            "items": [
+                "Pompe bruyante ou arrêtée",
+                "Filtre colmaté ou cassé",
+                "Fuite au local technique",
+                "Problème d'amorçage"
+            ]
+        },
+        "electrical": {
+            "title": "Électricité & Chauffage",
+            "items": [
+                "Panne coffret électrique",
+                "Pompe à chaleur en défaut",
+                "Éclairage défectueux",
+                "Problème électrolyseur"
+            ]
+        },
+        "automatic": {
+            "title": "Équipements Automatiques",
+            "items": [
+                "Panne volet roulant",
+                "Robot nettoyeur en panne",
+                "Régulateur pH/Redox HS",
+                "Domotique défaillante"
+            ]
+        }
+    },
+    "process": {
+        "title": "Notre Processus d'Intervention",
+        "steps": [
+            {
+                "title": "Contact",
+                "description": "Appelez nous pour nous décrire votre problème afin d'établir un premier diagnostic"
+            },
+            {
+                "title": "Diagnostic",
+                "description": "Déplacement sur site et identification précise de la panne"
+            },
+            {
+                "title": "Devis",
+                "description": "Proposition chiffrée immédiate pour la réparation"
+            },
+            {
+                "title": "Intervention",
+                "description": "Intervention immédiate ou commande rapide des pièces"
+            }
+        ]
+    },
+    "cta": {
+        "title": "Besoin d'un Dépannage Urgent ?",
+        "subtitle": "Nous sommes disponibles 7j/7 en saison estivale"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "nav": {
+        "installation": "Installation",
+        "renovation": "Rénovation",
+        "depannage": "Dépannage",
+        "entretien": "Entretien",
+        "about": "À propos",
+        "quote": "Devis Gratuit"
+    },
+    "footer": {
+        "description": "Expert en installation, rénovation et entretien de piscines dans les Alpes-Maritimes. De Théoule-sur-Mer à Menton.",
+        "services": "Services",
+        "poolMaintenance": "Entretien de piscine",
+        "renovation": "Rénovation",
+        "troubleshooting": "Dépannage",
+        "achievements": "Nos réalisations",
+        "company": "Entreprise",
+        "about": "À propos",
+        "hours": "Horaires",
+        "monday": "Lundi :    8h - 17h",
+        "tuesday": "Mardi :    8h - 17h",
+        "wednesday": "Mercredi : 8h - 17h",
+        "thursday": "Jeudi :    8h - 17h",
+        "friday": "Vendredi : 8h - 17h",
+        "saturday": "Samedi :   8h - 13h",
+        "zone": "Zone d'intervention",
+        "zoneText1": "Alpes-Maritimes",
+        "zoneText2": "De Théoule-sur-Mer à Menton",
+        "zoneText3": "Cannes, Antibes, Nice, Monaco",
+        "rights": "Tous droits réservés.",
+        "legal": "Mentions légales",
+        "privacy": "Confidentialité"
+    }
+}

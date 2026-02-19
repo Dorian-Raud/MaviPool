@@ -1,0 +1,55 @@
+{
+    "meta": {
+        "title": "Nos produits Piscine - Mavi Pool Alpes-Maritimes",
+        "description": "Découvrez notre sélection de produits piscine : volets, pompes à chaleur, électrolyseurs, robots... Installation par Mavi Pool dans le 06."
+    },
+    "hero": {
+        "title": "Nos Équipements",
+        "subtitle": "Une sélection de produits performants pour votre confort"
+    },
+    "intro": {
+        "title": "Qualité • Performance • Durabilité",
+        "description": "Chez Mavi Pool, nous ne posons que ce que nous approuvons. Nous avons sélectionné pour vous les meilleures marques et les équipements les plus fiables du marché pour garantir la longévité de votre installation et votre tranquillité d'esprit."
+    },
+    "products": [
+        {
+            "category": "Protection & Sécurité",
+            "title": "Volet Roulant Automatique",
+            "description": "Sécurisez votre bassin avec élégance. Nos volets roulants, immergés ou hors-sol, offrent une protection optimale, maintiennent la température de l'eau et réduisent l'évaporation."
+        },
+        {
+            "category": "Chauffage",
+            "title": "Pompe à Chaleur",
+            "description": "Prolongez la baignade avec les PAC. Silencieuses et connectées, elles adaptent leur puissance pour un confort thermique idéal toute l'année."
+        },
+        {
+            "category": "Traitement de l'Eau",
+            "title": "Électrolyseur au Sel",
+            "description": "Fini les produits agressifs. L'électrolyse au sel désinfecte votre eau automatiquement pour une baignade douce, sans odeur de chlore ni irritation."
+        },
+        {
+            "category": "Filtration",
+            "title": "Pompe de Filtration",
+            "description": "Le cœur de votre piscine. Nous installons des pompes performantes et économes en énergie (vitesse variable) pour une eau cristalline sans bruit excessif."
+        },
+        {
+            "category": "Filtration",
+            "title": "Filtre Triton",
+            "description": "Le cœur de votre piscine. Nous installons des filtres performants pour une eau cristalline."
+        },
+        {
+            "category": "Éclairage",
+            "title": "Éclairage LED",
+            "description": "Illuminez vos soirées. Des projecteurs LED puissants et économiques (blancs ou RGB) pour créer des ambiances uniques et mettre en valeur votre bassin."
+        },
+        {
+            "category": "Électricité",
+            "title": "Coffret Électrique Connecté",
+            "description": "Pilotez votre piscine du bout des doigts. Coffrets intelligents pour gérer filtration, éclairage et chauffage directement depuis votre smartphone."
+        }
+    ],
+    "cta": {
+        "title": "Un projet d'équipement ?",
+        "subtitle": "Besoin d'un conseil ou d'un devis pour l'installation d'un de ces produits ?"
+    }
+}

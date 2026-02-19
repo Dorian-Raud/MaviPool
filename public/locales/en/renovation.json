@@ -1,0 +1,72 @@
+{
+    "meta": {
+        "title": "Pool Renovation - MaviPool Alpes-Maritimes",
+        "description": "Pool renovation expert in the Alpes-Maritimes. Liner replacement, waterproofing, modernization, compliance upgrades. Free quote."
+    },
+    "hero": {
+        "title": "Pool Renovation",
+        "subtitle": "Give your pool a fresh new look"
+    },
+    "intro": {
+        "title": "Modernize Your Swimming Area",
+        "p1": "Does your pool need a makeover? Is the coating damaged or do you simply want to modernize your installation? MaviPool supports you in all your renovation projects.",
+        "p2": "From simple repairs to a complete makeover, we put our expertise at your service to transform your pool according to your wishes and the latest trends."
+    },
+    "solutions": {
+        "title": "Our Renovation Solutions",
+        "equipment": {
+            "title": "Equipment Modernization",
+            "items": [
+                "Equipment room optimization",
+                "Heat pump installation",
+                "Pool safety cover installation (NF P 90-308)",
+                "Automatic water treatment (salt electrolysis, chlorine/pH dosing pumps...)",
+                "LED lighting"
+            ]
+        },
+        "coating": {
+            "title": "Coating & Waterproofing",
+            "items": [
+                "Pool coating repair (shell, polyester, liner and reinforced PVC...)",
+                "Mosaic or tile replacement",
+                "Joint repair",
+                "Leak detection and repair"
+            ]
+        },
+        "basin": {
+            "title": "Pool Modifications",
+            "items": [
+                "Steps or submerged shelf creation",
+                "Depth reduction",
+                "Coping stone replacement",
+                "Overflow creation"
+            ]
+        }
+    },
+    "gallery": {
+        "title": "Our Before & After Projects",
+        "subtitle": "A picture is worth a thousand words. Discover how we transform our clients' pools.",
+        "items": [
+            {
+                "title": "Liner Replacement",
+                "description": "Replacement of a liner from an abandoned pool with a sand-colored 75/100th liner for a pool in harmony with the garden"
+            },
+            {
+                "title": "Coping Renovation",
+                "description": "Coping stone replacement with travertine"
+            },
+            {
+                "title": "Equipment Room Modernization",
+                "description": "Complete replacement of filtration and pumps for a clean, efficient and autonomous installation, filter washes are done automatically with the BESGO valve"
+            },
+            {
+                "title": "Green Water Recovery",
+                "description": "Shock treatment and restart of an abandoned pool"
+            }
+        ]
+    },
+    "cta": {
+        "title": "A Renovation Project?",
+        "subtitle": "Our experts come to study your project and advise you"
+    }
+}

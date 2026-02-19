@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "Pool Maintenance - MaviPool Alpes-Maritimes",
+        "description": "Professional pool maintenance service in the Alpes-Maritimes. Regular upkeep, water treatment, cleaning. Free quote."
+    },
+    "hero": {
+        "title": "Pool Maintenance",
+        "subtitle": "Enjoy a pool that's always clean and healthy"
+    },
+    "intro": {
+        "title": "Professional Maintenance for Crystal-Clear Water",
+        "p1": "Regular pool maintenance is essential to ensure healthy, clear and pleasant water throughout the year. Our team of experts handles all aspects of your pool upkeep.",
+        "p2": "We operate throughout the Alpes-Maritimes, from Théoule-sur-Mer to Menton, to offer you quality service and total peace of mind."
+    },
+    "prestations": {
+        "title": "Our Maintenance Services",
+        "water": {
+            "title": "Water Treatment",
+            "items": [
+                "Complete water analysis (pH, TAC, TH, Chlorine, Stabilizers)",
+                "Taylor balance balancing",
+                "Anti-algae treatment and disinfection",
+                "Water quality control"
+            ]
+        },
+        "cleaning": {
+            "title": "Pool Cleaning",
+            "items": [
+                "Cleaning pump/skimmer/overflow baskets",
+                "Skimming and surface brushing",
+                "Hydraulic vacuum cleaning",
+                "Water level control and adjustment"
+            ]
+        },
+        "diagnostic": {
+            "title": "Preventive Diagnostics",
+            "items": [
+                "Audit of your pool and equipment room",
+                "Optimization advice",
+                "Personalized recommendations",
+                "Detailed intervention report"
+            ]
+        },
+        "maintenance": {
+            "title": "Equipment Maintenance",
+            "items": [
+                "Filtration system and piping inspection",
+                "Filter and skimmer cleaning",
+                "Control panel inspection and adjustment (pump, timer)",
+                "Automatic treatment system inspection and adjustment"
+            ]
+        }
+    },
+    "plans": {
+        "title": "Our Maintenance Plans",
+        "technical": {
+            "title": "Technical",
+            "features": [
+                "Start-up and Winterization",
+                "Filtration (Filter wash and rinse)",
+                "Hydraulic (pumps, filters, valves, etc.) and electrical components check",
+                "Water chemistry (Complete analysis and adjustment)",
+                "Follow-up"
+            ],
+            "frequency": "Frequency: 1 visit per month",
+            "note": "(Treatment products not included)",
+            "cta": "Request a Quote"
+        },
+        "premium": {
+            "title": "Premium",
+            "badge": "Popular",
+            "subtitle": "(Includes the technical contract)",
+            "features": [
+                "Skimming",
+                "Wall and waterline brushing",
+                "Manual vacuuming (or robot management)",
+                "Skimmer basket cleaning",
+                "Pump pre-filter cleaning",
+                "Water level check and adjustment"
+            ],
+            "frequency": "Frequency (based on 31 visits/year)",
+            "note": "(Treatment products not included)",
+            "cta": "Request a Quote"
+        },
+        "custom": {
+            "title": "Custom",
+            "features": [
+                "Flexible frequency",
+                "À la carte services",
+                "Personalized follow-up",
+                "Complete audit",
+                "Optimization advice"
+            ],
+            "frequency": "Frequency (to be defined together)",
+            "note": "(Treatment products not included)",
+            "cta": "Request a Quote"
+        }
+    },
+    "cta": {
+        "title": "Trust Your Pool Maintenance to Experts",
+        "subtitle": "Contact us for a free, personalized quote"
+    }
+}

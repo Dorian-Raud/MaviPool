@@ -1,0 +1,103 @@
+{
+    "meta": {
+        "title": "Entretien de Piscine - MaviPool Alpes-Maritimes",
+        "description": "Service d'entretien professionnel de piscine dans les Alpes-Maritimes. Maintenance régulière, traitement de l'eau, nettoyage. Devis gratuit."
+    },
+    "hero": {
+        "title": "Entretien de Piscine",
+        "subtitle": "Profitez d'une piscine toujours propre et saine"
+    },
+    "intro": {
+        "title": "Un Entretien Professionnel pour une Eau Cristalline",
+        "p1": "L'entretien régulier de votre piscine est essentiel pour garantir une eau saine, claire et agréable tout au long de l'année. Notre équipe d'experts prend en charge tous les aspects de la maintenance de votre bassin.",
+        "p2": "Nous intervenons dans toutes les Alpes-Maritimes, de Théoule-sur-Mer à Menton, pour vous offrir un service de qualité et une tranquillité d'esprit totale."
+    },
+    "prestations": {
+        "title": "Nos Prestations d'Entretien",
+        "water": {
+            "title": "Traitement de l'eau",
+            "items": [
+                "Analyse complète de l'eau (PH, TAC, TH, Chlores, Stabilisants)",
+                "Équilibrage sur la balance de Taylor",
+                "Traitement anti-algues et désinfection",
+                "Contrôle de la qualité de l'eau"
+            ]
+        },
+        "cleaning": {
+            "title": "Nettoyage piscine",
+            "items": [
+                "Nettoyage des paniers de pompe/skimmer/débordement",
+                "Passage de l'épuisette et brossage des surfaces",
+                "Aspiration par balai hydraulique",
+                "Contrôle et ajustement du niveau d'eau"
+            ]
+        },
+        "diagnostic": {
+            "title": "Diagnostic préventif",
+            "items": [
+                "Audit de votre pisicne et de votre local technique",
+                "Conseils d'optimisation",
+                "Recommandations personnalisées",
+                "Rapport d'intervention détaillé"
+            ]
+        },
+        "maintenance": {
+            "title": "Maintenance équipements",
+            "items": [
+                "Vérification du système de filtration et de la tuyauterie",
+                "Nettoyage des filtres et skimmers",
+                "Inspection et réglage du coffret (pompe, horloge)",
+                "Inspection et réglages des traitements automatiques"
+            ]
+        }
+    },
+    "plans": {
+        "title": "Nos Formules d'Entretien",
+        "technical": {
+            "title": "Technique",
+            "features": [
+                "Mise en route et Hivernage",
+                "Filtration (Lavage et rinçage du filtre)",
+                "Contrôle des organes hydrauliques (pompes, filtres, vannes, etc.) et électriques",
+                "Chimie de l'eau (Analyse complète et ajustement)",
+                "Suivi"
+            ],
+            "frequency": "Fréquence : 1 passage par mois",
+            "note": "(Produits de traitement non inclus)",
+            "cta": "Demander un Devis"
+        },
+        "premium": {
+            "title": "Premium",
+            "badge": "Populaire",
+            "subtitle": "(Comprend le contrat technique)",
+            "features": [
+                "Passage de l'épuisette",
+                "Brossage des parois et lignes d'eau",
+                "Aspiration manuelle (ou gestion du robot)",
+                "Nettoyage des paniers de skimmers",
+                "Nettoyage  du pré-filtre de pompe",
+                "Vérification et ajustement du niveau d'eau"
+            ],
+            "frequency": "Fréquence (sur la base de 31 passages/an)",
+            "note": "(Produits de traitement non inclus)",
+            "cta": "Demander un Devis"
+        },
+        "custom": {
+            "title": "Personnalisée",
+            "features": [
+                "Fréquence adaptée",
+                "Services à la carte",
+                "Suivi personnalisé",
+                "Audit complet",
+                "Conseils d'optimisation"
+            ],
+            "frequency": "Fréquence (à définir ensemble)",
+            "note": "(Produits de traitement non inclus)",
+            "cta": "Demander un Devis"
+        }
+    },
+    "cta": {
+        "title": "Confiez l'Entretien de Votre Piscine à des Experts",
+        "subtitle": "Contactez-nous pour un devis gratuit et personnalisé"
+    }
+}

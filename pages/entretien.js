@@ -3,19 +3,24 @@ import Link from 'next/link';
 import styles from '../styles/Service.module.css';
 import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
+import { useTranslation } from '../lib/useTranslation';
 
 export default function Entretien() {
+    const { t } = useTranslation('entretien');
+
+    const prestationKeys = ['water', 'cleaning', 'diagnostic', 'maintenance'];
+
     return (
         <>
             <Head>
-                <title>Entretien de Piscine - MaviPool Alpes-Maritimes</title>
-                <meta name="description" content="Service d'entretien professionnel de piscine dans les Alpes-Maritimes. Maintenance régulière, traitement de l'eau, nettoyage. Devis gratuit." />
+                <title>{t('meta.title')}</title>
+                <meta name="description" content={t('meta.description')} />
             </Head>
 
-            <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("images/surface-piscine.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className={styles.serviceHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("/images/surface-piscine.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container">
-                    <h1>Entretien de Piscine</h1>
-                    <p>Profitez d'une piscine toujours propre et saine</p>
+                    <h1>{t('hero.title')}</h1>
+                    <p>{t('hero.subtitle')}</p>
                 </div>
             </div>
 
@@ -23,19 +28,12 @@ export default function Entretien() {
                 <div className="container">
                     <div className={styles.serviceIntro}>
                         <div className={styles.introText}>
-                            <h2>Un Entretien Professionnel pour une Eau Cristalline</h2>
-                            <p>
-                                L'entretien régulier de votre piscine est essentiel pour garantir une eau saine,
-                                claire et agréable tout au long de l'année. Notre équipe d'experts prend en charge
-                                tous les aspects de la maintenance de votre bassin.
-                            </p>
-                            <p>
-                                Nous intervenons dans toutes les Alpes-Maritimes, de Théoule-sur-Mer à Menton,
-                                pour vous offrir un service de qualité et une tranquillité d'esprit totale.
-                            </p>
+                            <h2>{t('intro.title')}</h2>
+                            <p>{t('intro.p1')}</p>
+                            <p>{t('intro.p2')}</p>
                         </div>
                         <div className={styles.introImage}>
-                            <img src="images/surface-piscine.png" alt="Entretien piscine" />
+                            <img src="/images/surface-piscine.png" alt="Entretien piscine" />
                         </div>
                     </div>
                 </div>
@@ -43,120 +41,90 @@ export default function Entretien() {
 
             <section className={`section ${styles.servicesSection}`}>
                 <div className="container">
-                    <h2 className="text-center mb-xl">Nos Prestations d'Entretien</h2>
+                    <h2 className="text-center mb-xl">{t('prestations.title')}</h2>
 
                     <div className="grid grid-4">
-                        <div className="card-entretien">
-                            <h3>Traitement de l'eau</h3>
-                            <ul className={styles.serviceList}>
-                                <li>Analyse complète de l'eau (PH, TAC, TH, Chlores, Stabilisants)</li>
-                                <li>Équilibrage sur la balance de Taylor</li>
-                                <li>Traitement anti-algues et désinfection</li>
-                                <li>Contrôle de la qualité de l'eau</li>
-                            </ul>
-                        </div>
-
-                        <div className="card-entretien">
-                            <h3>Nettoyage piscine</h3>
-                            <ul className={styles.serviceList}>
-                                <li>Nettoyage des paniers de pompe/skimmer/débordement</li>
-                                <li>Passage de l'épuisette et brossage des surfaces</li>
-                                <li>Aspiration par balai hydraulique</li>
-                                <li>Contrôle et ajustement du niveau d'eau</li>
-                            </ul>
-                        </div>
-
-                        <div className="card-entretien">
-                            <h3>Diagnostic préventif</h3>
-                            <ul className={styles.serviceList}>
-                                <li>Audit de votre pisicne et de votre local technique</li>
-                                <li>Conseils d'optimisation</li>
-                                <li>Recommandations personnalisées</li>
-                                <li>Rapport d'intervention détaillé</li>
-                            </ul>
-                        </div>
-
-                        <div className="card-entretien">
-                            <h3>Maintenance équipements</h3>
-                            <ul className={styles.serviceList}>
-                                <li>Vérification du système de filtration et de la tuyauterie</li>
-                                <li>Nettoyage des filtres et skimmers</li>
-                                <li>Inspection et réglage du coffret (pompe, horloge)</li>
-                                <li>Inspection et réglages des traitements automatiques</li>
-                            </ul>
-                        </div>
+                        {prestationKeys.map((key) => {
+                            const items = t(`prestations.${key}.items`);
+                            return (
+                                <div className="card-entretien" key={key}>
+                                    <h3>{t(`prestations.${key}.title`)}</h3>
+                                    <ul className={styles.serviceList}>
+                                        {Array.isArray(items) && items.map((item, i) => (
+                                            <li key={i}>{item}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            );
+                        })}
                     </div>
                 </div>
             </section>
 
             <section className="section">
                 <div className="container">
-                    <h2 className="text-center mb-xl">Nos Formules d'Entretien</h2>
+                    <h2 className="text-center mb-xl">{t('plans.title')}</h2>
 
                     <div className={`grid grid-3 ${styles.pricingGrid}`}>
+                        {/* Technical Plan */}
                         <div className={`card ${styles.pricingCard}`}>
                             <div className={styles.pricingHeader}>
-                                <h3>Technique</h3>
+                                <h3>{t('plans.technical.title')}</h3>
                             </div>
                             <ul className={styles.pricingFeatures}>
-                                <li>✓ Mise en route et Hivernage</li>
-                                <li>✓ Filtration (Lavage et rinçage du filtre) </li>
-                                <li>✓ Contrôle des organes hydrauliques (pompes, filtres, vannes, etc.) et électriques</li>
-                                <li>✓ Chimie de l'eau (Analyse complète et ajustement)</li>
-                                <li>✓ Suivi </li>
+                                {(() => {
+                                    const features = t('plans.technical.features');
+                                    return Array.isArray(features) && features.map((f, i) => <li key={i}>✓ {f}</li>);
+                                })()}
                             </ul>
                             <div className={styles.PrecisionCard}>
-                                <p>Fréquence : 1 passage par mois </p>
-                                <p>(Produits de traitement non inclus)</p>
+                                <p>{t('plans.technical.frequency')}</p>
+                                <p>{t('plans.technical.note')}</p>
                             </div>
-
                             <Link href="/#contact" className="btn btn-outline" style={{ width: '100%' }}>
-                                Demander un Devis
+                                {t('plans.technical.cta')}
                             </Link>
                         </div>
 
+                        {/* Premium Plan */}
                         <div className={`card ${styles.pricingCard} ${styles.featured}`}>
-                            <div className={styles.badge}>Populaire</div>
+                            <div className={styles.badge}>{t('plans.premium.badge')}</div>
                             <div className={styles.pricingHeader}>
-                                <h3>Premium</h3>
-                                <p>(Comprend le contrat technique)</p>
+                                <h3>{t('plans.premium.title')}</h3>
+                                <p>{t('plans.premium.subtitle')}</p>
                             </div>
                             <ul className={styles.pricingFeatures}>
-                                <li>✓ Passage de l’épuisette</li>
-                                <li>✓ Brossage des parois et lignes d’eau</li>
-                                <li>✓ Aspiration manuelle (ou gestion du robot)</li>
-                                <li>✓ Nettoyage des paniers de skimmers</li>
-                                <li>✓ Nettoyage  du pré-filtre de pompe</li>
-                                <li>✓ Vérification et ajustement du niveau d’eau</li>
+                                {(() => {
+                                    const features = t('plans.premium.features');
+                                    return Array.isArray(features) && features.map((f, i) => <li key={i}>✓ {f}</li>);
+                                })()}
                             </ul>
                             <div className={styles.PrecisionCard}>
-                                <p>Fréquence (sur la base de 31 passages/an)</p>
-                                <p>(Produits de traitement non inclus)</p>
+                                <p>{t('plans.premium.frequency')}</p>
+                                <p>{t('plans.premium.note')}</p>
                             </div>
-
                             <Link href="/#contact" className="btn btn-primary" style={{ width: '100%' }}>
-                                Demander un Devis
+                                {t('plans.premium.cta')}
                             </Link>
                         </div>
 
+                        {/* Custom Plan */}
                         <div className={`card ${styles.pricingCard}`}>
                             <div className={styles.pricingHeader}>
-                                <h3>Personnalisée</h3>
+                                <h3>{t('plans.custom.title')}</h3>
                             </div>
                             <ul className={styles.pricingFeatures}>
-                                <li>✓ Fréquence adaptée</li>
-                                <li>✓ Services à la carte</li>
-                                <li>✓ Suivi personnalisé</li>
-                                <li>✓ Audit complet</li>
-                                <li>✓ Conseils d'optimisation</li>
+                                {(() => {
+                                    const features = t('plans.custom.features');
+                                    return Array.isArray(features) && features.map((f, i) => <li key={i}>✓ {f}</li>);
+                                })()}
                             </ul>
                             <div className={styles.PrecisionCard}>
-                                <p>Fréquence (à définir ensemble)</p>
-                                <p>(Produits de traitement non inclus)</p>
+                                <p>{t('plans.custom.frequency')}</p>
+                                <p>{t('plans.custom.note')}</p>
                             </div>
-
                             <Link href="/#contact" className="btn btn-primary" style={{ width: '100%' }}>
-                                Demander un Devis
+                                {t('plans.custom.cta')}
                             </Link>
                         </div>
                     </div>
@@ -166,8 +134,8 @@ export default function Entretien() {
             <section className={`section ${styles.ctaSection}`}>
                 <div className="container">
                     <div className={styles.ctaContent}>
-                        <h2>Confiez l'Entretien de Votre Piscine à des Experts</h2>
-                        <p>Contactez-nous pour un devis gratuit et personnalisé</p>
+                        <h2>{t('cta.title')}</h2>
+                        <p>{t('cta.subtitle')}</p>
                         <div className={styles.ctaButtons}>
                             <CallButton />
                             <MailButton />
