@@ -2,9 +2,10 @@
 const nextConfig = {
     reactStrictMode: true,
     i18n: {
-        locales: ['fr', 'en'],
-        defaultLocale: false,
-    },
+    locales: ['fr', 'en'],
+    defaultLocale: 'fr',
+    localeDetection: false,
+},
     // Optimisation des images
     images: {
         domains: [],
