@@ -38,7 +38,7 @@ export default function Home() {
                         <h2 className="text-center mb-xl">{t('services.title')}</h2>
                         <div className="grid grid-3">
                             {/* Service 1 */}
-                            <div className="card service-card">
+                            <div className="homeCard service-card">
                                 <div className={styles.serviceImage}>
                                     <img src="/images/contraste 1(1)-2.jpg" alt="Installation de piscine" />
                                 </div>
@@ -50,7 +50,7 @@ export default function Home() {
                             </div>
 
                             {/* Service 2 */}
-                            <div className="card service-card">
+                            <div className="homeCard service-card">
                                 <div className={styles.serviceImage}>
                                     <img src="/images/avant-après.png" alt="Rénovation de piscine" />
                                 </div>
@@ -62,7 +62,7 @@ export default function Home() {
                             </div>
 
                             {/* Service 3 */}
-                            <div className="card service-card">
+                            <div className="homeCard service-card">
                                 <div className={styles.serviceImage}>
                                     <img src="/images/entretien-piscine.png" alt="Entretien de piscine" />
                                 </div>
