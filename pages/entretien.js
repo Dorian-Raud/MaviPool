@@ -5,8 +5,10 @@ import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
 import { useTranslation } from '../lib/useTranslation';
 
-export default function Entretien() {
-    const { t } = useTranslation('entretien');
+import { getTranslations } from '../lib/getTranslation';
+
+export default function Entretien({ initialTranslations }) {
+    const { t } = useTranslation('entretien', initialTranslations);
 
     const prestationKeys = ['water', 'cleaning', 'diagnostic', 'maintenance'];
 
@@ -145,4 +147,15 @@ export default function Entretien() {
             </section>
         </>
     );
+}
+
+export async function getStaticProps({ locale }) {
+    const translations = await getTranslations(locale, 'entretien');
+    const commonTranslations = await getTranslations(locale, 'common');
+    return {
+        props: {
+            initialTranslations: translations,
+            commonTranslations: commonTranslations,
+        },
+    };
 }

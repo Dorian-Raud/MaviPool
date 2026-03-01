@@ -22,11 +22,11 @@ export default function App({ Component, pageProps }) {
             */}
 
 
-            <Navbar />
+            <Navbar initialTranslations={pageProps.commonTranslations} />
             <main style={{ marginTop: '80px' }}>
                 <Component {...pageProps} />
             </main>
-            <Footer />
+            <Footer initialTranslations={pageProps.commonTranslations} />
         </>
     );
 }

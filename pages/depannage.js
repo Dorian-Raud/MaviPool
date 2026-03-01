@@ -5,8 +5,10 @@ import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
 import { useTranslation } from '../lib/useTranslation';
 
-export default function Depannage() {
-    const { t } = useTranslation('depannage');
+import { getTranslations } from '../lib/getTranslation';
+
+export default function Depannage({ initialTranslations }) {
+    const { t } = useTranslation('depannage', initialTranslations);
 
     const domains = [
         { key: 'water' },
@@ -103,4 +105,15 @@ export default function Depannage() {
             </section>
         </>
     );
+}
+
+export async function getStaticProps({ locale }) {
+    const translations = await getTranslations(locale, 'depannage');
+    const commonTranslations = await getTranslations(locale, 'common');
+    return {
+        props: {
+            initialTranslations: translations,
+            commonTranslations: commonTranslations,
+        },
+    };
 }
