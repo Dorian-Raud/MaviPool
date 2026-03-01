@@ -3,12 +3,12 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
-import { useTranslation } from '../lib/useTranslation';
 import { GraduationCap, Zap, Gem, Handshake, Phone, Mail, MapPin } from 'lucide-react';
+import { useTranslation } from '../lib/useTranslation';
+import { getTranslations } from '../lib/getTranslation';
 
-
-export default function Home() {
-    const { t } = useTranslation('home');
+export default function Home({ initialTranslations }) {
+    const { t } = useTranslation('home', initialTranslations);
 
     return (
         <>
@@ -140,4 +140,15 @@ export default function Home() {
             </main>
         </>
     );
+}
+
+export async function getStaticProps({ locale }) {
+    const translations = await getTranslations(locale, 'home');
+    const commonTranslations = await getTranslations(locale, 'common');
+    return {
+        props: {
+            initialTranslations: translations,
+            commonTranslations: commonTranslations,
+        },
+    };
 }

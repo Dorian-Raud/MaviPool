@@ -5,8 +5,10 @@ import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
 import { useTranslation } from '../lib/useTranslation';
 
-export default function Renovation() {
-    const { t } = useTranslation('renovation');
+import { getTranslations } from '../lib/getTranslation';
+
+export default function Renovation({ initialTranslations }) {
+    const { t } = useTranslation('renovation', initialTranslations);
 
     const solutionKeys = ['equipment', 'coating', 'basin'];
 
@@ -108,4 +110,15 @@ export default function Renovation() {
             </section>
         </>
     );
+}
+
+export async function getStaticProps({ locale }) {
+    const translations = await getTranslations(locale, 'renovation');
+    const commonTranslations = await getTranslations(locale, 'common');
+    return {
+        props: {
+            initialTranslations: translations,
+            commonTranslations: commonTranslations,
+        },
+    };
 }

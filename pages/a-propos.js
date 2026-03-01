@@ -4,10 +4,11 @@ import styles from '../styles/About.module.css';
 import { GraduationCap, Zap, Gem, Handshake, Phone, Mail, MapPin } from 'lucide-react';
 import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
+import { getTranslations } from '../lib/getTranslation';
 import { useTranslation } from '../lib/useTranslation';
 
-export default function About() {
-    const { t } = useTranslation('about');
+export default function About({ initialTranslations }) {
+    const { t } = useTranslation('about', initialTranslations);
 
     return (
         <>
@@ -74,4 +75,15 @@ export default function About() {
             </section>
         </>
     );
+}
+
+export async function getStaticProps({ locale }) {
+    const translations = await getTranslations(locale, 'about');
+    const commonTranslations = await getTranslations(locale, 'common');
+    return {
+        props: {
+            initialTranslations: translations,
+            commonTranslations: commonTranslations,
+        },
+    };
 }

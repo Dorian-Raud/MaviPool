@@ -6,8 +6,10 @@ import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
 import { useTranslation } from '../lib/useTranslation';
 
-export default function Installation() {
-    const { t } = useTranslation('installation');
+import { getTranslations } from '../lib/getTranslation';
+
+export default function Installation({ initialTranslations }) {
+    const { t } = useTranslation('installation', initialTranslations);
 
     const productImages = [
         "/images/open classic.jpg",
@@ -78,4 +80,15 @@ export default function Installation() {
             </section>
         </>
     );
+}
+
+export async function getStaticProps({ locale }) {
+    const translations = await getTranslations(locale, 'installation');
+    const commonTranslations = await getTranslations(locale, 'common');
+    return {
+        props: {
+            initialTranslations: translations,
+            commonTranslations: commonTranslations,
+        },
+    };
 }

@@ -4,9 +4,9 @@ import { useState } from 'react';
 import { useTranslation } from '../lib/useTranslation';
 import styles from '../styles/Navbar.module.css';
 
-export default function Navbar() {
+export default function Navbar({ initialTranslations }) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const { t, locale } = useTranslation('common');
+    const { t, locale } = useTranslation('common', initialTranslations);
     const router = useRouter();
 
     const toggleMenu = () => {
