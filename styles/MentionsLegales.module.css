@@ -1,0 +1,18 @@
+.mentionsLegales {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.mentionsLegales h2 {
+    text-align: center;
+    padding: 2rem;
+}
+.mentionsLegales p {
+    text-align: justify;
+    padding: 1rem 2rem 2rem 1rem;
+}
+
+.mentionsLegales ul {
+    list-style-type: none;
+    padding: 1rem 1rem 2rem 1rem;
+}
