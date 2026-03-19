@@ -54,7 +54,7 @@
     line-height: 1.8;
     margin-bottom: var(--spacing-md);
     white-space: pre-line;
-    /* Pour respecter les sauts de ligne du texte */
+    text-align: justify;
 }
 
 .aboutImage {

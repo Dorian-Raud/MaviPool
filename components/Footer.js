@@ -79,7 +79,7 @@ export default function Footer({ initialTranslations }) {
                 <div className={styles.footerBottom}>
                     <p>&copy; {currentYear} MaviPool. {t('footer.rights')}</p>
                     <div className={styles.legalLinks}>
-                        <Link href="#mentions">{t('footer.legal')}</Link>
+                        <Link href="/mentions-legales">{t('footer.legal')}</Link>
                         <Link href="#confidentialite">{t('footer.privacy')}</Link>
                     </div>
                 </div>

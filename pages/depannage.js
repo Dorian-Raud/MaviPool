@@ -47,7 +47,7 @@ export default function Depannage({ initialTranslations }) {
                                 </a>
                             </div>
                         </div>
-                        <div className={styles.introImageDepannage}>
+                        <div className={styles.introImage}>
                             <img src="/images/traficante-dans-le-bendo.png" alt="vehicule-de-depannage" />
                         </div>
                     </div>

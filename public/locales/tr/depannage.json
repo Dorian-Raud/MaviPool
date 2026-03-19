@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "Havuz Arıza Servisi - MaviPool Alpes-Maritimes | Hızlı Müdahale",
+    "description": "Alpes-Maritimes bölgesinde hızlı havuz arızası çözümü. Pompa arızası, sızıntı, yeşil su, elektrik problemi. Sezonda 7/7 müdahale."
+  },
+  "hero": {
+    "title": "Havuz Arıza Servisi",
+    "subtitle": "Tüm teknik sorunlarınız için hızlı ve etkili müdahale"
+  },
+  "intro": {
+    "title": "Bir arıza mı var? Hemen müdahale ediyoruz",
+    "p1": "Değişen/yanlış dolaşan su, arızalı bir pompa ya da şüpheli bir sızıntı mı? Teknik bir problem yüzme sezonunuzu bozmasın. MaviPool, Alpes-Maritimes genelinde hızla müdahale eder.",
+    "p2": "Nitelikli teknisyenlerimiz, çoğu arızayı ilk ziyaretinde teşhis edip onarmak için gerekli tüm ekipmana sahiptir.",
+    "p3": "Alpes-Maritimes genelinde hızlı müdahale ediyoruz: Nice, Saint-Laurent-du-Var, Cagnes-sur-Mer, Villeneuve-Loubet, Antibes, Cannes, Mougins, Valbonne, Grasse, Vence, Saint-Paul-de-Vence, La Colle-sur-Loup, Roquefort-les-Pins, Le Rouret, Opio, Biot, Mandelieu, Théoule-sur-Mer ...",
+    "emergencyCall": "Acil Arama: 06 74 81 37 21"
+  },
+  "domains": {
+    "title": "Müdahale Alanlarımız",
+    "water": {
+      "title": "Su Problemleri",
+      "items": [
+        "Yeşil su giderimi",
+        "Bulutlu veya süt gibi su",
+        "pH veya klor sorunları",
+        "Şok uygulama"
+      ]
+    },
+    "filtration": {
+      "title": "Filtrasyon & Pompalar",
+      "items": [
+        "Gürültülü veya durmuş pompa",
+        "Tıkanmış veya kırılmış filtre",
+        "Teknik alan sızıntısı",
+        "Emiş/başlatma (amorçaj) problemi"
+      ]
+    },
+    "electrical": {
+      "title": "Elektrik & Isıtma",
+      "items": [
+        "Elektrik kontrol panosu arızası",
+        "Isı pompası arızası",
+        "Arızalı aydınlatma",
+        "Elektroliz cihazı problemi"
+      ]
+    },
+    "automatic": {
+      "title": "Otomatik Ekipmanlar",
+      "items": [
+        "Otomatik panjur arızası",
+        "Robot süpürücü arızası",
+        "pH/Redox regülatörü arızası",
+        "Ev otomasyonu (domotika) arızası"
+      ]
+    }
+  },
+  "process": {
+    "title": "Müdahale Sürecimiz",
+    "steps": [
+      {
+        "title": "İletişim",
+        "description": "Sorununuzu anlatmanız için bizi arayın; ilk teşhisi yapalım."
+      },
+      {
+        "title": "Teşhis",
+        "description": "Saha ziyareti ve arızanın kesin tespiti."
+      },
+      {
+        "title": "Teklif",
+        "description": "Onarım için anında kalem kalem fiyat teklifi."
+      },
+      {
+        "title": "Müdahale",
+        "description": "Hemen onarım veya parçaların hızlı temini."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Acil Arıza Desteğine mi ihtiyacınız var?",
+    "subtitle": "Sezonda 7/7 hizmetinizdeyiz."
+  }
+}

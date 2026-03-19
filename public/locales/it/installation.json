@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "I nostri prodotti piscina - Mavi Pool Alpi Marittime",
+    "description": "Scopri la nostra selezione di prodotti per piscina: coperture, pompe di calore, elettrolizzatori al sale, robot... Installazione a cura di Mavi Pool nel 06."
+  },
+  "hero": {
+    "title": "Le nostre attrezzature",
+    "subtitle": "Una selezione di prodotti performanti per il tuo comfort"
+  },
+  "intro": {
+    "title": "Qualità • Prestazioni • Durata",
+    "description": "Da Mavi Pool installiamo solo ciò che approviamo. Abbiamo selezionato per te le migliori marche e le attrezzature più affidabili sul mercato per garantire la longevità dell’impianto e la tua tranquillità."
+  },
+  "products": [
+    {
+      "category": "Protezione & Sicurezza",
+      "title": "Tapparella avvolgibile automatica",
+      "description": "Metti in sicurezza il tuo bacino con eleganza. Le nostre coperture avvolgibili, a scomparsa o fuori terra, offrono una protezione ottimale, mantengono la temperatura dell’acqua e riducono l’evaporazione."
+    },
+    {
+      "category": "Riscaldamento",
+      "title": "Pompa di calore",
+      "description": "Prolunga la stagione di balneazione con le pompe di calore. Silenziose e connesse, adattano la loro potenza per un comfort termico ideale tutto l’anno."
+    },
+    {
+      "category": "Trattamento dell’acqua",
+      "title": "Elettrolizzatore al sale",
+      "description": "Basta prodotti aggressivi. L’elettrolisi al sale disinfetta automaticamente l’acqua per un bagno dolce, senza odore di cloro né irritazioni."
+    },
+    {
+      "category": "Filtrazione",
+      "title": "Pompa di filtrazione",
+      "description": "Il cuore della tua piscina. Installiamo pompe performanti ed a basso consumo energetico (a velocità variabile) per un’acqua cristallina senza rumore eccessivo."
+    },
+    {
+      "category": "Filtrazione",
+      "title": "Filtro Triton",
+      "description": "Il cuore della tua piscina. Installiamo filtri performanti per un’acqua cristallina."
+    },
+    {
+      "category": "Illuminazione",
+      "title": "Illuminazione LED",
+      "description": "Illumina le tue serate. Proiettori LED potenti ed economici (bianchi o RGB) per creare atmosfere uniche e valorizzare il tuo bacino."
+    },
+    {
+      "category": "Elettricità",
+      "title": "Quadro elettrico connesso",
+      "description": "Controlla la tua piscina con un dito. Quadri intelligenti per gestire filtrazione, illuminazione e riscaldamento direttamente dallo smartphone."
+    }
+  ],
+  "cta": {
+    "title": "Un progetto di attrezzatura?",
+    "subtitle": "Hai bisogno di un consiglio o di un preventivo per l’installazione di uno di questi prodotti?"
+  }
+}

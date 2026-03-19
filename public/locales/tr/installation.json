@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "Havuz Ürünlerimiz - Mavi Pool Alpes-Maritimes",
+    "description": "Havuz ürünlerimiz: panjur, ısı pompası, tuz elektroliz sistemleri, robotlar... Mavi Pool tarafından 06’da kurulum. "
+  },
+  "hero": {
+    "title": "Havuz Ekipmanlarımız",
+    "subtitle": "Konforunuz için yüksek performanslı ürün seçkisi"
+  },
+  "intro": {
+    "title": "Kalite • Performans • Dayanıklılık",
+    "description": "Mavi Pool olarak onaylamadığımız hiçbir ürünü kurmuyoruz. Projenizin uzun ömürlü olmasını ve içinizin rahat etmesini sağlamak için pazardaki en iyi markaları ve en güvenilir ekipmanları seçtik."
+  },
+  "products": [
+    {
+      "category": "Koruma & Güvenlik",
+      "title": "Otomatik Havuz Kapağı",
+      "description": "Havuzunuzu zarifçe güvene alın. Su içinde veya zemin üstünde kullanılabilen havuz kapaklarımız; optimum koruma sağlar, suyun sıcaklığını korur ve buharlaşmayı azaltır."
+    },
+    {
+      "category": "Isıtma",
+      "title": "Isı Pompası",
+      "description": "Isı pompalarıyla yüzme sezonunuzu uzatın. Sessiz ve bağlantılı modeller; yıl boyunca ideal termal konfor için güçlerini ayarlar."
+    },
+    {
+      "category": "Su Arıtma",
+      "title": "Tuz Elektroliz Cihazı",
+      "description": "Artık sert kimyasallar yok. Tuz elektrolizi suyunuzu otomatik olarak dezenfekte eder; klor kokusu ve tahriş olmadan daha yumuşak bir yüzme deneyimi sağlar."
+    },
+    {
+      "category": "Filtrasyon",
+      "title": "Filtrasyon Pompası",
+      "description": "Havuzunuzun kalbi. Değişken hızlı (enerji tasarruflu) yüksek performanslı pompaları kuruyoruz; aşırı gürültü olmadan berrak su elde edin."
+    },
+    {
+      "category": "Filtrasyon",
+      "title": "Triton Filtresi",
+      "description": "Havuzunuzun kalbi. Berrak su için yüksek performanslı filtreler kuruyoruz."
+    },
+    {
+      "category": "Aydınlatma",
+      "title": "LED Aydınlatma",
+      "description": "Akşamlarınızı aydınlatın. Güçlü ve ekonomik LED projektörler (beyaz veya RGB) ile benzersiz atmosferler oluşturun ve havuzunuzu ön plana çıkarın."
+    },
+    {
+      "category": "Elektrik",
+      "title": "Akıllı Elektrik Panosu",
+      "description": "Havuzunuzu avuçlarınızın içinde yönetin. Filtrasyon, aydınlatma ve ısıtmayı doğrudan akıllı telefonunuzdan yönetmek için akıllı panolar."
+    }
+  ],
+  "cta": {
+    "title": "Bir ekipman projesi mi?",
+    "subtitle": "Bu ürünlerden birinin kurulumu için tavsiye veya teklif mi gerekiyor?"
+  }
+}

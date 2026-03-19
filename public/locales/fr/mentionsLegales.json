@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Mentions légales - MaviPool",
+    "description": "Mentions légales du site MaviPool."
+  },
+  "title": "Mentions Légales",
+  "sections": {
+    "owner": "Propriétaire du site Internet",
+    "realization": "Réalisation du site Internet",
+    "hosting": "Hébergement du site internet",
+    "intellectualProperty": "Propriété intellectuelle",
+    "personalData": "Données personnelles",
+    "liabilityLimitation": "Limitation de responsabilité",
+    "hyperlinks": "Liens hypertextes",
+    "applicableLaw": "Loi applicable"
+  },
+  "owner": {
+    "company": "MAVI POOL",
+    "l1": "SASU au capital de 2000 €",
+    "l2": "Siège social : 9 Rue Esther Poggio, 06300 Nice, France",
+    "l3": "RCS : 101 092 211 R.C.S. Nice",
+    "l4": "SIRET : 10109221100016",
+    "l5": "Code APE : 81.29b",
+    "l6": "Représentée par : Çetin EDES - Président",
+    "l7": "Email : mavipool@outlook.fr",
+    "l8": "Téléphone : 06 74 81 37 21",
+    "l9": "Directeur de la publication : Çetin EDES - Président",
+    "l10": "Responsable du site : Çetin EDES - Président"
+  },
+  "realization": {
+    "text": "Site réalisé par : Dorian RAUD Adresse de contact : dorian.raud@oclock.school"
+  },
+  "hosting": {
+    "text": "L'hébergement du site est assuré par Vercel, Inc., dont le siège social est situé au 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis. Pour toute question ou demande relative au site, vous pouvez contacter le responsable de la publication au 04 94 09 78 78. La maintenance technique du site est assurée par : MAVI POOL"
+  },
+  "intellectualProperty": {
+    "text": "L’ensemble du site, incluant notamment : la structure générale, les textes, les images, les photographies, les vidéos, les logos, les éléments graphiques, le savoir-faire, et tout autre contenu, est la propriété exclusive de MAVI POOL, sauf mention contraire. Toute reproduction, représentation, modification, publication, adaptation totale ou partielle du site ou de l’un de ses éléments, sans autorisation écrite préalable, est strictement interdite et constitue une contrefaçon au sens des articles L.335-2 et suivants du Code de la propriété intellectuelle. Les marques, logos et signes distinctifs présents sur le site sont protégés. Toute reproduction totale ou partielle sans autorisation est prohibée."
+  },
+  "personalData": {
+    "text": "Le site www.mavipool.fr peut utiliser des cookies nécessaires à son bon fonctionnement (navigation, formulaires, sécurité). Les données personnelles collectées via les formulaires (nom, email, téléphone, informations techniques) sont utilisées exclusivement pour : répondre aux demandes, établir des devis, assurer le suivi client, planifier des interventions. Elles ne sont jamais transmises à des tiers non autorisés. Conformément au RGPD et à la loi Informatique et Libertés, vous disposez d’un droit : d’accès, de rectification, d’opposition, de suppression, de portabilité. Pour exercer vos droits : mavipool@outlook.fr"
+  },
+  "liabilityLimitation": {
+    "text": "MAVI POOL s’efforce d’assurer l’exactitude des informations présentes sur le site. Toutefois, l’entreprise ne saurait être tenue responsable : d’erreurs ou omissions, d’une indisponibilité temporaire du site, de dommages directs ou indirects liés à l’utilisation du site."
+  },
+  "hyperlinks": {
+    "text": "Le site peut contenir des liens vers des sites tiers. MAVI POOL n’exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu."
+  },
+  "applicableLaw": {
+    "text": "Les présentes mentions légales sont régies par le droit français. En cas de litige, les tribunaux compétents seront ceux du ressort du siège social de MAVI POOL."
+  }
+}

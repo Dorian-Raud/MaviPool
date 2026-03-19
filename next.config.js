@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     i18n: {
-    locales: ['fr', 'en'],
+    locales: ['fr', 'en', 'it', 'tr'],
     defaultLocale: 'fr',
     localeDetection: false,
 },

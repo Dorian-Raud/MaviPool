@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Chi è Mavi Pool - Piscinista Alpi Marittime",
+    "description": "Scopri Mavi Pool, il tuo esperto piscina nelle Alpi Marittime. La nostra storia, i nostri valori e il nostro team al tuo servizio."
+  },
+  "history": {
+    "title": "La nostra storia",
+    "p1": "Fondata da un appassionato di piscine, Mavi Pool nasce da un’idea semplice: offrire un servizio d’eccellenza nel settore delle piscine sulla Costa Azzurra.",
+    "p2": "Oltre 10 anni di esperienza! Magazziniere, commerciale, tecnico, responsabile, poi dietro le quinte dei produttori… Ho imparato a comprendere i bisogni dei clienti, i vincoli dei team e i segreti dei prodotti che compongono una piscina affidabile e durevole. Questa esperienza la metto a disposizione per creare un clima di fiducia. Per lavorare con onestà, qualità e trasparenza. Per guidarti verso le decisioni migliori, al giusto prezzo.",
+    "p3": "Oggi Mavi Pool è riconosciuta come un attore di riferimento nel mondo della piscina nelle Alpi Marittime, al servizio di una clientela esigente di privati e professionisti."
+  },
+  "whyUs": {
+    "title": "Perché scegliere Mavi Pool?",
+    "expertise": {
+      "title": "Competenza",
+      "description": "Più di 10 anni di esperienza nel settore delle piscine."
+    },
+    "reactivity": {
+      "title": "Reattività",
+      "description": "Intervento rapido in caso di guasto o emergenza."
+    },
+    "quality": {
+      "title": "Qualità",
+      "description": "Utilizzo dei migliori materiali e delle migliori attrezzature sul mercato."
+    },
+    "trust": {
+      "title": "Fiducia",
+      "description": "Preventivi trasparenti e rispetto dei tempi concordati."
+    }
+  },
+  "cta": {
+    "title": "Vuoi lavorare con noi?",
+    "subtitle": "Contattaci per parlare del tuo progetto"
+  }
+}

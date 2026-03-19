@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Legal Notice - MaviPool",
+    "description": "Legal notice of the MaviPool website."
+  },
+  "title": "Legal Notice",
+  "sections": {
+    "owner": "Website owner",
+    "realization": "Website design",
+    "hosting": "Website hosting",
+    "intellectualProperty": "Intellectual property",
+    "personalData": "Personal data",
+    "liabilityLimitation": "Limitation of liability",
+    "hyperlinks": "Hyperlinks",
+    "applicableLaw": "Governing law"
+  },
+  "owner": {
+    "company": "MAVI POOL",
+    "l1": "SASU with share capital of €2,000",
+    "l2": "Registered office: 9 Rue Esther Poggio, 06300 Nice, France",
+    "l3": "RCS: 101 092 211 R.C.S. Nice",
+    "l4": "SIRET: 10109221100016",
+    "l5": "APE code: 81.29b",
+    "l6": "Represented by: Çetin EDES - President",
+    "l7": "Email: mavipool@outlook.fr",
+    "l8": "Phone: 06 74 81 37 21",
+    "l9": "Publication director: Çetin EDES - President",
+    "l10": "Website manager: Çetin EDES - President"
+  },
+  "realization": {
+    "text": "Website created by: Dorian RAUD Contact address: dorian.raud@oclock.school"
+  },
+  "hosting": {
+    "text": "Website hosting is provided by Vercel, Inc., whose registered office is located at 340 S Lemon Ave #4133, Walnut, CA 91789, United States. For any question or request related to the website, you may contact the publication director at 04 94 09 78 78. Technical maintenance of the website is provided by: MAVI POOL"
+  },
+  "intellectualProperty": {
+    "text": "All content on the website, including in particular: the general structure, the texts, the images, the photographs, the videos, the logos, the graphic elements, the know-how, and any other content, is the exclusive property of MAVI POOL unless otherwise stated. Any reproduction, representation, modification, publication, total or partial adaptation of the website or one of its elements, without prior written authorization, is strictly prohibited and constitutes copyright infringement within the meaning of Articles L.335-2 and subsequent of the French Intellectual Property Code. Trademarks, logos and distinctive signs appearing on the website are protected. Any unauthorized total or partial reproduction is prohibited."
+  },
+  "personalData": {
+    "text": "The website www.mavipool.fr may use cookies necessary for its proper functioning (navigation, forms, security). Personal data collected through forms (name, email, phone, technical information) are used exclusively to: respond to requests, prepare quotes, ensure customer follow-up, plan interventions. They are never transmitted to unauthorized third parties. In accordance with the GDPR and the French Data Protection Act (Informatique et Libertés), you have the following rights: access, rectification, objection, deletion, and portability. To exercise your rights: mavipool@outlook.fr"
+  },
+  "liabilityLimitation": {
+    "text": "MAVI POOL strives to ensure the accuracy of the information on the website. However, the company cannot be held liable for: errors or omissions, temporary unavailability of the website, or direct or indirect damages related to the use of the website."
+  },
+  "hyperlinks": {
+    "text": "The website may contain links to third-party websites. MAVI POOL does not exercise any control over these sites and disclaims all responsibility regarding their content."
+  },
+  "applicableLaw": {
+    "text": "These legal notices are governed by French law. In the event of a dispute, the competent courts will be those within the jurisdiction of MAVI POOL's registered office."
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Manutenzione piscina - MaviPool Alpi Marittime",
+    "description": "Servizio professionale di manutenzione piscina nelle Alpi Marittime. Manutenzione regolare, trattamento dell’acqua, pulizia. Preventivo gratuito."
+  },
+  "hero": {
+    "title": "Manutenzione piscina",
+    "subtitle": "Goditi una piscina sempre pulita e sana"
+  },
+  "intro": {
+    "title": "Una manutenzione professionale per un’acqua cristallina",
+    "p1": "La manutenzione regolare della piscina è essenziale per garantire un’acqua sana, limpida e piacevole durante tutto l’anno. Il nostro team di esperti si occupa di tutti gli aspetti della manutenzione del tuo bacino.",
+    "p2": "Interveniamo in tutte le Alpi Marittime, da Théoule-sur-Mer a Mentone, per offrirti un servizio di qualità e una totale tranquillità."
+  },
+  "prestations": {
+    "title": "I nostri servizi di manutenzione",
+    "water": {
+      "title": "Trattamento dell’acqua",
+      "items": [
+        "Analisi completa dell’acqua (pH, TAC, TH, Cloro, Stabilizzanti)",
+        "Equilibratura sulla scala di Taylor",
+        "Trattamento anti-alghe e disinfezione",
+        "Controllo della qualità dell’acqua"
+      ]
+    },
+    "cleaning": {
+      "title": "Pulizia piscina",
+      "items": [
+        "Pulizia dei cestelli di pompa/skimmer/sfioro",
+        "Utilizzo del retino e spazzolatura delle superfici",
+        "Aspirazione con spazzola idraulica",
+        "Controllo e regolazione del livello dell’acqua"
+      ]
+    },
+    "diagnostic": {
+      "title": "Diagnosi preventiva",
+      "items": [
+        "Audit della piscina e del locale tecnico",
+        "Consigli di ottimizzazione",
+        "Raccomandazioni personalizzate",
+        "Report di intervento dettagliato"
+      ]
+    },
+    "maintenance": {
+      "title": "Manutenzione attrezzature",
+      "items": [
+        "Verifica dell’impianto di filtrazione e delle tubazioni",
+        "Pulizia di filtri e skimmer",
+        "Ispezione e regolazione del quadro (pompa, orologio)",
+        "Ispezione e regolazioni dei trattamenti automatici"
+      ]
+    }
+  },
+  "plans": {
+    "title": "Le nostre formule di manutenzione",
+    "technical": {
+      "title": "Tecnica",
+      "features": [
+        "Messa in servizio e invernaggio",
+        "Filtrazione (lavaggio e risciacquo del filtro)",
+        "Controllo degli organi idraulici (pompe, filtri, valvole, ecc.) ed elettrici",
+        "Chimica dell’acqua (analisi completa e regolazione)",
+        "Follow-up"
+      ],
+      "frequency": "Frequenza: 1 intervento al mese",
+      "note": "(Prodotti di trattamento non inclusi)",
+      "cta": "Richiedi un preventivo"
+    },
+    "premium": {
+      "title": "Premium",
+      "badge": "Popolare",
+      "subtitle": "(Comprende il contratto tecnico)",
+      "features": [
+        "Passaggio del retino",
+        "Spazzolatura pareti e linea d’acqua",
+        "Aspirazione manuale (o gestione del robot)",
+        "Pulizia dei cestelli degli skimmer",
+        "Pulizia del prefiltro pompa",
+        "Verifica e regolazione del livello dell’acqua"
+      ],
+      "frequency": "Frequenza (su base di 31 interventi/anno)",
+      "note": "(Prodotti di trattamento non inclusi)",
+      "cta": "Richiedi un preventivo"
+    },
+    "custom": {
+      "title": "Personalizzata",
+      "features": [
+        "Frequenza adattata",
+        "Servizi à la carte",
+        "Follow-up personalizzato",
+        "Audit completo",
+        "Consigli di ottimizzazione"
+      ],
+      "frequency": "Frequenza (da definire insieme)",
+      "note": "(Prodotti di trattamento non inclusi)",
+      "cta": "Richiedi un preventivo"
+    }
+  },
+  "cta": {
+    "title": "Affida la manutenzione della tua piscina a esperti",
+    "subtitle": "Contattaci per un preventivo gratuito e personalizzato"
+  }
+}
