@@ -7,8 +7,10 @@
     overflow: hidden;
 }
 
-.serviceRenovation {
-    padding: 2.5rem 2rem;
+.serviceRenovation .introText {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-xl);
 }
 
 
@@ -31,7 +33,7 @@
 /* Service Intro */
 .serviceIntro {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: var(--spacing-3xl);
     align-items: center;
 }
@@ -45,6 +47,7 @@
     font-size: 1.1rem;
     color: var(--color-gray-600);
     line-height: 1.8;
+    text-align: justify;
 }
 
 .introImage {
@@ -382,6 +385,7 @@
 
     .introImage {
         height: 300px;
+        display: none;
     }
 
     .urgencyBanner {
