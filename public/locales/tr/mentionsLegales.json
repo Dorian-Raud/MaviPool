@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Yasal Bildirimler - MaviPool",
+    "description": "MaviPool web sitesinin yasal bildirimleri."
+  },
+  "title": "Yasal Bildirimler",
+  "sections": {
+    "owner": "Web sitesi sahibi",
+    "realization": "Web sitesinin hazırlanması",
+    "hosting": "Web sitesi barındırma",
+    "intellectualProperty": "Fikri mülkiyet",
+    "personalData": "Kişisel veriler",
+    "liabilityLimitation": "Sorumluluğun sınırlandırılması",
+    "hyperlinks": "Hiperlinkler",
+    "applicableLaw": "Uygulanabilir hukuk"
+  },
+  "owner": {
+    "company": "MAVI POOL",
+    "l1": "Sermayesi 2.000 € olan SASU",
+    "l2": "Tescilli adres: 9 Rue Esther Poggio, 06300 Nice, Fransa",
+    "l3": "RCS: 101 092 211 R.C.S. Nice",
+    "l4": "SIRET: 10109221100016",
+    "l5": "APE kodu: 81.29b",
+    "l6": "Şu kişi tarafından temsil edilir: Çetin EDES - Başkan",
+    "l7": "E-posta: mavipool@outlook.fr",
+    "l8": "Telefon: 06 74 81 37 21",
+    "l9": "Yayın müdürü: Çetin EDES - Başkan",
+    "l10": "Site sorumlusu: Çetin EDES - Başkan"
+  },
+  "realization": {
+    "text": "Web sitesi: Dorian RAUD tarafından hazırlanmıştır İletişim adresi: dorian.raud@oclock.school"
+  },
+  "hosting": {
+    "text": "Web sitesinin barındırması, merkez ofisi 340 S Lemon Ave #4133, Walnut, CA 91789, Amerika Birleşik Devletleri’nde bulunan Vercel, Inc. tarafından sağlanmaktadır. Siteyle ilgili herhangi bir soru veya talep için yayın sorumlusuyla 04 94 09 78 78 numarasından iletişime geçebilirsiniz. Web sitesinin teknik bakımı: MAVI POOL tarafından sağlanmaktadır."
+  },
+  "intellectualProperty": {
+    "text": "Genel olarak site; özellikle: genel yapı, metinler, görseller, fotoğraflar, videolar, logolar, grafik öğeler, know-how ve diğer tüm içeriklerle birlikte, aksi belirtilmedikçe MAVI POOL’un münhasır mülkiyetindedir. Sitenin veya unsurlarından herhangi birinin, önceden yazılı izin alınmadan tamamen veya kısmen çoğaltılması, temsil edilmesi, değiştirilmesi, yayınlanması, uyarlanması kesin olarak yasaktır ve Fransız Fikri Mülkiyet Kanunu’nun L.335-2 ve devamı maddeleri anlamında telif hakkı ihlali oluşturur. Sitede yer alan marka, logo ve ayırt edici işaretler korunmaktadır. Yetkisiz toplam veya kısmi her türlü çoğaltma yasaktır."
+  },
+  "personalData": {
+    "text": "www.mavipool.fr web sitesi, düzgün çalışması için gerekli çerezleri kullanabilir (gezinti, formlar, güvenlik). Formlar aracılığıyla toplanan kişisel veriler (ad, e-posta, telefon, teknik bilgiler) yalnızca şu amaçlarla kullanılır: taleplere yanıt vermek, teklif hazırlamak, müşteri takibini sağlamak, müdahaleleri planlamak. Yetkisiz üçüncü taraflara hiçbir şekilde iletilmez. RGPD ve Bilgi Teknolojileri ve Özgürlükler Kanunu uyarınca, şu haklara sahipsiniz: erişim, düzeltme, itiraz, silme ve taşınabilirlik. Haklarınızı kullanmak için: mavipool@outlook.fr"
+  },
+  "liabilityLimitation": {
+    "text": "MAVI POOL, sitede yer alan bilgilerin doğruluğunu sağlamaya çalışır. Ancak şirket, aşağıdakilerden kaynaklanan: hatalar veya eksiklikler, sitenin geçici olarak kullanılamaması, sitenin kullanımına bağlı doğrudan veya dolaylı zararlar konusunda sorumlu tutulamaz."
+  },
+  "hyperlinks": {
+    "text": "Site, üçüncü taraf sitelere bağlantılar içerebilir. MAVI POOL bu siteler üzerinde hiçbir kontrol uygulamaz ve içerikleriyle ilgili her türlü sorumluluğu reddeder."
+  },
+  "applicableLaw": {
+    "text": "Bu yasal bildirimler Fransız hukuku ile yönetilir. Herhangi bir anlaşmazlık durumunda yetkili mahkemeler, MAVI POOL’un kayıtlı merkezinin bulunduğu yerdeki mahkemelerdir."
+  }
+}
