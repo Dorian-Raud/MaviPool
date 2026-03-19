@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Havuz Yenileme - MaviPool Alpes-Maritimes",
+    "description": "Alpes-Maritimes’ta havuz yenileme uzmanı. Liner değişimi, su yalıtımı, modernizasyon, mevzuata uyum çalışmaları. Ücretsiz teklif."
+  },
+  "hero": {
+    "title": "Havuz Yenileme",
+    "subtitle": "Havuzuna yeni bir ışıltı kazandır"
+  },
+  "intro": {
+    "title": "Yüzme alanını modernleştirin",
+    "p1": "Havuzuna taze bir dokunuş gerekiyor mu? Kaplama hasarlı mı, yoksa tesisini sadece modernleştirmek mi istiyorsun? MaviPool, tüm yenileme projelerinde yanında.",
+    "p2": "Basit bir onarımdan komple yeniden dizayna kadar; havuzunu isteklerin ve güncel trendler doğrultusunda dönüştürmek için uzmanlığımızı hizmetine sunuyoruz."
+  },
+  "solutions": {
+    "title": "Havuz Yenileme Çözümlerimiz",
+    "equipment": {
+      "title": "Ekipman Modernizasyonu",
+      "items": [
+        "Teknik alanın optimizasyonu",
+        "Isı pompası kurulumu",
+        "Havuz güvenlik örtüsü kurulumu (NF P 90-308)",
+        "Otomatik su arıtma (tuz elektrolizi, klor/pH dozaj pompaları ...)",
+        "LED aydınlatma"
+      ]
+    },
+    "coating": {
+      "title": "Kaplama & Su Yalıtımı",
+      "items": [
+        "Havuz kaplamasının onarımı (kasa/shell, polyester, liner ve takviye PVC ...)",
+        "Mozaik veya seramik değişimi",
+        "Derzlerin yeniden yapılması",
+        "Sızıntıların bulunması ve onarımı"
+      ]
+    },
+    "basin": {
+      "title": "Havuz Yapısında Değişiklik",
+      "items": [
+        "Merdiven veya su altında oturma/basamak alanı oluşturma",
+        "Derinliğin azaltılması",
+        "Kenar taşlarının (margelles) değiştirilmesi",
+        "Sfırsuz (overflow) / taşmalı sistem oluşturma"
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Öncesi / Sonrası Çalışmalarımız",
+    "subtitle": "Bir görsel bin kelimeye bedeldir. Müşterilerimizin havuzlarını nasıl dönüştürdüğümüzü keşfedin.",
+    "items": [
+      {
+        "title": "Liner Değişimi",
+        "description": "Terk edilmiş bir havuzun liner’ının, bahçe ile uyumlu bir havuz için kum rengi 75/100 liner ile değiştirilmesi"
+      },
+      {
+        "title": "Havuz Kenar Taşı Yenileme",
+        "description": "Traverten ile kenar taşlarının değiştirilmesi"
+      },
+      {
+        "title": "Teknik Alan Modernizasyonu",
+        "description": "Temiz, verimli ve otomatik bir tesis için filtrasyon ve pompaların komple yenilenmesi; filtre yıkamaları BESGO vanası ile otomatik olarak yapılır."
+      },
+      {
+        "title": "Yeşil Su Giderimi",
+        "description": "Terk edilmiş bir havuzda şok uygulama ve yeniden devreye alma"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bir Yenileme Projesi mi?",
+    "subtitle": "Uzmanlarımız projenizi incelemek ve size danışmanlık yapmak için gelir."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Mavi Pool Hakkında - Alpes-Maritimes Havuz Uzmanı",
+    "description": "Mavi Pool’u tanıyın: Alpes-Maritimes’ta havuz uzmanınız. Hikayemiz, değerlerimiz ve ekibimiz sizin hizmetinizde."
+  },
+  "history": {
+    "title": "Hikayemiz",
+    "p1": "Bir havuz tutkununun kurduğu Mavi Pool; basit bir arzu ile doğdu: Fransız Rivierası’nda havuz sektöründe mükemmellik sunmak.",
+    "p2": "Şimdi 10 yılı aşkın deneyim! Depo sorumlusu, satış temsilcisi, teknisyen, sorumlu; sonra üreticilerin arka planında... Müşterilerin ihtiyaçlarını, ekiplerin koşullarını ve güvenilir, uzun ömürlü bir havuzu oluşturan ürünlerin sırlarını anlamayı öğrendim. Bu deneyimi güven iklimi oluşturmak için aktarıyorum. Dürüstlük, kalite ve şeffaflıkla çalışmak için. En iyi kararlara, doğru fiyatla yönlendirmek için.",
+    "p3": "Bugün Mavi Pool, Alpes-Maritimes’ta havuz alanında önde gelen bir oyuncu olarak kabul ediliyor; hem seçici bireylere hem de profesyonellere hizmet veriyoruz."
+  },
+  "whyUs": {
+    "title": "Neden Mavi Pool?",
+    "expertise": {
+      "title": "Uzmanlık",
+      "description": "Havuz sektöründe 10 yılı aşkın deneyim."
+    },
+    "reactivity": {
+      "title": "Hızlı Müdahale",
+      "description": "Arıza veya acil durumda hızlı müdahale."
+    },
+    "quality": {
+      "title": "Kalite",
+      "description": "Piyasadaki en iyi malzeme ve ekipmanların kullanımı."
+    },
+    "trust": {
+      "title": "Güven",
+      "description": "Şeffaf teklifler ve belirtilen sürelerin korunması."
+    }
+  },
+  "cta": {
+    "title": "Bizimle Çalışmak İster misiniz?",
+    "subtitle": "Projenizi konuşmak için bize ulaşın"
+  }
+}

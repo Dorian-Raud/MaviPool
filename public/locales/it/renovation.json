@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Ristrutturazione piscina - MaviPool Alpi Marittime",
+    "description": "Esperti in ristrutturazione di piscine nelle Alpi Marittime. Sostituzione liner, impermeabilizzazione, ammodernamento, messa a norma. Preventivo gratuito."
+  },
+  "hero": {
+    "title": "Ristrutturazione piscina",
+    "subtitle": "Ridai nuova vita alla tua piscina"
+  },
+  "intro": {
+    "title": "Modernizza il tuo spazio di balneazione",
+    "p1": "La tua piscina ha bisogno di un restyling? Il rivestimento è danneggiato o vuoi semplicemente modernizzare l’impianto? MaviPool ti accompagna in tutti i tuoi progetti di ristrutturazione.",
+    "p2": "Dalla semplice riparazione al relooking completo, mettiamo la nostra esperienza al tuo servizio per trasformare la piscina secondo i tuoi desideri e le ultime tendenze."
+  },
+  "solutions": {
+    "title": "Le nostre soluzioni di ristrutturazione",
+    "equipment": {
+      "title": "Ammodernamento delle attrezzature",
+      "items": [
+        "Ottimizzazione del locale tecnico",
+        "Installazione di pompe di calore",
+        "Installazione di coperture di sicurezza per piscina (NF P 90-308)",
+        "Trattamento automatico dell’acqua (elettrolisi al sale, pompe dosatrici cloro/pH ...)",
+        "Illuminazione LED"
+      ]
+    },
+    "coating": {
+      "title": "Rivestimento & Impermeabilizzazione",
+      "items": [
+        "Riparazione del rivestimento della piscina (vetroresina, poliestere, liner e PVC armato ...)",
+        "Sostituzione di mosaico o piastrelle",
+        "Rifacimento delle fughe",
+        "Ricerca e riparazione perdite"
+      ]
+    },
+    "basin": {
+      "title": "Modifica del bacino",
+      "items": [
+        "Creazione di scale o spiaggia immersa",
+        "Riduzione della profondità",
+        "Sostituzione delle copertine (bordature)",
+        "Creazione di sfioro"
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Le nostre realizzazioni Prima / Dopo",
+    "subtitle": "Un’immagine vale più di mille parole. Scopri come trasformiamo le piscine dei nostri clienti.",
+    "items": [
+      {
+        "title": "Sostituzione del liner",
+        "description": "Sostituzione del liner di una piscina abbandonata con un liner color sabbia 75/100 per una piscina in armonia con il giardino"
+      },
+      {
+        "title": "Ristrutturazione bordi piscina",
+        "description": "Sostituzione delle bordature con travertino"
+      },
+      {
+        "title": "Ammodernamento locale tecnico",
+        "description": "Sostituzione completa di filtrazione e pompe per un impianto pulito, efficiente e autonomo; i lavaggi dei filtri sono automatici grazie alla valvola BESGO"
+      },
+      {
+        "title": "Recupero acqua verde",
+        "description": "Trattamento choc e rimessa in funzione di una piscina abbandonata"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Un progetto di ristrutturazione?",
+    "subtitle": "I nostri esperti si spostano per studiare il tuo progetto e consigliarti"
+  }
+}

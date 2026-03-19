@@ -1,13 +1,15 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from '../lib/useTranslation';
 import styles from '../styles/Navbar.module.css';
 
 export default function Navbar({ initialTranslations }) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isLangOpen, setIsLangOpen] = useState(false);
     const { t, locale } = useTranslation('common', initialTranslations);
     const router = useRouter();
+    const langRef = useRef(null);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -16,6 +18,28 @@ export default function Navbar({ initialTranslations }) {
     const switchLocale = (newLocale) => {
         router.push(router.asPath, router.asPath, { locale: newLocale });
     };
+
+    const languages = [
+        { code: 'fr', iso: 'FR', emoji: '🇫🇷' },
+        { code: 'en', iso: 'EN', emoji: '🇬🇧' },
+        { code: 'it', iso: 'IT', emoji: '🇮🇹' },
+        { code: 'tr', iso: 'TR', emoji: '🇹🇷' },
+    ];
+
+    const currentLang = languages.find((l) => l.code === locale) || languages[0];
+
+    // Ferme la liste des langues si on clique en dehors.
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (!isLangOpen) return;
+            if (!langRef.current) return;
+            if (langRef.current.contains(event.target)) return;
+            setIsLangOpen(false);
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [isLangOpen]);
 
     return (
         <nav className={styles.navbar}>
@@ -66,19 +90,46 @@ export default function Navbar({ initialTranslations }) {
                         </Link>
                     </li>
                     <li className={styles.langSwitcher}>
-                        <button
-                            className={`${styles.langBtn} ${locale === 'fr' ? styles.langActive : ''}`}
-                            onClick={() => switchLocale('fr')}
-                        >
-                            FR
-                        </button>
-                        <span className={styles.langSep}>|</span>
-                        <button
-                            className={`${styles.langBtn} ${locale === 'en' ? styles.langActive : ''}`}
-                            onClick={() => switchLocale('en')}
-                        >
-                            EN
-                        </button>
+                        <div ref={langRef} className={styles.langRoot}>
+                            <button
+                                type="button"
+                                className={`${styles.langCurrentBtn} ${styles.langActive}`}
+                                aria-label="Choisir la langue"
+                                aria-expanded={isLangOpen}
+                                onClick={() => setIsLangOpen((v) => !v)}
+                            >
+                                <span className={styles.langFlagEmoji} aria-hidden="true">
+                                    {currentLang.emoji}
+                                </span>
+                                <span className={styles.langIso}>{currentLang.iso}</span>
+                                <span className={styles.langCaret}>▼</span>
+                            </button>
+
+                            {isLangOpen && (
+                                <div className={styles.langDropdown} role="menu" aria-label="Langues">
+                                    {languages
+                                        .filter((l) => l.code !== locale)
+                                        .map((lang) => (
+                                            <button
+                                                key={lang.code}
+                                                type="button"
+                                                className={styles.langDropdownBtn}
+                                                onClick={() => {
+                                                    switchLocale(lang.code);
+                                                    setIsLangOpen(false);
+                                                    setIsMenuOpen(false);
+                                                }}
+                                                role="menuitem"
+                                            >
+                                                <span className={styles.langFlagEmoji} aria-hidden="true">
+                                                    {lang.emoji}
+                                                </span>
+                                                <span className={styles.langIso}>{lang.iso}</span>
+                                            </button>
+                                        ))}
+                                </div>
+                            )}
+                        </div>
                     </li>
                 </ul>
             </div>

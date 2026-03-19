@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "installation": "Kurulum",
+    "renovation": "Yenileme",
+    "depannage": "Arıza Servisi",
+    "entretien": "Bakım",
+    "about": "Hakkımızda",
+    "quote": "Ücretsiz Teklif"
+  },
+  "footer": {
+    "description": "Alpes-Maritimes bölgesinde havuz kurulum, yenileme ve bakım konusunda uzman. Théoule-sur-Mer’den Menton’a.",
+    "services": "Hizmetler",
+    "poolMaintenance": "Havuz bakımı",
+    "renovation": "Yenileme",
+    "troubleshooting": "Arıza Servisi",
+    "achievements": "Çalışmalarımız",
+    "company": "Şirket",
+    "about": "Hakkımızda",
+    "hours": "Çalışma Saatleri",
+    "monday": "Pazartesi: 8:00 - 17:00",
+    "tuesday": "Salı: 8:00 - 17:00",
+    "wednesday": "Çarşamba: 8:00 - 17:00",
+    "thursday": "Perşembe: 8:00 - 17:00",
+    "friday": "Cuma: 8:00 - 17:00",
+    "saturday": "Cumartesi: 8:00 - 13:00",
+    "zone": "Hizmet Bölgesi",
+    "zoneText1": "Alpes-Maritimes",
+    "zoneText2": "Théoule-sur-Mer’den Menton’a",
+    "zoneText3": "Cannes, Antibes, Nice, Monako",
+    "rights": "Tüm hakları saklıdır.",
+    "legal": "Yasal Bilgilendirme",
+    "privacy": "Gizlilik"
+  }
+}

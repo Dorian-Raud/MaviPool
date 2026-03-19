@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "title": "Havuz Bakımı - MaviPool Alpes-Maritimes",
+    "description": "Alpes-Maritimes bölgesinde profesyonel havuz bakım hizmeti. Düzenli bakım, su arıtma, temizlik. Ücretsiz teklif."
+  },
+  "hero": {
+    "title": "Havuz Bakımı",
+    "subtitle": "Her zaman temiz ve sağlıklı bir havuzun keyfini çıkarın"
+  },
+  "intro": {
+    "title": "Berrak Su İçin Profesyonel Bakım",
+    "p1": "Havuzunuzun düzenli bakımı, yıl boyunca sağlıklı, berrak ve keyifli su için vazgeçilmezdir. Ekibimiz havuzunuzun bakımının tüm yönlerini üstlenir.",
+    "p2": "Théoule-sur-Mer’den Menton’a kadar Alpes-Maritimes’in tamamında hizmet veriyoruz; size kaliteli bir servis ve tam bir gönül rahatlığı sunuyoruz."
+  },
+  "prestations": {
+    "title": "Bakım Hizmetlerimiz",
+    "water": {
+      "title": "Su Arıtma",
+      "items": [
+        "Su için eksiksiz analiz (pH, TAC, TH, Klor, Stabilizörler)",
+        "Taylor dengeye göre dengeleme",
+        "Alg önleyici işlem ve dezenfeksiyon",
+        "Su kalitesi kontrolü"
+      ]
+    },
+    "cleaning": {
+      "title": "Havuz Temizliği",
+      "items": [
+        "Pompa/skimmer/tahliye sepetlerinin temizlenmesi",
+        "Yüzeylerin paspas/epuisette ile alınması ve fırçalanması",
+        "Hidrolik süpürgeyle vakumlama",
+        "Su seviyesinin kontrolü ve ayarı"
+      ]
+    },
+    "diagnostic": {
+      "title": "Önleyici Değerlendirme",
+      "items": [
+        "Havuzunuzun ve teknik alanınızın incelemesi",
+        "Optimizasyon önerileri",
+        "Kişiye özel tavsiyeler",
+        "Detaylı müdahale raporu"
+      ]
+    },
+    "maintenance": {
+      "title": "Ekipman Bakımı",
+      "items": [
+        "Filtrasyon sistemi ve borulama kontrolü",
+        "Filtre ve skimmer temizliği",
+        "Kontrol panosu ayarlarının incelenmesi (pompa, zaman saati)",
+        "Otomatik arıtma sistemlerinin kontrolü ve ayarı"
+      ]
+    }
+  },
+  "plans": {
+    "title": "Bakım Planlarımız",
+    "technical": {
+      "title": "Teknik",
+      "features": [
+        "Devreye alma ve kışa hazırlık",
+        "Filtrasyon (filtre yıkama ve durulama)",
+        "Hidrolik parçaların (pompa, filtre, vana vb.) ve elektrik aksamlarının kontrolü",
+        "Su kimyası (tam analiz ve ayar)",
+        "Takip"
+      ],
+      "frequency": "Sıklık: ayda 1 ziyaret",
+      "note": "(Arıtma ürünleri dahil değildir)",
+      "cta": "Teklif iste"
+    },
+    "premium": {
+      "title": "Premium",
+      "badge": "Popüler",
+      "subtitle": "(Teknik sözleşme dahildir)",
+      "features": [
+        "Yüzey alma (epuisette) işlemi",
+        "Duvarların ve su hattının fırçalanması",
+        "Manuel süpürme (veya robot yönetimi)",
+        "Skimmer sepetlerinin temizliği",
+        "Pompa ön filtrenin temizliği",
+        "Su seviyesinin kontrolü ve ayarı"
+      ],
+      "frequency": "Sıklık (yılda 31 ziyaret baz alınarak)",
+      "note": "(Arıtma ürünleri dahil değildir)",
+      "cta": "Teklif iste"
+    },
+    "custom": {
+      "title": "Özel",
+      "features": [
+        "Uygun sıklık",
+        "İhtiyaca göre hizmetler",
+        "Kişiye özel takip",
+        "Eksiksiz kontrol (audit)",
+        "Optimizasyon önerileri"
+      ],
+      "frequency": "Sıklık (birlikte belirlenecek)",
+      "note": "(Arıtma ürünleri dahil değildir)",
+      "cta": "Teklif iste"
+    }
+  },
+  "cta": {
+    "title": "Havuz bakımınızı uzmanlara bırakın",
+    "subtitle": "Ücretsiz ve kişiye özel teklif için bizimle iletişime geçin"
+  }
+}

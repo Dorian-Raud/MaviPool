@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "installation": "Installazione",
+    "renovation": "Ristrutturazione",
+    "depannage": "Assistenza",
+    "entretien": "Manutenzione",
+    "about": "Chi siamo",
+    "quote": "Preventivo gratuito"
+  },
+  "footer": {
+    "description": "Specialisti in installazione, ristrutturazione e manutenzione di piscine nelle Alpi Marittime. Da Théoule-sur-Mer a Mentone.",
+    "services": "Servizi",
+    "poolMaintenance": "Manutenzione piscina",
+    "renovation": "Ristrutturazione",
+    "troubleshooting": "Assistenza",
+    "achievements": "Le nostre realizzazioni",
+    "company": "Azienda",
+    "about": "Chi siamo",
+    "hours": "Orari",
+    "monday": "Lunedì:    8h - 17h",
+    "tuesday": "Martedì:   8h - 17h",
+    "wednesday": "Mercoledì: 8h - 17h",
+    "thursday": "Giovedì:   8h - 17h",
+    "friday": "Venerdì:   8h - 17h",
+    "saturday": "Sabato:    8h - 13h",
+    "zone": "Zona di intervento",
+    "zoneText1": "Alpi Marittime",
+    "zoneText2": "Da Théoule-sur-Mer a Mentone",
+    "zoneText3": "Cannes, Antibes, Nizza, Monaco",
+    "rights": "Tutti i diritti riservati.",
+    "legal": "Note legali",
+    "privacy": "Privacy"
+  }
+}

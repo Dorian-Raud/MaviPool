@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "MaviPool - Alpes-Maritimes Havuz Uzmanı | Kurulum, Yenileme, Bakım",
+    "description": "MaviPool, Alpes-Maritimes bölgesinde havuz uzmanınız (06). Havuz kurulum, yenileme, bakım ve arıza servis hizmetleri. Théoule-sur-Mer’den Menton’a."
+  },
+  "hero": {
+    "title": "Alpes-Maritimes bölgesinde havuz uzmanınız",
+    "subtitle": "Gerçekten huzurlu anlar için sağlam bir uzmanlık",
+    "cta": "Ücretsiz Teklif İsteyin"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "installation": {
+      "title": "Kurulum",
+      "description": "Kendi ihtiyaçlarınıza göre özel havuz yapımı; kabuk (kasa) ya da beton çözümler. Arazinize ve isteklerinize uyarlanır.",
+      "link": "Daha fazlasını öğren →"
+    },
+    "renovation": {
+      "title": "Yenileme",
+      "description": "Havuzunuzun modernizasyonu; liner değişimi, su yalıtımı ve mevzuata uygun hale getirme.",
+      "link": "Daha fazlasını öğren →"
+    },
+    "entretien": {
+      "title": "Bakım",
+      "description": "Yıl boyunca berrak ve sağlıklı su için yıllık veya sezonluk havuz bakım sözleşmeleri.",
+      "link": "Daha fazlasını öğren →"
+    }
+  },
+  "zone": {
+    "title": "Hizmet Verdiğimiz Bölge",
+    "description": "Nice’deki atölyemizden, size yakın ve hızlı bir hizmet sunmak için Alpes-Maritimes (06) genelinde çalışıyoruz.",
+    "allArea": "...Ve Alpes-Maritimes’in tamamında",
+    "cta": "Hizmet talep edin"
+  },
+  "whyUs": {
+    "title": "Neden Mavi Pool?",
+    "expertise": {
+      "title": "Uzmanlık",
+      "description": "Havuz sektöründe 10 yılı aşkın deneyim"
+    },
+    "reactivity": {
+      "title": "Hızlı Müdahale",
+      "description": "Hızlı servis ve güvenilir teşhis"
+    },
+    "quality": {
+      "title": "Kalite",
+      "description": "Piyasadaki en iyi malzeme ve ekipmanların kullanımı"
+    },
+    "trust": {
+      "title": "Güven",
+      "description": "Şeffaf teklifler ve önceden belirtilen sürelerin korunması"
+    }
+  },
+  "cta": {
+    "title": "Havuzla buluşmaya hazır mısınız?",
+    "subtitle": "Bir görüşme, bir mesaj... ve havuz projeniz şekillenmeye başlar"
+  }
+}

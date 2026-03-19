@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "title": "Assistenza piscina - MaviPool Alpi Marittime | Intervento rapido",
+    "description": "Assistenza piscina rapida nelle Alpi Marittime. Guasto pompa, perdita, acqua verde, problema elettrico. Intervento 7/7 in stagione."
+  },
+  "hero": {
+    "title": "Assistenza piscina",
+    "subtitle": "Intervento rapido ed efficace per tutti i tuoi problemi tecnici"
+  },
+  "intro": {
+    "title": "Un guasto? Interveniamo rapidamente",
+    "p1": "Acqua che gira, pompa in panne o perdita sospetta? Non lasciare che un problema tecnico rovini la tua stagione di balneazione. MaviPool interviene rapidamente in tutto il dipartimento delle Alpi Marittime.",
+    "p2": "I nostri tecnici qualificati dispongono di tutta l’attrezzatura necessaria per diagnosticare e riparare la maggior parte dei guasti già dalla prima visita.",
+    "p3": "Interveniamo rapidamente in tutto il dipartimento delle Alpi Marittime: Nizza, Saint-Laurent-du-Var, Cagnes-sur-Mer, Villeneuve-Loubet, Antibes, Cannes, Mougins, Valbonne, Grasse, Vence, Saint-Paul-de-Vence, La Colle-sur-Loup, Roquefort-les-Pins, Le Rouret, Opio, Biot, Mandelieu, Théoule-sur-Mer ...",
+    "emergencyCall": "Chiamata d’emergenza: 06 74 81 37 21"
+  },
+  "domains": {
+    "title": "I nostri ambiti di intervento",
+    "water": {
+      "title": "Problemi d’acqua",
+      "items": [
+        "Recupero acqua verde",
+        "Acqua torbida o lattiginosa",
+        "Problemi di pH o cloro",
+        "Trattamento choc"
+      ]
+    },
+    "filtration": {
+      "title": "Filtrazione & Pompe",
+      "items": [
+        "Pompa rumorosa o ferma",
+        "Filtro ostruito o rotto",
+        "Perdita nel locale tecnico",
+        "Problemi di adescamento"
+      ]
+    },
+    "electrical": {
+      "title": "Elettricità & Riscaldamento",
+      "items": [
+        "Guasto quadro elettrico",
+        "Pompa di calore in errore",
+        "Illuminazione difettosa",
+        "Problemi con l’elettrolizzatore"
+      ]
+    },
+    "automatic": {
+      "title": "Attrezzature automatiche",
+      "items": [
+        "Guasto tapparella avvolgibile",
+        "Robot pulitore in panne",
+        "Regolatore pH/Redox guasto",
+        "Domotica difettosa"
+      ]
+    }
+  },
+  "process": {
+    "title": "Il nostro processo d’intervento",
+    "steps": [
+      {
+        "title": "Contatto",
+        "description": "Chiamaci per descriverci il problema in modo da effettuare una prima diagnosi"
+      },
+      {
+        "title": "Diagnosi",
+        "description": "Sopralluogo in loco e identificazione precisa del guasto"
+      },
+      {
+        "title": "Preventivo",
+        "description": "Proposta dettagliata immediata per la riparazione"
+      },
+      {
+        "title": "Intervento",
+        "description": "Intervento immediato o ordine rapido dei ricambi"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Hai bisogno di un’assistenza urgente?",
+    "subtitle": "Siamo disponibili 7/7 durante la stagione estiva"
+  }
+}

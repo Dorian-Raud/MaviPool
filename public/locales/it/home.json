@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "MaviPool - Esperto Piscine Alpi Marittime | Installazione, Ristrutturazione, Manutenzione",
+    "description": "MaviPool, il tuo esperto di piscine nelle Alpi Marittime (06). Installazione, ristrutturazione, manutenzione e assistenza piscine. Da Théoule-sur-Mer a Mentone."
+  },
+  "hero": {
+    "title": "Il tuo esperto piscina nelle Alpi Marittime",
+    "subtitle": "Un'esperienza solida per momenti davvero sereni",
+    "cta": "Richiedi un preventivo gratuito"
+  },
+  "services": {
+    "title": "I nostri servizi",
+    "installation": {
+      "title": "Installazione",
+      "description": "Costruzione di piscine su misura, a scocca o in cemento, adattate al tuo terreno e ai tuoi desideri.",
+      "link": "Scopri di più →"
+    },
+    "renovation": {
+      "title": "Ristrutturazione",
+      "description": "Ammodernamento del tuo bacino, sostituzione del liner, impermeabilizzazione e messa a norma.",
+      "link": "Scopri di più →"
+    },
+    "entretien": {
+      "title": "Manutenzione",
+      "description": "Contratti di manutenzione annuali o stagionali per un'acqua cristallina tutto l'anno.",
+      "link": "Scopri di più →"
+    }
+  },
+  "zone": {
+    "title": "Zona di intervento",
+    "description": "Dal nostro laboratorio situato a Nizza, interveniamo in tutto il dipartimento delle Alpi Marittime (06) per offrirti un servizio di prossimità e reattivo.",
+    "allArea": "...E in tutte le Alpi Marittime",
+    "cta": "Richiedi un intervento"
+  },
+  "whyUs": {
+    "title": "Perché scegliere MaviPool?",
+    "expertise": {
+      "title": "Competenza",
+      "description": "Oltre 10 anni di esperienza nel settore delle piscine"
+    },
+    "reactivity": {
+      "title": "Reattività",
+      "description": "Intervento rapido e diagnosi affidabile"
+    },
+    "quality": {
+      "title": "Qualità",
+      "description": "Utilizzo dei migliori materiali e attrezzature sul mercato"
+    },
+    "trust": {
+      "title": "Fiducia",
+      "description": "Preventivi trasparenti e rispetto dei tempi annunciati"
+    }
+  },
+  "cta": {
+    "title": "Pronto a tuffarti?",
+    "subtitle": "Una chiamata, un messaggio... e il tuo progetto piscina prende forma"
+  }
+}
