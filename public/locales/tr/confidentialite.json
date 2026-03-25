@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Gizlilik Politikası - Mavi Pool",
+    "description": "Mavi Pool web sitesinin gizlilik politikası."
+  },
+  "title": "Gizlilik Politikası – Mavi Pool",
+  "lastUpdate": "Son güncelleme: 25/03/2025",
+  "intro": "Bu gizlilik politikasının amacı, Mavi Pool web sitesi kullanıcılarını kişisel verilerinin nasıl toplanabileceği ve işlenebileceği konusunda bilgilendirmektir.",
+  "dataCollected": {
+    "title": "Toplanan Veriler",
+    "p1": "Mavi Pool web sitesi bir iletişim formu sunmaz ve gönüllü olarak kişisel veri toplamaz.",
+    "p2": "Ancak gezinme sırasında bazı veriler otomatik olarak toplanabilir:",
+    "list": [
+      "IP Adresi",
+      "Teknik gezinme verileri (tarayıcı, cihaz, görüntülenen sayfalar)"
+    ],
+    "p3": "Bu veriler dolaylı olarak şunlar tarafından toplanır:",
+    "list2": [
+      "Web sitesi barındırıcısı (Vercel)",
+      "Sitenin düzgün çalışması için gerekli hizmetler"
+    ]
+  },
+  "dataUse": {
+    "title": "Verilerin Kullanımı",
+    "p1": "Otomatik olarak toplanan veriler yalnızca şunlar için kullanılır:",
+    "list": [
+      "Sitenin düzgün çalışmasını ve güvenliğini sağlamak",
+      "Olası teknik sorunları analiz etmek"
+    ],
+    "p2": "Hiçbir veri ticari veya reklam amacıyla kullanılmaz."
+  },
+  "thirdParty": {
+    "title": "Kullanılan Üçüncü Taraf Hizmetler",
+    "p1": "Mavi Pool web sitesi, veri transferine yol açabilecek dış hizmetler kullanmaktadır:",
+    "list": [
+      "Google Fonts: yazı tiplerini görüntülemek için kullanılır → Google'ın sunucularına bir istek gönderilmesine yol açabilir",
+      "Google Search Console: yalnızca sitenin arama sonuçlarındaki görünürlüğünü analiz etmek için kullanılır (site tarafından doğrudan kişisel veri toplanmaz)"
+    ]
+  },
+  "cookies": {
+    "title": "Çerezler",
+    "p1": "Mavi Pool web sitesi takip veya reklam çerezleri kullanmaz.",
+    "p2": "Ancak, bazı üçüncü taraf hizmetler işlevleri için gerekli olan teknik çerezleri kullanabilir."
+  },
+  "hosting": {
+    "title": "Barındırma",
+    "p1": "Site şu şirket tarafından barındırılmaktadır: Vercel Inc. 440 N Barranca Ave #4133, Covina, CA 91723, ABD",
+    "p2": "Barındırıcı, güvenlik ve bakım amacıyla teknik veriler (kayıtlar, IP adresleri) toplayabilir."
+  },
+  "retention": {
+    "title": "Saklama Süresi",
+    "p1": "Otomatik olarak toplanan teknik veriler, sitenin düzgün çalışması ve güvenliği için kesinlikle gerekli olan sınırlı bir süre boyunca saklanır."
+  },
+  "userRights": {
+    "title": "Kullanıcı Hakları",
+    "p1": "Yürürlükteki düzenlemelere uygun olarak aşağıdaki haklara sahipsiniz:",
+    "list": [
+      "Erişim hakkı",
+      "Düzeltme hakkı",
+      "Silme hakkı",
+      "İtiraz hakkı"
+    ],
+    "p2": "Her türlü talep için şununla iletişime geçebilirsiniz: mavipool@outlook.fr"
+  },
+  "contact": {
+    "title": "İletişim",
+    "p1": "Bu gizlilik politikasıyla ilgili her türlü sorunuz için: mavipool@outlook.fr"
+  }
+}

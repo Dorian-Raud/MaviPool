@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Privacy Policy - Mavi Pool",
+    "description": "Privacy policy of the Mavi Pool website."
+  },
+  "title": "Privacy Policy – Mavi Pool",
+  "lastUpdate": "Last updated: March 25, 2025",
+  "intro": "The purpose of this privacy policy is to inform users of the Mavi Pool website about how their personal data may be collected and processed.",
+  "dataCollected": {
+    "title": "Data Collected",
+    "p1": "The Mavi Pool website does not offer a contact form and does not voluntarily collect personal data.",
+    "p2": "However, certain data may be collected automatically during navigation:",
+    "list": [
+      "IP Address",
+      "Technical browsing data (browser, device, pages viewed)"
+    ],
+    "p3": "This data is collected indirectly by:",
+    "list2": [
+      "The website host (Vercel)",
+      "Services necessary for the proper functioning of the site"
+    ]
+  },
+  "dataUse": {
+    "title": "Use of Data",
+    "p1": "Data collected automatically is used strictly to:",
+    "list": [
+      "Ensure the proper functioning and security of the site",
+      "Analyze potential technical issues"
+    ],
+    "p2": "No data is used for commercial or advertising purposes."
+  },
+  "thirdParty": {
+    "title": "Third-Party Services Used",
+    "p1": "The Mavi Pool website uses external services that may result in data transfer:",
+    "list": [
+      "Google Fonts: used for displaying fonts → May result in a request to Google's servers",
+      "Google Search Console: used solely to analyze site visibility in search results (no direct collection of personal data by the site)"
+    ]
+  },
+  "cookies": {
+    "title": "Cookies",
+    "p1": "The Mavi Pool website does not use tracking or advertising cookies.",
+    "p2": "However, some third-party services may use technical cookies necessary for their functioning."
+  },
+  "hosting": {
+    "title": "Hosting",
+    "p1": "The site is hosted by: Vercel Inc. 440 N Barranca Ave #4133, Covina, CA 91723, United States",
+    "p2": "The host may collect technical data (logs, IP addresses) for security and maintenance purposes."
+  },
+  "retention": {
+    "title": "Retention Period",
+    "p1": "Technical data collected automatically is kept for a limited time, strictly necessary for the proper functioning and security of the site."
+  },
+  "userRights": {
+    "title": "User Rights",
+    "p1": "In accordance with applicable regulations, you have the following rights:",
+    "list": [
+      "Right of access",
+      "Right to rectification",
+      "Right to erasure",
+      "Right to object"
+    ],
+    "p2": "For any requests, you can contact: mavipool@outlook.fr"
+  },
+  "contact": {
+    "title": "Contact",
+    "p1": "For any questions regarding this privacy policy: mavipool@outlook.fr"
+  }
+}

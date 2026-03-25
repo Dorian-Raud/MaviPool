@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Informativa sulla privacy - Mavi Pool",
+    "description": "Informativa sulla privacy del sito web Mavi Pool."
+  },
+  "title": "Informativa sulla privacy – Mavi Pool",
+  "lastUpdate": "Ultimo aggiornamento: 25/03/2025",
+  "intro": "Lo scopo della presente informativa sulla privacy è informare gli utenti del sito web Mavi Pool su come i loro dati personali possono essere raccolti e trattati.",
+  "dataCollected": {
+    "title": "Dati raccolti",
+    "p1": "Il sito web Mavi Pool non offre un modulo di contatto e non raccoglie volontariamente dati personali.",
+    "p2": "Tuttavia, alcuni dati potrebbero essere raccolti automaticamente durante la navigazione:",
+    "list": [
+      "Indirizzo IP",
+      "Dati tecnici di navigazione (browser, dispositivo, pagine visualizzate)"
+    ],
+    "p3": "Questi dati vengono raccolti indirettamente da:",
+    "list2": [
+      "L'host del sito (Vercel)",
+      "Servizi necessari al corretto funzionamento del sito"
+    ]
+  },
+  "dataUse": {
+    "title": "Utilizzo dei dati",
+    "p1": "I dati raccolti automaticamente sono utilizzati esclusivamente per:",
+    "list": [
+      "Garantire il corretto funzionamento e la sicurezza del sito",
+      "Analizzare potenziali problemi tecnici"
+    ],
+    "p2": "Nessun dato viene utilizzato per scopi commerciali o pubblicitari."
+  },
+  "thirdParty": {
+    "title": "Servizi di terze parti utilizzati",
+    "p1": "Il sito web Mavi Pool utilizza servizi esterni che possono comportare un trasferimento di dati:",
+    "list": [
+      "Google Fonts: utilizzato per la visualizzazione dei caratteri → Può comportare una richiesta verso i server di Google",
+      "Google Search Console: utilizzato unicamente per analizzare la visibilità del sito nei risultati di ricerca (nessuna raccolta diretta di dati personali da parte del sito)"
+    ]
+  },
+  "cookies": {
+    "title": "Cookie",
+    "p1": "Il sito web Mavi Pool non utilizza cookie di tracciamento o pubblicitari.",
+    "p2": "Tuttavia, alcuni servizi di terze parti potrebbero utilizzare cookie tecnici necessari al loro funzionamento."
+  },
+  "hosting": {
+    "title": "Hosting",
+    "p1": "Il sito è ospitato da: Vercel Inc. 440 N Barranca Ave #4133, Covina, CA 91723, Stati Uniti",
+    "p2": "L'host può raccogliere dati tecnici (log, indirizzi IP) ai fini di sicurezza e manutenzione."
+  },
+  "retention": {
+    "title": "Periodo di conservazione",
+    "p1": "I dati tecnici raccolti automaticamente vengono conservati per un periodo limitato, strettamente necessario per il corretto funzionamento e la sicurezza del sito."
+  },
+  "userRights": {
+    "title": "Diritti degli utenti",
+    "p1": "In conformità con la normativa vigente, l'utente gode dei seguenti diritti:",
+    "list": [
+      "Diritto di accesso",
+      "Diritto di rettifica",
+      "Diritto alla cancellazione",
+      "Diritto di opposizione"
+    ],
+    "p2": "Per qualsiasi richiesta, è possibile contattare: mavipool@outlook.fr"
+  },
+  "contact": {
+    "title": "Contatti",
+    "p1": "Per qualsiasi domanda relativa a questa informativa sulla privacy: mavipool@outlook.fr"
+  }
+}

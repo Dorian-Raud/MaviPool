@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Politique de confidentialité - Mavi Pool",
+    "description": "Politique de confidentialité du site Mavi Pool."
+  },
+  "title": "Politique de confidentialité – Mavi Pool",
+  "lastUpdate": "Dernière mise à jour : 25/03/2025",
+  "intro": "La présente politique de confidentialité a pour objectif d’informer les utilisateurs du site Mavi Pool sur la manière dont leurs données personnelles peuvent être collectées et traitées.",
+  "dataCollected": {
+    "title": "Données collectées",
+    "p1": "Le site Mavi Pool ne propose pas de formulaire de contact et ne collecte pas volontairement de données personnelles.",
+    "p2": "Cependant, certaines données peuvent être collectées automatiquement lors de la navigation :",
+    "list": [
+      "Adresse IP",
+      "Données techniques de navigation (navigateur, appareil, pages consultées)"
+    ],
+    "p3": "Ces données sont collectées de manière indirecte par :",
+    "list2": [
+      "L’hébergeur du site (Vercel)",
+      "Les services nécessaires au bon fonctionnement du site"
+    ]
+  },
+  "dataUse": {
+    "title": "Utilisation des données",
+    "p1": "Les données collectées automatiquement sont utilisées uniquement pour :",
+    "list": [
+      "Assurer le bon fonctionnement et la sécurité du site",
+      "Analyser d’éventuels problèmes techniques"
+    ],
+    "p2": "Aucune donnée n’est utilisée à des fins commerciales ou publicitaires."
+  },
+  "thirdParty": {
+    "title": "Services tiers utilisés",
+    "p1": "Le site Mavi Pool utilise des services externes pouvant entraîner un transfert de données :",
+    "list": [
+      "Google Fonts : utilisé pour l’affichage des polices de caractères → Peut entraîner une requête vers les serveurs de Google",
+      "Google Search Console : utilisé uniquement pour analyser la visibilité du site dans les résultats de recherche (aucune collecte directe de données personnelles par le site)"
+    ]
+  },
+  "cookies": {
+    "title": "Cookies",
+    "p1": "Le site Mavi Pool n’utilise pas de cookies de suivi ou publicitaires.",
+    "p2": "Cependant, certains services tiers peuvent utiliser des cookies techniques nécessaires à leur fonctionnement."
+  },
+  "hosting": {
+    "title": "Hébergement",
+    "p1": "Le site est hébergé par : Vercel Inc. 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis",
+    "p2": "L’hébergeur peut collecter des données techniques (logs, adresses IP) à des fins de sécurité et de maintenance."
+  },
+  "retention": {
+    "title": "Durée de conservation",
+    "p1": "Les données techniques collectées automatiquement sont conservées pour une durée limitée, strictement nécessaire au bon fonctionnement et à la sécurité du site."
+  },
+  "userRights": {
+    "title": "Droits des utilisateurs",
+    "p1": "Conformément à la réglementation en vigueur, vous disposez des droits suivants :",
+    "list": [
+      "Droit d’accès",
+      "Droit de rectification",
+      "Droit de suppression",
+      "Droit d’opposition"
+    ],
+    "p2": "Pour toute demande, vous pouvez contacter : mavipool@outlook.fr"
+  },
+  "contact": {
+    "title": "Contact",
+    "p1": "Pour toute question relative à cette politique de confidentialité : mavipool@outlook.fr"
+  }
+}
