@@ -1,0 +1,19 @@
+.confidentialite {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.confidentialite h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.confidentialite p {
+    text-align: justify;
+    padding: 0rem 2rem 1rem 0rem;
+    margin: 0;
+}
+
+.confidentialite ul {
+    padding: 1rem 1rem 2rem 1rem;
+}
