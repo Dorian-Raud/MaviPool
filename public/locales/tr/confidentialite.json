@@ -34,13 +34,15 @@
     "p1": "Mavi Pool web sitesi, veri transferine yol açabilecek dış hizmetler kullanmaktadır:",
     "list": [
       "Google Fonts: yazı tiplerini görüntülemek için kullanılır → Google'ın sunucularına bir istek gönderilmesine yol açabilir",
-      "Google Search Console: yalnızca sitenin arama sonuçlarındaki görünürlüğünü analiz etmek için kullanılır (site tarafından doğrudan kişisel veri toplanmaz)"
+      "Google Search Console: yalnızca sitenin arama sonuçlarındaki görünürlüğünü analiz etmek için kullanılır (site tarafından doğrudan kişisel veri toplanmaz)",
+      "Google Tag Manager / Google Analytics: onayınıza bağlı olarak site trafiğini (görüntülenen sayfalar, trafik kaynağı) ölçmek için kullanılır → Ölçüm çerezleri yalnızca onay bandı üzerinden kabul ettikten sonra yerleştirilir"
     ]
   },
   "cookies": {
     "title": "Çerezler",
-    "p1": "Mavi Pool web sitesi takip veya reklam çerezleri kullanmaz.",
-    "p2": "Ancak, bazı üçüncü taraf hizmetler işlevleri için gerekli olan teknik çerezleri kullanabilir."
+    "p1": "Mavi Pool web sitesi, yalnızca bu amaçla sunulan bant aracılığıyla onayınız alındıktan sonra yerleştirilen kitle ölçüm çerezleri (Google Tag Manager üzerinden Google Analytics) kullanmaktadır.",
+    "p2": "Seçiminizi dilediğiniz zaman altbilgide bulunan \"Çerezleri yönet\" bağlantısı aracılığıyla kabul edebilir, reddedebilir veya değiştirebilirsiniz.",
+    "p3": "Bazı diğer üçüncü taraf hizmetler de işlevleri için gerekli teknik çerezleri kullanabilir."
   },
   "hosting": {
     "title": "Barındırma",

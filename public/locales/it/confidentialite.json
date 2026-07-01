@@ -34,13 +34,15 @@
     "p1": "Il sito web Mavi Pool utilizza servizi esterni che possono comportare un trasferimento di dati:",
     "list": [
       "Google Fonts: utilizzato per la visualizzazione dei caratteri → Può comportare una richiesta verso i server di Google",
-      "Google Search Console: utilizzato unicamente per analizzare la visibilità del sito nei risultati di ricerca (nessuna raccolta diretta di dati personali da parte del sito)"
+      "Google Search Console: utilizzato unicamente per analizzare la visibilità del sito nei risultati di ricerca (nessuna raccolta diretta di dati personali da parte del sito)",
+      "Google Tag Manager / Google Analytics: utilizzato, previo consenso, per misurare il traffico del sito (pagine visualizzate, origine del traffico) → I cookie di misurazione dell'audience vengono impostati solo dopo l'accettazione tramite il banner di consenso"
     ]
   },
   "cookies": {
     "title": "Cookie",
-    "p1": "Il sito web Mavi Pool non utilizza cookie di tracciamento o pubblicitari.",
-    "p2": "Tuttavia, alcuni servizi di terze parti potrebbero utilizzare cookie tecnici necessari al loro funzionamento."
+    "p1": "Il sito web Mavi Pool utilizza cookie di misurazione dell'audience (Google Analytics tramite Google Tag Manager), impostati solo dopo aver raccolto il tuo consenso tramite l'apposito banner.",
+    "p2": "Puoi accettare, rifiutare o modificare la tua scelta in qualsiasi momento tramite il link \"Gestisci cookie\" disponibile nel footer.",
+    "p3": "Alcuni altri servizi di terze parti potrebbero inoltre utilizzare cookie tecnici necessari al loro funzionamento."
   },
   "hosting": {
     "title": "Hosting",

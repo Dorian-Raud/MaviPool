@@ -3,6 +3,10 @@
     "title": "Mavi Pool Hakkında - Alpes-Maritimes Havuz Uzmanı",
     "description": "Mavi Pool’u tanıyın: Alpes-Maritimes’ta havuz uzmanınız. Hikayemiz, değerlerimiz ve ekibimiz sizin hizmetinizde."
   },
+  "hero": {
+    "title": "Biz Kimiz?",
+    "subtitle": "10 yılı aşkın süredir Alpes-Maritimes'ta havuz uzmanınız."
+  },
   "history": {
     "title": "Hikayemiz",
     "p1": "Bir havuz tutkununun kurduğu Mavi Pool; basit bir arzu ile doğdu: Fransız Rivierası’nda havuz sektöründe mükemmellik sunmak.",

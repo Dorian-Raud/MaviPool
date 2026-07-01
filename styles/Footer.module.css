@@ -145,6 +145,22 @@
     color: var(--color-secondary);
 }
 
+.manageCookiesBtn {
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--color-gray-300);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: color var(--transition-base);
+}
+
+.manageCookiesBtn:hover {
+    color: var(--color-secondary);
+}
+
 @media (max-width: 768px) {
     .footer {
         padding: var(--spacing-2xl) 0 var(--spacing-md);

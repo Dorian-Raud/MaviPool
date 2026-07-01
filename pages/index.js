@@ -1,5 +1,5 @@
-import Head from 'next/head';
 import Link from 'next/link';
+import SEO from '../components/SEO';
 import styles from '../styles/Home.module.css';
 import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
@@ -12,11 +12,7 @@ export default function Home({ initialTranslations }) {
 
     return (
         <>
-            <Head>
-                <title>{t('meta.title')}</title>
-                <meta name="description" content={t('meta.description')} />
-                <link rel="icon" href="/final-logo.ico" />
-            </Head>
+            <SEO title={t('meta.title')} description={t('meta.description')} ogImage="/images/hero.png" />
 
             <main>
                 {/* Hero Section */}

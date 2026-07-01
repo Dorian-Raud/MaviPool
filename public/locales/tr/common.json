@@ -29,6 +29,18 @@
     "zoneText3": "Cannes, Antibes, Nice, Monako",
     "rights": "Tüm hakları saklıdır.",
     "legal": "Yasal Bilgilendirme",
-    "privacy": "Gizlilik"
+    "privacy": "Gizlilik",
+    "manageCookies": "Çerezleri yönet"
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "subtitle": "Aradığınız sayfa mevcut değil veya taşınmış.",
+    "backHome": "Ana sayfaya dön"
+  },
+  "cookieConsent": {
+    "title": "Gizliliğinize saygı duyuyoruz.",
+    "text": "Bu site, site trafiğini ölçmek için Google Tag Manager üzerinden Google Analytics kullanmaktadır. Bu çerezler yalnızca onayınızla yerleştirilir.",
+    "accept": "Kabul Et",
+    "decline": "Reddet"
   }
 }

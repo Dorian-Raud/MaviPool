@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import SEO from '../components/SEO';
 import styles from '../styles/MentionsLegales.module.css';
 
 import { getTranslations } from '../lib/getTranslation';
@@ -8,15 +8,12 @@ export default function MentionsLegales({ initialTranslations }) {
     const { t } = useTranslation('mentionsLegales', initialTranslations);
     return (
         <>
-            <Head>
-                <title>{t('meta.title')}</title>
-                <meta name="description" content={t('meta.description')} />
-            </Head>
+            <SEO title={t('meta.title')} description={t('meta.description')} />
 
             <div className={styles.mentionsLegales}>
-                <h2>{t('title')}</h2>
+                <h1>{t('title')}</h1>
 
-                <h4>{t('sections.owner')}</h4>
+                <h3>{t('sections.owner')}</h3>
                 <ul>
                     {t('owner.company')}
                     <li>{t('owner.l1')}</li>
@@ -31,25 +28,25 @@ export default function MentionsLegales({ initialTranslations }) {
                     <li>{t('owner.l10')}</li>
                 </ul>
 
-                <h4>{t('sections.realization')}</h4>
+                <h3>{t('sections.realization')}</h3>
                 <p>{t('realization.text')}</p>
 
-                <h4>{t('sections.hosting')}</h4>
+                <h3>{t('sections.hosting')}</h3>
                 <p>{t('hosting.text')}</p>
 
-                <h4>{t('sections.intellectualProperty')}</h4>
+                <h3>{t('sections.intellectualProperty')}</h3>
                 <p>{t('intellectualProperty.text')}</p>
 
-                <h4>{t('sections.personalData')}</h4>
+                <h3>{t('sections.personalData')}</h3>
                 <p>{t('personalData.text')}</p>
 
-                <h4>{t('sections.liabilityLimitation')}</h4>
+                <h3>{t('sections.liabilityLimitation')}</h3>
                 <p>{t('liabilityLimitation.text')}</p>
 
-                <h4>{t('sections.hyperlinks')}</h4>
+                <h3>{t('sections.hyperlinks')}</h3>
                 <p>{t('hyperlinks.text')}</p>
 
-                <h4>{t('sections.applicableLaw')}</h4>
+                <h3>{t('sections.applicableLaw')}</h3>
                 <p>{t('applicableLaw.text')}</p>
             </div>
         </>

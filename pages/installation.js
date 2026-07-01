@@ -1,6 +1,5 @@
 
-import Head from 'next/head';
-import Image from 'next/image';
+import SEO from '../components/SEO';
 import styles from '../styles/Installation.module.css';
 import CallButton from '../components/CallButton';
 import MailButton from '../components/EmailButton';
@@ -25,10 +24,7 @@ export default function Installation({ initialTranslations }) {
 
     return (
         <>
-            <Head>
-                <title>{t('meta.title')}</title>
-                <meta name="description" content={t('meta.description')} />
-            </Head>
+            <SEO title={t('meta.title')} description={t('meta.description')} ogImage="/images/installation.png" />
 
             <div className={styles.pageHero} style={{ backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.7), rgba(10, 36, 99, 0.7)), url("/images/surface-piscine.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="container">

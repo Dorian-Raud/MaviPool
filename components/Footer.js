@@ -2,10 +2,16 @@ import Link from 'next/link';
 import { useTranslation } from '../lib/useTranslation';
 import styles from '../styles/Footer.module.css';
 import { Phone, Mail, MapPin } from 'lucide-react';
+import { CONSENT_STORAGE_KEY, CONSENT_CHANGE_EVENT } from './CookieConsent';
 
 export default function Footer({ initialTranslations }) {
     const currentYear = new Date().getFullYear();
     const { t } = useTranslation('common', initialTranslations);
+
+    const handleManageCookies = () => {
+        window.localStorage.removeItem(CONSENT_STORAGE_KEY);
+        window.dispatchEvent(new Event(CONSENT_CHANGE_EVENT));
+    };
 
     return (
         <footer className={styles.footer}>
@@ -81,6 +87,9 @@ export default function Footer({ initialTranslations }) {
                     <div className={styles.legalLinks}>
                         <Link href="/mentions-legales">{t('footer.legal')}</Link>
                         <Link href="/confidentialite">{t('footer.privacy')}</Link>
+                        <button type="button" className={styles.manageCookiesBtn} onClick={handleManageCookies}>
+                            {t('footer.manageCookies')}
+                        </button>
                     </div>
                 </div>
             </div>

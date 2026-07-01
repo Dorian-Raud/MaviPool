@@ -1,5 +1,5 @@
-import Head from 'next/head';
 import Link from 'next/link';
+import SEO from '../components/SEO';
 import styles from '../styles/About.module.css';
 import { GraduationCap, Zap, Gem, Handshake, Phone, Mail, MapPin } from 'lucide-react';
 import CallButton from '../components/CallButton';
@@ -12,10 +12,14 @@ export default function About({ initialTranslations }) {
 
     return (
         <>
-            <Head>
-                <title>{t('meta.title')}</title>
-                <meta name="description" content={t('meta.description')} />
-            </Head>
+            <SEO title={t('meta.title')} description={t('meta.description')} ogImage="/images/ceto-le-patron.jpeg" />
+
+            <div className={styles.pageHero}>
+                <div className="container">
+                    <h1>{t('hero.title')}</h1>
+                    <p>{t('hero.subtitle')}</p>
+                </div>
+            </div>
 
             <section className="section">
                 <div className="container">

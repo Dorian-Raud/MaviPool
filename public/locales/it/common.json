@@ -29,6 +29,18 @@
     "zoneText3": "Cannes, Antibes, Nizza, Monaco",
     "rights": "Tutti i diritti riservati.",
     "legal": "Note legali",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "manageCookies": "Gestisci cookie"
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "subtitle": "La pagina che stai cercando non esiste o è stata spostata.",
+    "backHome": "Torna alla home"
+  },
+  "cookieConsent": {
+    "title": "Rispettiamo la tua privacy.",
+    "text": "Questo sito utilizza Google Analytics (tramite Google Tag Manager) per misurare il traffico del sito. Questi cookie vengono impostati solo con il tuo consenso.",
+    "accept": "Accetta",
+    "decline": "Rifiuta"
   }
 }

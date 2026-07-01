@@ -29,6 +29,18 @@
         "zoneText3": "Cannes, Antibes, Nice, Monaco",
         "rights": "All rights reserved.",
         "legal": "Legal Notice",
-        "privacy": "Privacy Policy"
+        "privacy": "Privacy Policy",
+        "manageCookies": "Manage cookies"
+    },
+    "notFound": {
+        "title": "Page not found",
+        "subtitle": "Sorry, the page you are looking for doesn't exist or has been moved.",
+        "backHome": "Back to home"
+    },
+    "cookieConsent": {
+        "title": "We respect your privacy.",
+        "text": "This site uses Google Analytics (via Google Tag Manager) to measure site traffic. These cookies are only set with your consent.",
+        "accept": "Accept",
+        "decline": "Decline"
     }
 }

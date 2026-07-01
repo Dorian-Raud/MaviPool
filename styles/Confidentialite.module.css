@@ -3,9 +3,13 @@
     margin: 2rem;
 }
 
-.confidentialite h2 {
+.confidentialite h1 {
     text-align: center;
     padding: 2rem;
+}
+
+.confidentialite h3 {
+    padding: 1rem 0 0.5rem 0;
 }
 
 .confidentialite p {
